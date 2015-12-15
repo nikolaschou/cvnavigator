@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMasterPage3.master.cs" Inherits="Cvm.Web.AdminPages.AdminMasterPage3" %>
+<%@ Import Namespace="Cvm.Backend.Business.Users" %>
+<%@ Import Namespace="Cvm.Web.Code" %>
+<%@ Import Namespace="Cvm.Web.Facade" %>
+<%@ Import Namespace="Cvm.Web.Navigation" %>
+<%@ Import Namespace="Napp.Web.AdminContentMgr" %>
+<%@ Register Assembly="Napp.Web.ActiveCms" Namespace="Napp.Web.ActiveCms" TagPrefix="Cms" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>
+        <%=MasterPageHelper.Instance.GetPageTitle() +" - "+AdminContentMgr.instance.GetContent("AdminMasterPage.Title")%>
+    </title>
+    <link href="~/reset.css" type="text/css" rel="stylesheet" />
+    <link href="../css/cvnstyle.css" type="text/css" rel="stylesheet" />
+    <link href="~/css/smoothness/jquery-ui-1.8.custom.css" type="text/css" rel="stylesheet" />
+    <link href="~/ssadmin_print.css" media="print" type="text/css" rel="stylesheet" />
+    <link href="~/ResultSetStyles.css" type="text/css" rel="stylesheet" />
+
+    <link id="Link1" runat="server" rel="shortcut icon" href="~/images/master/favicon.ico" type="image/x-icon" />  
+
+    <!--
+To use JQuery Tools with calendar styling use this:
+    <script type="text/javascript" src="../jquery3/jquery-1.4.2.tools-1.2.5.min.js"></script>
+    	<link rel="stylesheet" type="text/css" href="../css/dateinput-skin1.css"/>
+-->
+    <script type="text/javascript" src="../Js/ResultSet2.js"></script>
+    <script type="text/javascript" src="../Js/table.js"></script>
+    <script type="text/javascript" src="../Js/ResultSet2_customize.js"></script>
+    <script type="text/javascript" src="../Js/cvnroot.js"></script>
+    <script type="text/javascript" src="../Js/httputil.js"></script>
+    <script type="text/javascript" src="../Js/utility.js"></script>
+    <script type="text/javascript" src="../Js/popupWindow.js"></script>
+    <script type="text/javascript" src="../Js/editContent.js"></script>
+    <script type="text/javascript" src="../Js/domUtil.js"></script>
+    <script type="text/javascript" src="../Js/SubForm.js"></script>
+    <link type="text/css" href="../css/smoothness/jquery-ui-1.8.custom.css" rel="stylesheet" />
+    <link href="../jquery2/jqModal.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="../jquery2/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="../jquery2/jquery.json-2.2.min.js"></script>
+    <script type="text/javascript" src="../jquery2/jquery-ui-1.8.16.custom.min.js"></script>
+    <script type="text/javascript" src="../jquery2/jqModal.js"></script>
+    <script type="text/javascript" src="../jquery2/jquery-cvm-common.js"></script>
+    <script type="text/javascript" src="../jquery2/highcharts.js"></script>
+    <script type="text/javascript" src="../jquery2/themes/dark-blue.js"></script>
+    <script type="text/javascript" src="../jquery2/themes/dark-green.js"></script>
+    <script type="text/javascript" src="../jquery2/themes/gray.js"></script>
+    <script type="text/javascript" src="../jquery2/themes/grid.js"></script>
+    <script type="text/javascript" src="../jquery-graph/raphael-min.js"></script>
+    <script type="text/javascript" src="../jquery-graph/graffle.js"></script>
+    <script type="text/javascript" src="../jquery-graph/graph.js"></script>
+</head>
+<body style="">
+        <asp:ContentPlaceHolder ID="mstCnt3" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25624505-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script> 
+</body>
+</html>

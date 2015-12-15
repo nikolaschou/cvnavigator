@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap roles="GlobalAdmin,SysAdmin">
+
+  <siteMapNode roles="GlobalAdmin,SysAdmin,Client">
+    <siteMapNode  roles="GlobalAdmin,SysAdmin,SalesManager,Client"  title="Resources"	url="~/AdminPages/ReportCv.aspx?x" image="Resources.png">
+      <siteMapNode  roles="GlobalAdmin,SysAdmin,SalesManager,Client"  title="List"	url="~/AdminPages/ReportCv.aspx" image="search-ikon.png"></siteMapNode>
+      <siteMapNode  roles="GlobalAdmin,SysAdmin,SalesManager,Resource"  title="Create"	url="~/AdminPages/EditCv.aspx" image="search-ikon.png"></siteMapNode>
+      <siteMapNode roles="GlobalAdmin,SysAdmin,SalesManager" title="Import PDF and Word"  url="~/AdminPages/ImportCvs.aspx" image="search-ikon.png"/>
+    </siteMapNode>
+
+    <siteMapNode  roles="GlobalAdmin,SysAdmin,SalesManager"  title="Assignments"	url="~/AdminPages/EditAssignments.aspx"  image="Assignments.jpg">
+      <siteMapNode title="List"	url="~/AdminPages/EditAssignments.aspx?" image="search-ikon.png"></siteMapNode>
+      <siteMapNode title="Create"	url="~/AdminPages/EditAssignments.aspx?mode=New" image="search-ikon.png"/>
+    </siteMapNode>
+    
+    <siteMapNode roles="GlobalAdmin,SysAdmin,SalesManager" title="Customers"   image="Customers.jpg">
+      <siteMapNode title="List"	url="~/AdminPages/UserAdmin.aspx?type=Client" image="search-ikon.png"></siteMapNode>
+      <siteMapNode title="Create"	url="~/AdminPages/UserAdmin.aspx?type=Client&amp;mode=New&amp;"/>
+    </siteMapNode>
+
+    <siteMapNode roles="GlobalAdmin,SysAdmin,SalesManager"  title="Administration" colspan="3"  image="Administration.png">
+      <siteMapNode title="Resource admin"  >
+        <siteMapNode  title="Profiles"  url="~/AdminPages/EditProfileTypes.aspx" image="search-ikon.png"/>
+        <siteMapNode  title="Profiles - advanced"  url="~/AdminPages/SysProfiles.aspx" image="search-ikon.png"/>
+        <!--siteMapNode  title="Profile types"  url="~/AdminPages/EditObject.aspx?type=ProfileType" image="search-ikon.png"/-->
+        <siteMapNode title="Employment types"  url="~/AdminPages/EditObject.aspx?type=EmployeeType" image="search-ikon.png"/>
+        <siteMapNode title="Working status"  url="~/AdminPages/EditObject.aspx?type=WorkingStatus" image="search-ikon.png"/>
+        <siteMapNode title="Received items"  url="~/AdminPages/EditObject.aspx?type=ReceivedItem" image="search-ikon.png"/>
+        <siteMapNode title="Employee privileges"  url="~/AdminPages/EditObject.aspx?type=EmployeePrivilege" image="search-ikon.png"/>
+      </siteMapNode>
+
+      <siteMapNode title="Industries and agencies">
+        <siteMapNode roles="GlobalAdmin" title="List customers"  url="~/AdminPages/EditObject.aspx?type=Customer&amp;" image="search-ikon.png"/>
+        <siteMapNode roles="GlobalAdmin"  title="Industries"  url="~/AdminPages/EditObject.aspx?type=Industry" image="search-ikon.png"/>
+        <siteMapNode title="Agencies"  url="~/AdminPages/EditObject.aspx?type=Bureau" image="search-ikon.png"/>
+      </siteMapNode>
+      
+      <siteMapNode  title="Country and language">
+        <siteMapNode title="Countries"  url="~/AdminPages/EditObject.aspx?type=Country" image="search-ikon.png"/>
+        <siteMapNode title="Languages"  url="~/AdminPages/EditObject.aspx?type=Language" image="search-ikon.png"/>
+        <siteMapNode roles="GlobalAdmin"  title="Written skill levels"  url="~/AdminPages/EditObject.aspx?type=LanguageWritingLevel" image="search-ikon.png"/>
+        <siteMapNode roles="GlobalAdmin"  title="Oral skill levels"  url="~/AdminPages/EditObject.aspx?type=LanguageSpeakingLevel" image="search-ikon.png"/>
+      </siteMapNode>
+
+      <siteMapNode  roles="GlobalAdmin,SysAdmin"  title="Skills">
+        <siteMapNode roles="GlobalAdmin,SysAdmin"  title="Skill categories"  url="~/AdminPages/EditObject.aspx?type=SkillType" image="search-ikon.png"/>
+        <siteMapNode roles="GlobalAdmin,SysAdmin"  title="Skills"  url="~/AdminPages/EditObject.aspx?type=Skill" image="search-ikon.png"/>
+      </siteMapNode>
+
+      <siteMapNode roles="GlobalAdmin,SysAdmin"  title="System setup">
+        <siteMapNode title="Site owner setup"  url="~/AdminPages/EditSysOwner.aspx" image="search-ikon.png"/>
+        <siteMapNode title="Site configuration"  url="~/AdminPages/EditObject.aspx?type=SiteConfig" image="search-ikon.png"/>
+        <siteMapNode roles="GlobalAdmin,SysAdmin" title="Administrators"  url="~/AdminPages/UserAdmin.aspx?type=SysAdmin" image="search-ikon.png"/>
+        <siteMapNode roles="GlobalAdmin,SysAdmin" title="Sales Managers"  url="~/AdminPages/UserAdmin.aspx?type=SalesManager" image="search-ikon.png"/>
+        <siteMapNode roles="GlobalAdmin,SysAdmin" title="Error details"  url="~/AdminPages/ErrorDetail.aspx" image="search-ikon.png"/>
+        <siteMapNode roles="GlobalAdmin" title="Data Update Statistics"  url="~/AdminPagesGlobal/DataStatistics.aspx" image="search-ikon.png"/>
+        <siteMapNode roles="GlobalAdmin" title="All sites"  url="~/AdminPages/EditObject.aspx?type=SysRoot" image="search-ikon.png"/>
+        <siteMapNode roles="GlobalAdmin" title="Generic Object Editor"  url="~/AdminPages/EditObject.aspx" image="search-ikon.png"/>
+        <siteMapNode roles="GlobalAdmin" title="Site languages"  url="~/AdminPages/EditObject.aspx?type=SiteLanguage" image="search-ikon.png"/>
+        <siteMapNode roles="GlobalAdmin" title="Skill Map"  url="~/Public/SkillMap.aspx" image="search-ikon.png"/>
+        <siteMapNode roles="GlobalAdmin" title="Global user simulation"  url="~/AdminPagesGlobal/ListAllUsers.aspx" image="search-ikon.png"/>
+      </siteMapNode>
+
+    </siteMapNode>
+      <siteMapNode roles="GlobalAdmin,SysAdmin,SalesManager,Client,Resource" hideInMenu="1"  title="&amp;nbsp;"   image="search-ikon.png">
+      <siteMapNode roles="GlobalAdmin,SysAdmin,SalesManager"  title="Search"	url="~/AdminPages/SearchCv.aspx" image="search-ikon.png"></siteMapNode>
+      <!-- The EditActiveCms page is special as it should always be available during simulation. More 
+					permission control is carried out on the page.
+					-->
+      <siteMapNode title="Page 1" roles="GlobalAdmin,SysAdmin,SalesManager,Resource,Client"  url="~/AdminPages/Content/EditActiveCms.aspx" image="search-ikon.png"/>
+      <siteMapNode title="Page 3" roles="GlobalAdmin,SysAdmin,SalesManager,Resource" url="~/AdminPages/ImportData.aspx" image="search-ikon.png"/>
+      <siteMapNode title="Page 5" roles="GlobalAdmin,SysAdmin,SalesManager,CompanyHR,Client,Resource" url="~/AdminPages/PrintCv.aspx" image="search-ikon.png"/>
+      <siteMapNode title="Page 6" roles="GlobalAdmin,SysAdmin,SalesManager,Resource" url="~/AdminPages/PrintPrepare.aspx" image="search-ikon.png"/>
+      <siteMapNode title="Page 7" roles="GlobalAdmin,SysAdmin,SalesManager,Resource" url="~/AdminPages/DeleteObject.aspx?type=Education" image="search-ikon.png"/>
+      <siteMapNode title="Page 7" roles="GlobalAdmin,SysAdmin,SalesManager,Resource" url="~/AdminPages/DeleteObject.aspx?type=Merit" image="search-ikon.png"/>
+      <siteMapNode title="Page 7" roles="GlobalAdmin,SysAdmin,SalesManager,Resource" url="~/AdminPages/DeleteObject.aspx?type=Project" image="search-ikon.png"/>
+      <siteMapNode title="Page 7" roles="GlobalAdmin,SysAdmin,SalesManager,Resource" url="~/AdminPages/DeleteObject.aspx?type=Certification" image="search-ikon.png"/>
+      <siteMapNode title="Page 7" roles="GlobalAdmin,SysAdmin" url="~/AdminPages/DeleteObject.aspx?type=Resource" image="search-ikon.png"/>
+      <siteMapNode title="Page 7" roles="GlobalAdmin" url="~/AdminPages/DeleteObject.aspx" image="search-ikon.png"/>
+      <siteMapNode title="Page 8" roles="GlobalAdmin,SysAdmin,SalesManager,Resource,Client" url="~/AdminPages/ChangePassword.aspx" image="search-ikon.png"/>
+      <siteMapNode title="Page 10" roles="GlobalAdmin,SysAdmin,SalesManager,Resource,Client" url="~/AdminPages/Error.aspx" image="search-ikon.png"/>
+      <siteMapNode title="Page 11" roles="GlobalAdmin,SysAdmin" url="~/AdminPages/DbInstaller.aspx" image="search-ikon.png"/>
+      <siteMapNode title="Page12" roles="Client"	url="~/AdminPages/Assignments.aspx" image="search-ikon.png"></siteMapNode>
+      <siteMapNode title="Page13" roles="GlobalAdmin,SysAdmin,SalesManager"	url="~/AdminPages/Menu.aspx" image="search-ikon.png"></siteMapNode>
+      <siteMapNode title="Page14" roles="Client"	url="~/AdminPages/ClientWelcome.aspx" image="search-ikon.png"></siteMapNode>
+      <siteMapNode title="Page15" roles="GlobalAdmin,SysAdmin,SalesManager"	url="~/AdminPages/EditAssignmentsSearch.aspx" image="search-ikon.png"></siteMapNode>
+      <siteMapNode title="Page16" roles="GlobalAdmin,SysAdmin,SalesManager"	url="~/AdminPages/EditAssignmentResources.aspx" image="search-ikon.png"></siteMapNode>
+      <siteMapNode title="Page17" roles="CompanyHR" url="~/AdminPages/CompanyWelcome.aspx" image="search-ikon.png"></siteMapNode>
+      </siteMapNode>
+
+    <!--siteMapNode title="Top-punkt" url="~/AdminPages/MenuExample.aspx?type=1&amp;isPopup=1" image="search-ikon.png">
+		<siteMapNode title="underpunkt1" url="~/AdminPages/MenuExample.aspx?type=2&amp;isPopup=1" image="search-ikon.png">
+			<siteMapNode title="Action11" url="~/AdminPages/MenuExample.aspx?type=11&amp;isPopup=1" image="search-ikon.png"/>
+			<siteMapNode title="Action12" url="~/AdminPages/MenuExample.aspx?type=12&amp;isPopup=1" image="search-ikon.png"/>
+			<siteMapNode title="Action13" url="~/AdminPages/MenuExample.aspx?type=13&amp;isPopup=1" image="search-ikon.png"/>
+
+
+		</siteMapNode>
+		<siteMapNode title="underpunkt2" url="~/AdminPages/MenuExample.aspx?type=3&amp;isPopup=1" image="search-ikon.png">
+			<siteMapNode title="Action21" url="~/AdminPages/MenuExample.aspx?type=5&amp;isPopup=1" image="search-ikon.png"/>
+			<siteMapNode title="Action22" url="~/AdminPages/MenuExample.aspx?type=6&amp;isPopup=1" image="search-ikon.png"/>
+			<siteMapNode title="Action23" url="~/AdminPages/MenuExample.aspx?type=7&amp;isPopup=1" image="search-ikon.png"/>
+
+		</siteMapNode>
+		<siteMapNode title="underpunkt3" url="~/AdminPages/MenuExample.aspx?type=4&amp;isPopup=1" image="search-ikon.png"/>
+		</siteMapNode-->
+  </siteMapNode>
+</siteMap>

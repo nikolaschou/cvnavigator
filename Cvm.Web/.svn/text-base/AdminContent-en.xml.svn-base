@@ -1,0 +1,2332 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Content>
+  <Section name="Common">
+    <Content id="User / company">User / company</Content>
+    <Content id="Related CVs">Related  CVs</Content>
+    <Content id="Job list">Job list</Content>
+    <Content id="Region">Region</Content>
+    <Content id="Job">Job</Content>
+    <Content id="Fisk">Fisk</Content>
+    <Content id="Job title">Job title</Content>
+    <Content id="c# programmør med c++ evner">c# programmør med c++ evner</Content>
+    <Content id="job1">job1</Content>
+    <Content id="lkækljælkj">lkækljælkj</Content>
+    <Content id="Kenneth">Kenneth</Content>
+    <Content id="Sælger til CVnavigator">Sælger til  c vnavigator</Content>
+    <Content id="Free text search">Free text search</Content>
+    <Content id="Job description">Job description</Content>
+    <Content id="rsdtfyydsa">rsdtfyydsa</Content>
+    <Content id="kjhgfd">kjhgfd</Content>
+    <Content id="jhbgvf">jhbgvf</Content>
+    <Content id="dfgsd">dfgsd</Content>
+    <Content id="jhgfvcx">jhgfvcx</Content>
+    <Content id="wearae">wearae</Content>
+    <Content id="fghjk">fghjk</Content>
+    <Content id="Active jobs">Active jobs</Content>
+    <Content id="Inactive jobs">Inactive jobs</Content>
+    <Content id="Job 1">Job 1</Content>
+    <Content id="Job 2">Job 2</Content>
+    <Content id="Job 3">Job 3</Content>
+  </Section>
+  <Section name="Validation">
+    <Content id="RequiredField">Mandatory information - please enter a value.</Content>
+    <Content id="Email">Email</Content>
+    <Content id="EnterEmail">Please enter a valid email-address</Content>
+    <Content id="Range">Please use a number</Content>
+    <Content id="YearMonth">YearMonth</Content>
+    <Content id="InvalidYearMonth">The value '{0}' is not valid as year month, please use format yyyy-mm</Content>
+  </Section>
+  <Section name="AdminMasterPage">
+    <Content id="Title">CVnavigator</Content>
+    <Content id="PageUpdated">Page is updated</Content>
+    <Content id="PageUpdatedStatus">Page update status</Content>
+    <Content id="Close">Close</Content>
+    <Content id="CloseAndReturn">Return</Content>
+    <Content id="EditObject.aspx">Edit systemdata</Content>
+    <Content id="Contact.aspx">Contact information</Content>
+    <Content id="ReportCv.aspx">List of CVs</Content>
+    <Content id="PrintCv.aspx">CV: {0}</Content>
+    <Content id="Error.aspx">Error in CVnavigator</Content>
+    <Content id="EditCv.aspx">Edit CV {0}</Content>
+    <Content id="SearchCv.aspx">Search</Content>
+    <Content id="CreateResource">Create CV</Content>
+    <Content id="DbInstaller.aspx">DbInstaller.aspx</Content>
+    <Content id="WebResource.axd">WebResource.axd</Content>
+    <Content id="ScriptResource.axd">ScriptResource.axd</Content>
+    <Content id="DeleteObject.aspx">Delete data</Content>
+    <Content id="Login.aspx">Login to CVnavigator</Content>
+    <Content id="UserAdmin.aspx">User administration</Content>
+    <Content id="default.aspx">default.aspx</Content>
+    <Content id="TestingPage.aspx">Dialog-tester</Content>
+    <Content id="ListCv.aspx">ListCv.aspx</Content>
+    <Content id="ReoirtCv.aspx">ReoirtCv.aspx</Content>
+    <Content id="PrintPrepare.aspx">Prepare print</Content>
+    <Content id="EditActiveCms.aspx">Edit the label text</Content>
+    <Content id="favicon.ico">favicon.ico</Content>
+    <Content id="Start.aspx">Create new CVnavigator site</Content>
+    <Content id="NewSite.aspx">Create new CVnavigator site</Content>
+    <Content id="LoggedInAs">User: </Content>
+    <Content id="LogOut">Logout</Content>
+    <Content id="SysId">Site: {0}</Content>
+    <Content id="ImportData.aspx">Import CV Data</Content>
+    <Content id="ChangePassword">Set password</Content>
+    <Content id="ChangePassword.aspx">Change password</Content>
+    <Content id="SysRootPicker.aspx">SysRootPicker.aspx</Content>
+    <Content id="ImportCvs.aspx">Import PDF and Word</Content>
+    <Content id="LoggedInAs.Help">Information about the user logged in the system.</Content>
+    <Content id="CV-bphx79-Jørgen Ole Jensen.doc">CV-bphx79-Jørgen Ole Jensen.doc</Content>
+    <Content id="ssadmin.css">ssadmin.css</Content>
+    <Content id="ssadmin_print.css">ssadmin_print.css</Content>
+    <Content id="ResultSetStyles.css">ResultSetStyles.css</Content>
+    <Content id="ResultSet2.js">ResultSet2.js</Content>
+    <Content id="ResultSet2_customize.js">ResultSet2_customize.js</Content>
+    <Content id="table.js">table.js</Content>
+    <Content id="httputil.js">httputil.js</Content>
+    <Content id="utility.js">utility.js</Content>
+    <Content id="popupWindow.js">popupWindow.js</Content>
+    <Content id="editContent.js">editContent.js</Content>
+    <Content id="domUtil.js">domUtil.js</Content>
+    <Content id="jquery-ui-1.8.custom.css">jquery-ui-1.8.custom.css</Content>
+    <Content id="jquery-cvm-common.js">jquery-cvm-common.js</Content>
+    <Content id="jqModal.css">jqModal.css</Content>
+    <Content id="jquery-ui-1.8.custom.min.js">jquery-ui-1.8.custom.min.js</Content>
+    <Content id="jqModal.js">jqModal.js</Content>
+    <Content id="jquery-1.4.2.min.js">jquery-1.4.2.min.js</Content>
+    <Content id="CV-bphx82-Karl Heinz Zimmer.doc">CV-bphx82-Karl Heinz Zimmer.doc</Content>
+    <Content id="DBInstaller.aspx">DBInstaller.aspx</Content>
+    <Content id="UserAdmin2.aspx">User Administration</Content>
+    <Content id="FreeSql.aspx">FreeSql.aspx</Content>
+    <Content id="users.aspx">users.aspx</Content>
+    <Content id="add_user.aspx">add_user.aspx</Content>
+    <Content id="roles.aspx">roles.aspx</Content>
+    <Content id="access_rule_summary.aspx">access_rule_summary.aspx</Content>
+    <Content id="access_rules.aspx">access_rules.aspx</Content>
+    <Content id="UserAdmin2.aspx">User administration</Content>
+    <Content id="newsite.aspx">Create new CVnavigator site</Content>
+    <Content id="CreateUser.aspx">CreateUser.aspx</Content>
+    <Content id="StopSimulation">Stop simulation</Content>
+    <Content id="SimulationStarted">Simulation started</Content>
+    <Content id="SimulationStopped">Simulation stopped</Content>
+    <Content id="Default.aspx">Default.aspx</Content>
+    <Content id="ForgotPassword.aspx">Forgot password</Content>
+    <Content id="KeepAlive.aspx">Keep alive.aspx</Content>
+    <Content id="Default2.aspx">Default2.aspx</Content>
+    <Content id="EditSysOwner.aspx">Edit Site Owner Details</Content>
+    <Content id="EditAssignments.aspx">Assignments -&gt; "{0}"</Content>
+    <Content id="EditAssignmentsResources.aspx">Edit assignments resources.aspx</Content>
+    <Content id="EditAssignmentResources.aspx">Assignments -&gt; "{0}"</Content>
+    <Content id="ExternalPrint.aspx">Print of {0}</Content>
+    <Content id="CustomerAssignments.aspx">Customer assignments.aspx</Content>
+    <Content id="Assignments.aspx">Assignments</Content>
+    <Content id="ClientWelcome.aspx">Welcome to CVNavigator</Content>
+    <Content id="EditAssignmentPrintDef.aspx">Assignment -&gt; {0} - Printing</Content>
+    <Content id="SearchCvWiz.aspx">Search CV Wizard</Content>
+    <Content id="EditAssignmentsSearch.aspx">Search for resources</Content>
+    <Content id="AcceptConditions.aspx">Accept conditions</Content>
+    <Content id="Signup.aspx">Signup</Content>
+    <Content id="Signup.aspx_Intro">
+    </Content>
+    <Content id="AcceptConditions.aspx_Intro">
+    </Content>
+    <Content id="EditCv.aspx_Intro">
+    </Content>
+    <Content id="Login.aspx_Intro">
+    </Content>
+    <Content id="ReportCv.aspx_Intro">
+    </Content>
+    <Content id="DeleteObject.aspx_Intro">
+    </Content>
+    <Content id="SearchCv.aspx_Intro">
+    </Content>
+    <Content id="EditAssignments.aspx_Intro">
+    </Content>
+    <Content id="EditAssignmentsSearch.aspx_Intro">
+    </Content>
+    <Content id="EditAssignmentResources.aspx_Intro">
+    </Content>
+    <Content id="EditObject.aspx_Intro">
+    </Content>
+    <Content id="ImportCvs.aspx_Intro">
+    </Content>
+    <Content id="ForgotPassword.aspx_Intro">
+    </Content>
+    <Content id="PrintPrepare.aspx_Intro">
+    </Content>
+    <Content id="EditSysOwner.aspx_Intro">
+    </Content>
+    <Content id="UserAdmin2.aspx_Intro">
+    </Content>
+    <Content id="ClientWelcome.aspx_Intro">
+    </Content>
+    <Content id="Assignments.aspx_Intro">
+    </Content>
+    <Content id="NewSite.aspx_Intro">Welcome to the CVnavigator one-step wizard for creating a new CV Management site in just a few seconds. Fill in the fields below and you are ready to go.</Content>
+    <Content id="CustomerContacts.aspx">Customer contacts</Content>
+    <Content id="CustomerContacts.aspx_Intro">
+    </Content>
+    <Content id="UserAdmin.aspx_Intro">
+    </Content>
+    <Content id="DataStatistics.aspx">Data update statistics</Content>
+    <Content id="DataStatistics.aspx_Intro">This page shows how many records of each table have been updated or inserted in the last 30 days.</Content>
+    <Content id="datastatistics.aspx">Data Update Statistics</Content>
+    <Content id="datastatistics.aspx_Intro">
+    </Content>
+    <Content id="SkillMap.aspx">Skill map</Content>
+    <Content id="SkillMap.aspx_Intro">
+    </Content>
+    <Content id="skillmap.aspx">skillmap.aspx</Content>
+    <Content id="skillmap.aspx_Intro">
+    </Content>
+    <Content id="SkillMap2.aspx">CVnavigator Skill Map</Content>
+    <Content id="SkillMap2.aspx_Intro">
+    </Content>
+    <Content id="skillmap2.aspx">skillmap2.aspx</Content>
+    <Content id="skillmap2.aspx_Intro">
+    </Content>
+    <Content id="ErrorDetail.aspx">Error detail.aspx</Content>
+    <Content id="ErrorDetail.aspx_Intro">
+    </Content>
+    <Content id="Welcome.aspx">Welcome to CVnavigator - CV Management Made Easy</Content>
+    <Content id="Welcome.aspx_Intro">
+    </Content>
+    <Content id="SignUp.aspx">Register your own CV</Content>
+    <Content id="SignUp.aspx_Intro">
+    </Content>
+    <Content id="SkillGraph.aspx">CVnavigator Skill Graph - connecting skills</Content>
+    <Content id="SkillGraph.aspx_Intro">      
+      The graph shows the chosen skill at the center and related skills around it.
+      Two skills are considered closely related if they typically are used on the same projects.
+      The bolder the line, the closer the connection.
+      Click a node to make it the center of the graph. 
+    </Content>
+    <Content id="DbInstaller.aspx_Intro">
+    </Content>
+    <Content id="newsite.aspx_Intro">
+    </Content>
+    <Content id="login.aspx">Login to CVnavigator</Content>
+    <Content id="login.aspx_Intro">
+    </Content>
+    <Content id="ChangePassword.aspx_Intro">
+    </Content>
+    <Content id="Menu.aspx">CVnavigator sitemap</Content>
+    <Content id="Menu.aspx_Intro">
+    </Content>
+    <Content id="BrowserNotFullySupported">Be aware that CVnavigator is optimized for Firefox. Although you can use most features of CVnavigator with other browsers, you will get the best experience using Firefox.</Content>
+    <Content id="TopBarTitle">{0}</Content>
+    <Content id="SysProfiles.aspx">Skill matrix - Mapping skills to profiles</Content>
+    <Content id="SysProfiles.aspx_Intro">
+    </Content>
+    <Content id="GetSkills">Get skills</Content>
+    <Content id="GetSkills_Intro">
+    </Content>
+    <Content id="EditProfileTypes.aspx">Edit profiles</Content>
+    <Content id="EditProfileTypes.aspx_Intro">
+    </Content>
+    <Content id="ListAllUsers.aspx">All users</Content>
+    <Content id="ListAllUsers.aspx_Intro">
+    </Content>
+    <Content id="History">History</Content>
+    <Content id="ExternalPrint.aspx_Intro">
+    </Content>
+    <Content id="skillgraph.aspx">skillgraph.aspx</Content>
+    <Content id="skillgraph.aspx_Intro">
+    </Content>
+    <Content id="signup.aspx">signup.aspx</Content>
+    <Content id="signup.aspx_Intro">
+    </Content>
+    <Content id="signUp.aspx">sign up.aspx</Content>
+    <Content id="signUp.aspx_Intro">
+    </Content>
+    <Content id="dbinstaller.aspx_Intro">
+    </Content>
+    <Content id="dbinstaller.aspx">dbinstaller.aspx</Content>
+    <Content id="CompanyLogin.aspx">Jobportal Company login</Content>
+    <Content id="CompanyLogin.aspx_Intro">
+    </Content>
+    <Content id="CompanySignup.aspx_Intro">
+    </Content>
+    <Content id="CompanySignup.aspx">Company signup</Content>
+    <Content id="companyLogin.aspx">company login.aspx</Content>
+    <Content id="companyLogin.aspx_Intro">
+    </Content>
+    <Content id="CompanyWelcome.aspx">Jobportal</Content>
+    <Content id="CompanyWelcome.aspx_Intro">
+    </Content>
+    <Content id="OpenAssignments.aspx">Open assignments</Content>
+    <Content id="OpenAssignments.aspx_Intro">
+    </Content>
+    <Content id="openassignments.aspx">openassignments.aspx</Content>
+    <Content id="openassignments.aspx_Intro">
+    </Content>
+    <Content id="openjobs.aspx">openjobs.aspx</Content>
+    <Content id="openjobs.aspx_Intro">
+    </Content>
+    <Content id="OpenJobs.aspx">Open jobs.aspx</Content>
+    <Content id="OpenJobs.aspx_Intro">
+    </Content>
+  </Section>
+  <Section name="Pages">
+    <Content id="EditActiveCms.aspx.Title">Edit the label- and the helptext</Content>
+    <Content id="Print.aspx.Title">Print</Content>
+    <Content id="SearchCv.aspx.Title">Search</Content>
+    <Content id="EditCv.aspx.Title">Create</Content>
+    <Content id="Result.aspx.Title">Results</Content>
+    <Content id="Details.aspx.Title">Details</Content>
+    <Content id="Welcome.aspx.Title">Welcome</Content>
+  </Section>
+  <Section name="PopupMaster">
+    <Content id="Close">Close</Content>
+  </Section>
+  <Section name="EditObject">
+    <Content id="CreateNew">Create a new {0}</Content>
+    <Content id="List">Liste</Content>
+    <Content id="CreateNew.Help">Click to create a new item.</Content>
+    <Content id="IndustryList">Brancher</Content>
+    <Content id="IndustryIntro">
+    </Content>
+    <Content id="CustomerList">Customers</Content>
+    <Content id="CustomerIntro">
+    </Content>
+    <Content id="CustomerContactList">Customer contacts</Content>
+    <Content id="CustomerContactIntro">
+    </Content>
+    <Content id="ProfileTypeList">Types of Profiles</Content>
+    <Content id="ProfileTypeIntro">
+    </Content>
+    <Content id="SkillTypeList">Category of Skill</Content>
+    <Content id="SkillTypeIntro">
+    </Content>
+    <Content id="SkillList">Competences</Content>
+    <Content id="SkillIntro">
+    </Content>
+    <Content id="SkillLevelList">Levels</Content>
+    <Content id="SkillLevelIntro">SkillLevelIntro</Content>
+    <Content id="CountryList">CountryList</Content>
+    <Content id="CountryIntro">CountryIntro</Content>
+    <Content id="SiteConfigList">SiteConfigList</Content>
+    <Content id="BureauList">BureauList</Content>
+    <Content id="EmployeeTypeList">EmployeeTypeList</Content>
+    <Content id="LanguageWritingLevelList">Level of writting</Content>
+    <Content id="LanguageSpeakingLevelList">Linguistic levels</Content>
+    <Content id="LanguageList">List of Languages</Content>
+    <Content id="ResourceImportList">ResourceImportList</Content>
+    <Content id="LanguageList.Help">This is the list of languages in the system, if one is missing please use 'Create new'.</Content>
+    <Content id="SkillTypeList.Help">
+    </Content>
+    <Content id="ShowUsages">Show usages</Content>
+    <Content id="DeleteObject">Delete object</Content>
+    <Content id="FilterDefault">&lt;filter&gt;</Content>
+    <Content id="FilterList">Enter a string and hit Return to filter the list</Content>
+    <Content id="AssignmentStatusList">Assignment status list</Content>
+    <Content id="AssignmentResourceStatusList">Assignment resource status list</Content>
+    <Content id="SysOwnerList">Sys owner list</Content>
+    <Content id="SysRootList">Sys root list</Content>
+    <Content id="NoPermissionToDeleteObject">No permission to delete object</Content>
+    <Content id="ResourceList">Resource list</Content>
+    <Content id="SysResourceList">Sys resource list</Content>
+    <Content id="WorkingStatusList">Working status list</Content>
+    <Content id="ReceivedItemList">Received item list</Content>
+    <Content id="EmployeePrivilegeList">Employee privilege list</Content>
+    <Content id="SiteLanguageList">Site language list</Content>
+  </Section>
+  <Section name="EditObjectCtrl">
+    <Content id="Save">
+    </Content>
+    <Content id="Cancel">
+    </Content>
+    <Content id="Delete">Delete</Content>
+    <Content id="SaveBtn">Save</Content>
+    <Content id="CancelBtn">Cancel</Content>
+    <Content id="DeleteBtn">Delete</Content>
+    <Content id="Created">Data created</Content>
+    <Content id="Saved">Data saved</Content>
+    <Content id="Cancelled">The actionn was interrupted.</Content>
+    <Content id="ForceYesBtn">Yes</Content>
+    <Content id="ForceNoBtn">No</Content>
+    <Content id="ForceYes">
+    </Content>
+    <Content id="ForceNo">
+    </Content>
+    <Content id="FoundValidationForcable">Some validation errors were found. Do you wish to continue anyway?</Content>
+    <Content id="Create">Create new {0}</Content>
+    <Content id="NotImplemented">NotImplemented</Content>
+    <Content id="Saved.Help">This is a confirmation of entered data is saved.</Content>
+  </Section>
+  <Section name="AutoFormExt">
+    <Content id="DeleteObject">Delete</Content>
+    <Content id="ObjectDeleted">ObjectDeleted</Content>
+    <Content id="EditObject">Edit&amp;nbsp;</Content>
+    <Content id="DeleteObject.Help">This will delete the choosen language. A validation will be presented to you - informing of the consequences of this action. 
+If validation meets any obstructions - CVnavigator will give an list of items to take actions on before deleting will be possible.</Content>
+  </Section>
+  <Section name="Consultant">
+    <Content id="ConsultantId">ConsultantId</Content>
+    <Content id="FirstName">FirstName</Content>
+    <Content id="LastName">LastName</Content>
+    <Content id="Email">Email</Content>
+    <Content id="Phone">Phone</Content>
+    <Content id="AvailableBy">AvailableBy</Content>
+    <Content id="IntroductionText">IntroductionText</Content>
+    <Content id="LastModifiedTs">LastModifiedTs</Content>
+  </Section>
+  <Section name="ObjectTypes">
+    <Content id="Consultant">Consultant</Content>
+    <Content id="Customer">Customer</Content>
+    <Content id="Resource">Resource</Content>
+    <Content id="ResourceSkill">Resource-competence</Content>
+    <Content id="Project">Project</Content>
+    <Content id="Education">Education</Content>
+    <Content id="Certification">Certification/Training/Course</Content>
+    <Content id="Industry">Industry</Content>
+    <Content id="SkillType">Kompetence-kategori</Content>
+    <Content id="Skill">Skill</Content>
+    <Content id="ProfileType">ProfileType</Content>
+    <Content id="CustomerContact">Contact</Content>
+    <Content id="ProjectSkill">Project skill</Content>
+    <Content id="Country">Country</Content>
+    <Content id="SkillLevel">Level</Content>
+    <Content id="Bureau">Bureau</Content>
+    <Content id="Merit">Merit</Content>
+    <Content id="LanguageSkill">Linguistic properties</Content>
+    <Content id="EmployeeType">Resource-type</Content>
+    <Content id="AssignmentStatus">Assignment status</Content>
+    <Content id="AssignmentResourceStatus">Assignment resource status</Content>
+    <Content id="Language">Language</Content>
+    <Content id="LanguageWritingLevel">Language writing level</Content>
+    <Content id="LanguageSpeakingLevel">Language speaking level</Content>
+    <Content id="AssignmentResource">Assignment resource</Content>
+    <Content id="SiteConfig">Site config</Content>
+    <Content id="SysRoot">Sys root</Content>
+    <Content id="SysResource">Sys resource</Content>
+    <Content id="SysOwner">Sys owner</Content>
+    <Content id="SysSkill">Sys skill</Content>
+    <Content id="WorkingStatus">Working status</Content>
+    <Content id="ReceivedItem">Received item</Content>
+    <Content id="EmployeePrivilege">Employee privilege</Content>
+    <Content id="SiteLanguage">Site language</Content>
+    <Content id="ressource">ressource</Content>
+    <Content id="resource">resource</Content>
+    <Content id="ResourceImport">Resource import</Content>
+    <Content id="Assignment">Assignment</Content>
+  </Section>
+  <Section name="Customer">
+    <Content id="CustomerId">CustomerId</Content>
+    <Content id="Name">Name</Content>
+    <Content id="Email">Email</Content>
+    <Content id="Phone">Phone</Content>
+    <Content id="LastModifiedTs">LastModifiedTs</Content>
+    <Content id="CustomerName">CustomerName</Content>
+    <Content id="IndustryId">Industry (&lt;a href="http://www.cvr.dk" target="_blank"&gt;cvr.dk&lt;/a&gt;)</Content>
+    <Content id="CustomerNameAliases">Alias names for customers</Content>
+    <Content id="FoundSimilarCustomers">We found the following customers with similar names or aliases: {0}</Content>
+    <Content id="CustomerNameAliases.Help">A comma-separated list of alternative which  this company is known as. </Content>
+  </Section>
+  <Section name="SearchCv">
+    <Content id="SearchBtn">List CV's</Content>
+    <Content id="SearchResult">Result of search</Content>
+    <Content id="AvailableInDays">Available in no. of days</Content>
+    <Content id="Customer">Customer</Content>
+    <Content id="EmployeeType">Contract type</Content>
+    <Content id="ProfileStatus">CV status</Content>
+    <Content id="ProfileType">Type of profil</Content>
+    <Content id="Search">
+    </Content>
+    <Content id="Resources">Name of resources</Content>
+    <Content id="Customers">Customers</Content>
+    <Content id="EmployeeType.Help">Choose what kind of contract you wish to be searched</Content>
+    <Content id="FirstName">First name</Content>
+    <Content id="LastName">Surname</Content>
+    <Content id="Professional siden">ProfessionalSince</Content>
+    <Content id="ProfileStatus.Help">Specify the status values you would like to search for CVs</Content>
+    <Content id="ProfileType.Help">Specify which types of contractual you want to speed search</Content>
+    <Content id="AvailableInDays.Help">Indicate when the consultant must be accessible in terms of number of days from today's date</Content>
+    <Content id="Resources.Help">Identify the persons to which the search should be adapted. If you do not select any, all individuals will be searched.</Content>
+    <Content id="Customers.Help">Specify which customers the consultant must have worked in previous projects. If you do not select any clients, search will be conducted across all.</Content>
+    <Content id="Ekspert i">ExpertSkillListStr</Content>
+    <Content id="Kunder">CustomerNameListStr</Content>
+    <Content id="Profil-type">ProfileTypeNameStr</Content>
+    <Content id="ExpertSkillListStr">Expert skills</Content>
+    <Content id="CustomerNameListStr">List of customers</Content>
+    <Content id="ProfessionalSince">Since</Content>
+    <Content id="ProfileTypeNameStr">Type of Profile</Content>
+    <Content id="EditCv">Edit</Content>
+    <Content id="PrintCv">Print</Content>
+    <Content id="ResultTitle">Result&amp;nbsp;</Content>
+    <Content id="ResultType">Type&amp;nbsp;</Content>
+    <Content id="ResultSubType">Details&amp;nbsp;</Content>
+    <Content id="ResultDescription">Description&amp;nbsp;</Content>
+    <Content id="ResulttYPE">ResulttYPE</Content>
+    <Content id="DeleteCv">Delete</Content>
+    <Content id="AvailableBy">Available by</Content>
+    <Content id="LastModified">Last modified</Content>
+    <Content id="ShowEmailList">Show email list</Content>
+  </Section>
+  <Section name="EmployeeTypeEnum">
+    <Content id="Contractor">Freelancer</Content>
+    <Content id="Employee">Permanent</Content>
+  </Section>
+  <Section name="ProfileStatusEnum">
+    <Content id="UnderUpdate">Draft</Content>
+    <Content id="Done">Active</Content>
+    <Content id="Inactive">Inactive</Content>
+  </Section>
+  <Section name="ProfileTypeEnum">
+    <Content id="BusinessAnalyst">Business consultant</Content>
+    <Content id="Developer">Developer</Content>
+    <Content id="ProjectMgr">Project manager</Content>
+    <Content id="Tester">Tester</Content>
+  </Section>
+  <Section name="Resource">
+    <Content id="ResourceId">ID</Content>
+    <Content id="FirstName">First name</Content>
+    <Content id="LastName">Last name</Content>
+    <Content id="Email">Email</Content>
+    <Content id="Phone">Phone</Content>
+    <Content id="AvailableBy">Available By</Content>
+    <Content id="BornYear">Year of birth</Content>
+    <Content id="ProfessionalSince">Professional since</Content>
+    <Content id="ProfessionalSince.Help">The year where you started to work</Content>
+    <Content id="ProfileResume">Personal Profile</Content>
+    <Content id="LastModifiedTs">Page updated</Content>
+    <Content id="ProfileStatus">CV status</Content>
+    <Content id="ProfileType">Profile-type</Content>
+    <Content id="EmployeeType">Employment Type</Content>
+    <Content id="ProfileStatusId">CV Status</Content>
+    <Content id="EmployeeTypeId">Contractual relation</Content>
+    <Content id="ProfileTypeId">Profile Types</Content>
+    <Content id="Price">Price</Content>
+    <Content id="Price.Help">The hourly rate as the resource cost consultancy firm.</Content>
+    <Content id="BirthDate">Date of Birth</Content>
+    <Content id="CountryId">Nationality</Content>
+    <Content id="GenderId">Gender</Content>
+    <Content id="BureauId">Through partner</Content>
+    <Content id="ProfileTitle">Profile Title</Content>
+    <Content id="ProfileTitle.Help">This title will appear at the top of the resume as a heading.</Content>
+    <Content id="ProfileTypeId.Help">Determine which skills are relevant to this resource, eg competence scheme.</Content>
+    <Content id="BureauId.Help">Enter the name of the agency - if relevant - that have given this resource.</Content>
+    <Content id="LinkedCvFileRefId">LinkedCvFileRefId</Content>
+    <Content id="ProfileResume.Help">Ex. who are you as a person.</Content>
+    <Content id="SysUserId">Sys user id</Content>
+    <Content id="ProfileStatusId.Help">Select your status here</Content>
+    <Content id="PhotoFileRefId">Photo upload</Content>
+    <Content id="PhotoFileRefId.Help">Image will be downscaled to 200x200 pixel if it is larger</Content>
+    <Content id="SocialProfile">Social profile</Content>
+    <Content id="ExpectExtension">Expect extension?</Content>
+    <Content id="CanTravel">Can travel?</Content>
+    <Content id="ContractDuration">Extension duration</Content>
+    <Content id="InternalNotes">Internal notes</Content>
+    <Content id="ContractDuration.Help">The expected duration of the next contract in months</Content>
+    <Content id="ExpectExtension.Help">Is the current contract expected to be extended?</Content>
+    <Content id="CanTravel.Help">Is the consultant interested in travelling?</Content>
+    <Content id="CommercialMarketId">Commercial market id</Content>
+    <Content id="LanguageId">Language id</Content>
+    <Content id="CvFileRefId">Cv file ref id</Content>
+    <Content id="UserId">User id</Content>
+    <Content id="AddressLine1">Address</Content>
+    <Content id="EmployeedFrom">Employeed from</Content>
+    <Content id="EmployeedTo">Employeed to</Content>
+    <Content id="DiscProducerPrc">Disc producer prc</Content>
+    <Content id="DiscAdminPrc">Disc admin prc</Content>
+    <Content id="DiscEntrPrc">Disc entr prc</Content>
+    <Content id="DiscIntegratorPrc">Disc integrator prc</Content>
+    <Content id="PhotoUrl">Photo URL (only if no photo is uploaded)</Content>
+    <Content id="PhotoUrl.Help">This can be an URL pointing to an external photo found on a different web-site. If a photo is uploaded above, the Photo URL will be ignored.</Content>
+    <Content id="AddressLine2">Address</Content>
+    <Content id="Postcode">Postal code</Content>
+    <Content id="City">City</Content>
+    <Content id="Phonenumber1">Phone Number</Content>
+    <Content id="Phonenumber2">Phone Number</Content>
+    <Content id="AIMInfo">IM info</Content>
+    <Content id="AIMInfo.Help">Instant Messaging address, e.g. skype, viber etc</Content>
+  </Section>
+  <Section name="EditCv">
+    <Content id="Tab0">CV Master Data</Content>
+    <Content id="Tab1">Competencies</Content>
+    <Content id="Tab2">Project experience</Content>
+    <Content id="Tab3">Education</Content>
+    <Content id="CreateNew">Create new resource</Content>
+    <Content id="SelectResource">Select resource</Content>
+    <Content id="Tab4">Certificeringer</Content>
+    <Content id="Tab5">Tab5</Content>
+    <Content id="Tab-1">Overview</Content>
+    <Content id="OverView">OverView</Content>
+    <Content id="BaseData">Basedata</Content>
+    <Content id="Skills">Skills</Content>
+    <Content id="Projects">Experience</Content>
+    <Content id="Certifications">Certification</Content>
+    <Content id="Education">Education</Content>
+    <Content id="LanguageSkills">Language</Content>
+    <Content id="Merits">Merits</Content>
+    <Content id="ImportText">Imported Text</Content>
+    <Content id="ImportText.Help">This resource has got imported text from a word document, pdf document, or the like. The text shown in this window. You can freely edit the text, for example, cut out parts of the text that is inserted. Changes are saved when the field is exited. If you delete the entire contents of the field, this part of the page disappear for the future.</Content>
+    <Content id="CvDocumentExists">Open the imported/original .doc or .PDF file</Content>
+    <Content id="CvDocumentExists.Help">The document is imported on a previous occasion. Note: There is no guarantee that this document is maintained.</Content>
+    <Content id="CloseImports">Finish off import</Content>
+    <Content id="ImportSection">Content of imported CV</Content>
+    <Content id="CloseImports.Help">When the import is finished, the text below is deleted and so are any documents that are saved</Content>
+    <Content id="PreviewPrint">See print</Content>
+    <Content id="ResourceHasImportData">An imported document is attached to this CV. When all relevant data from the imported document has been incorporated into this CV, make sure to finish off the import by clicking the link below.</Content>
+    <Content id="ResourceHasImportData.Help">Import data should be incorporated as structured CV data and when this is completed imports can be completed using a link below. Import data is visible from all tabs on this page.</Content>
+    <Content id="7">Import</Content>
+    <Content id="Projects.Help">Enter information about projects or other relevant...</Content>
+    <Content id="CreateResourceUser">Create as user</Content>
+    <Content id="LinkToUser">Link to user</Content>
+    <Content id="Import">Import</Content>
+    <Content id="SysData">Sysdata</Content>
+    <Content id="InviteUser">Invite user</Content>
+    <Content id="IntroSysData">
+    </Content>
+    <Content id="IntroSkills">
+    </Content>
+    <Content id="IntroBaseData">
+    </Content>
+    <Content id="IntroProjects">
+    </Content>
+    <Content id="IntroImport">
+    </Content>
+    <Content id="IntroLanguageSkills">
+    </Content>
+    <Content id="IntroEducation">
+    </Content>
+    <Content id="IntroCertifications">
+    </Content>
+    <Content id="IntroMerits">
+    </Content>
+    <Content id="GrantedSites">Granted sites</Content>
+    <Content id="IntroGrantedSites">This page shows you which sites (companies, organisations etc.) you have granted access to your CV. These companies and organisations can read and edit your CV-data and contact you by email notifications. At any time you are free to remove any of these site relations without further notice.&lt;br/&gt;
+&lt;br/&gt;
+To grant a site access to your CV you must ask the site administrator for at site code (typically 4-8 characters) and enter that code in the field below.
+    </Content>
+    <Content id="SimulateUser">Simulate user</Content>
+    <Content id="Previous">Previous</Content>
+    <Content id="DiscProfile">Behavior</Content>
+    <Content id="IntroDiscProfile">This pane allows you to get a behavior profile (similar to DISC).&lt;br/&gt;
+&lt;br/&gt;
+Please choose a language and press start.</Content>
+    <Content id="MySite">MEE</Content>
+    <Content id="IntroMySite">
+    </Content>
+    <Content id="ReceiveNewsletter">Receive CVnavigator newsletter</Content>
+    <Content id="ReceiveNewsletterAccept">Thank you for subscribing to our newsletter</Content>
+    <Content id="ReceiveNewsletterReject">Your newsletter has been unsubscribed</Content>
+    <Content id="CurrentlyNotPossibleDueToAnError">Currently not possible due to an error</Content>
+    <Content id="SiteLanguage">Site language</Content>
+    <Content id="DeleteMyAccount">Delete my account</Content>
+    <Content id="AccountWillBeDeleted">Your user account will be deleted and all your attached data. It will not be possible to undue this.</Content>
+    <Content id="NotPossibleToSubscribeDueToMissingEmail">Not possible to subscribe due to missing email</Content>
+    <Content id="JobSite">Job site</Content>
+    <Content id="IntroJobSite">
+    </Content>
+  </Section>
+  <Section name="CProxyTypeCvm_Backend_Business_ResourcesResourceResources_NHibernate_ProxyINHibernateProxy1">
+    <Content id="ResourceId">ResourceId</Content>
+    <Content id="FirstName">FirstName</Content>
+    <Content id="LastName">LastName</Content>
+    <Content id="Email">Email</Content>
+    <Content id="Phone">Phone</Content>
+    <Content id="AvailableBy">AvailableBy</Content>
+    <Content id="BornYear">BornYear</Content>
+    <Content id="ProfessionalSince">ProfessionalSince</Content>
+    <Content id="ProfileResume">ProfileResume</Content>
+    <Content id="ProfileStatus">ProfileStatus</Content>
+    <Content id="ProfileType">ProfileType</Content>
+    <Content id="EmployeeType">EmployeeType</Content>
+    <Content id="LastModifiedTs">LastModifiedTs</Content>
+  </Section>
+  <Section name="Project">
+    <Content id="ProjectId">ID</Content>
+    <Content id="ProjectName">Name of project</Content>
+    <Content id="Role">Role</Content>
+    <Content id="ProjectDescription">Description of project  </Content>
+    <Content id="StartedBy">Started by (yyyy-mm)</Content>
+    <Content id="EndedBy">Ended by (yyyy-mm)</Content>
+    <Content id="LastModifiedTs">Last updated</Content>
+    <Content id="ResourceId">Resource</Content>
+    <Content id="CustomerId">Customer</Content>
+    <Content id="Role.Help">Multiple roles can entered by using komma as a seperator.</Content>
+    <Content id="InhouseSale">Inhouse Sale</Content>
+    <Content id="ProjectSkillsStr">ProjectSkillsStr</Content>
+    <Content id="ProjectSkillsProp">Used skills in projects</Content>
+    <Content id="ProjectDescription.Help">Description of what the project was about and what kind of effort you provided.
+
+Important:
+Please try to name the customer specific Applications and Solutions developed/maintained</Content>
+    <Content id="StartAfterEnd">'Ended by' must be later than 'Started by'</Content>
+    <Content id="CustomerRequired">Must choose a customer for the project.</Content>
+    <Content id="EndedByNullMeansCurrent">We assume you are currently occupied on project '{0}' as you did not specify an end date.</Content>
+    <Content id="StartedByNullWontQualify">You did not specify a start date for project '{0}'. To help qualify your skills please specify start dates for all projects.</Content>
+    <Content id="EndedByIsFuture">Ended by is future</Content>
+    <Content id="CustomerName">Customer name</Content>
+  </Section>
+  <Section name="EditSkillCtrl">
+    <Content id="Edit">Edit</Content>
+    <Content id="Save">Save</Content>
+    <Content id="Cancel">Cancel</Content>
+    <Content id="ValidateLastUsed">Please enter a year (yyyy)</Content>
+    <Content id="ValidateUsedInTotal">Enter the total number of years of experience with this skill</Content>
+    <Content id="ValidateReqLastUsed">There must be a year</Content>
+    <Content id="ValidateReqUsedInTotal">There must be a number of years (not optional)</Content>
+    <Content id="ValidateSkillLevel">ValidateSkillLevel</Content>
+    <Content id="Clear">Clear</Content>
+    <Content id="SkillSaved">SkillSaved</Content>
+    <Content id="SkillDeleted">The skill was removed from the resource</Content>
+    <Content id="SkillUpdated">Skill updated</Content>
+    <Content id="SkillCreated">Competence assigned</Content>
+    <Content id="AdjustYears">Adjust years</Content>
+    <Content id="AdjustYearsTooltip">Click here to save the values on the right into the fields on the left.</Content>
+    <Content id="AdjustedSkill">Adjusted skill {0}</Content>
+  </Section>
+  <Section name="EditCvSkillsCtrl">
+    <Content id="SkillName">Skill</Content>
+    <Content id="SkillLevel">Level</Content>
+    <Content id="UsedLast">Last Used</Content>
+    <Content id="UsedInTotal">Period of usage</Content>
+    <Content id="ShowInCv">Show on CV</Content>
+    <Content id="SkillLevel.Help">Indicates the level of the person believes himself to</Content>
+    <Content id="UsedLast.Help">Indicates the year in which the consultant last used the compentence.</Content>
+    <Content id="UsedInTotal.Help">Specifies how many years the person as a whole has used this competence</Content>
+    <Content id="SkillCategory">Category</Content>
+    <Content id="FilterByType">Filter the competences by category:</Content>
+    <Content id="SaveBtn">Save</Content>
+    <Content id="CancelBtn">Cancel</Content>
+    <Content id="Save">
+    </Content>
+    <Content id="Cancel">
+    </Content>
+    <Content id="ChooseSkillCategory">Show all</Content>
+    <Content id="AddSkillLink">Add skill</Content>
+    <Content id="AddSkill">Add more skills:</Content>
+    <Content id="OnlyIncludeRelatedSkills">Only show skills already assigned to this resource (uncheck to see all available skills)</Content>
+    <Content id="AdjustAllSkills">or click this link to adjust all skills as marked in the table.</Content>
+    <Content id="AdjustedSkill">Adjusted skill {0}</Content>
+    <Content id="ChooseAllAssigned">Choose all assigned</Content>
+    <Content id="ChooseProfiles">Choose profiles</Content>
+    <Content id="ChooseProfilesMany">Choose view:</Content>
+    <Content id="ChooseProfilesSingle">Choose view:</Content>
+    <Content id="ShowAllAssignedSkills">Show all my skills</Content>
+    <Content id="AddSkillBtnBtn">Add</Content>
+    <Content id="AddSkillBtn">Add skill btn</Content>
+    <Content id="SkillAlreadyAssigned">Skill already assigned</Content>
+    <Content id="SkillMustHaveTwoLettersOrMore">Skill must have two letters or more</Content>
+  </Section>
+  <Section name="SkillLevelEnum">
+    <Content id="Least">Beginner</Content>
+    <Content id="Less">Near-pro</Content>
+    <Content id="Medium">Pro</Content>
+    <Content id="More">Near expert</Content>
+    <Content id="Most">Expert</Content>
+  </Section>
+  <Section name="Standard">
+    <Content id="Loading">Loading...</Content>
+    <Content id="NothingSaved">NothingSaved</Content>
+    <Content id="ObjectDeleted">ObjectDeleted</Content>
+    <Content id="NothingAdded">No data was added.</Content>
+    <Content id="BreadCrumArrow">&amp;nbsp;-&gt;&amp;nbsp;</Content>
+    <Content id="OtherActions">OtherActions</Content>
+    <Content id="NotImplementedYet">Not implemented yet</Content>
+    <Content id="Save">Save</Content>
+    <Content id="Cancel">Cancel</Content>
+    <Content id="langdk">Dansk</Content>
+    <Content id="languk">English</Content>
+    <Content id="TechnicalMessage">The system returned the following error message: {0}</Content>
+    <Content id="ClickToCreateANewEntry">Click to create a new entry</Content>
+    <Content id="ClickToCreateANewEntry">Click to create a new entry</Content>
+    <Content id="SaveBtn">Save</Content>
+    <Content id="OptimizedForFirefox">This page is optimized for Firefox. Not all features will work properly in Internet Explorer.</Content>
+    <Content id="CancelBtn">Cancel</Content>
+  </Section>
+  <Section name="Skill">
+    <Content id="SkillId">ID</Content>
+    <Content id="SkillName">Skill name</Content>
+    <Content id="LastModifiedTs">LastModifiedTs</Content>
+    <Content id="SkillTypeId">Skill category</Content>
+    <Content id="ProfileTypeIds">Relevant profiles</Content>
+    <Content id="ProfileTypeIds.Help">Mark all profiles for which this skill is relevant.</Content>
+  </Section>
+  <Section name="CustomerContact">
+    <Content id="CustomerContactId">CustomerContactId</Content>
+    <Content id="CustomerId">CustomerId</Content>
+    <Content id="ContactName">ContactName</Content>
+    <Content id="ContactPosition">ContactPosition</Content>
+    <Content id="LastModifiedTs">LastModifiedTs</Content>
+    <Content id="ContactDepartment">Contact department</Content>
+    <Content id="ContactPhone">Contact phone</Content>
+    <Content id="ContactMobileNumber">Contact mobile number</Content>
+    <Content id="ContactEmail">Contact email</Content>
+    <Content id="InternalNotes">Internal notes</Content>
+    <Content id="SysUserId">Sys user id</Content>
+    <Content id="UserId">User id</Content>
+  </Section>
+  <Section name="ProfileType">
+    <Content id="ProfileTypeId">ProfileTypeId</Content>
+    <Content id="ProfileTypeName">Profile name</Content>
+    <Content id="KENNETH">K e n n e t h</Content>
+  </Section>
+  <Section name="SkillType">
+    <Content id="SkillTypeId">Competence category ID</Content>
+    <Content id="SkillTypeName">Name of category</Content>
+    <Content id="LastModifiedTs">Last modified</Content>
+  </Section>
+  <Section name="Industry">
+    <Content id="IndustryId">IndustryId</Content>
+    <Content id="IndustryName">IndustryName</Content>
+    <Content id="LastModifiedTs">LastModifiedTs</Content>
+  </Section>
+  <Section name="PrintCv">
+    <Content id="Headline">CV</Content>
+    <Content id="AvailableBy">Available by</Content>
+    <Content id="BornYear">Year of birth</Content>
+    <Content id="CustomerNameListStr">Customers</Content>
+    <Content id="ExpertSkillListStr">Expert skills</Content>
+    <Content id="ProfessionalSince">Experience since</Content>
+    <Content id="ProfileType">Profil-type</Content>
+    <Content id="ProjectName">Project title</Content>
+    <Content id="CustomerName">Customer name</Content>
+    <Content id="Period">Period</Content>
+    <Content id="Role">Role(s) in work</Content>
+    <Content id="SkillName">Competence</Content>
+    <Content id="Level">Level</Content>
+    <Content id="LastUsed">Last used</Content>
+    <Content id="UsedInTotal">Years used</Content>
+    <Content id="Description">Description</Content>
+    <Content id="HeadlineProjects">Project experience</Content>
+    <Content id="HeadlineSkill">Competences</Content>
+    <Content id="Instruction">Choose which parts of the CV you want to see.</Content>
+    <Content id="PrintBtn">Preview print</Content>
+    <Content id="ChangeOptionsBtn">Change options</Content>
+    <Content id="Print">
+    </Content>
+    <Content id="ChangeOptions">
+    </Content>
+    <Content id="HeadlineEducations">Other background</Content>
+    <Content id="HeadlineCertifications">Certifications</Content>
+    <Content id="CertificationName">CertificationName</Content>
+    <Content id="CertificationYear">CertificationYear</Content>
+    <Content id="CertificationDuration">CertificationDuration</Content>
+    <Content id="EducationName">EducationName</Content>
+    <Content id="StartedBy">StartedBy</Content>
+    <Content id="EndedBy">EndedBy</Content>
+    <Content id="Name">Name/Initials</Content>
+    <Content id="Gender">Gender</Content>
+    <Content id="GenderMale">Male</Content>
+    <Content id="Educations">Education</Content>
+    <Content id="WorkingLanguage">Language used in line of business</Content>
+    <Content id="Profile">Profile</Content>
+    <Content id="ListOfSkills">List of levels</Content>
+    <Content id="SkillType">Group</Content>
+    <Content id="Customer">Customer</Content>
+    <Content id="ProjectDescription">Description of project or work definition</Content>
+    <Content id="Skills">Used competences</Content>
+    <Content id="ProfileLongDescription">Description of personal profile </Content>
+    <Content id="AnonymXXX">XXX</Content>
+    <Content id="BackgroundTitle">
+    </Content>
+    <Content id="BackgroundDetails">
+    </Content>
+    <Content id="BackgroundPeriod">Period</Content>
+    <Content id="HeadlineBackground">Other background</Content>
+    <Content id="AllProjects">Project Experience</Content>
+    <Content id="CustomerProjects">Project experience - particularly relevant for the task</Content>
+    <Content id="RemainingProjects">Project experience - other</Content>
+    <Content id="ChangeSettings">Change output parameters for Print</Content>
+    <Content id="GenderFemale">Female</Content>
+    <Content id="EditCv">Edit CV</Content>
+    <Content id="GenderUnknown">GenderUnknown</Content>
+    <Content id="ProjectTitle">Project title</Content>
+    <Content id="Address1">Address</Content>
+    <Content id="Address2">Address</Content>
+    <Content id="PostalCode">Postal code</Content>
+    <Content id="City">City</Content>
+    <Content id="PhoneNumber1">Phone number</Content>
+    <Content id="PhoneNumber2">Phone number</Content>
+    <Content id="AIMInfo">Instant Message</Content>
+    <Content id="Language">Language</Content>
+    <Content id="LevelOfSpeaking">Level of speaking</Content>
+    <Content id="LevelOfWriting">Level of writing</Content>
+    <Content id="MotherTongue">Mother tongue</Content>
+  </Section>
+  <Section name="SearchResultTypeEnum">
+    <Content id="Customer">Customer</Content>
+    <Content id="Project">Project</Content>
+    <Content id="ResourceEmployee">Employee</Content>
+    <Content id="ResourceContractor">Freelance</Content>
+    <Content id="Skill">Competence</Content>
+    <Content id="Resource">Resource</Content>
+  </Section>
+  <Section name="EditCvProjectsCtrl">
+    <Content id="AddProject">Add new project</Content>
+  </Section>
+  <Section name="AddProjectCtrl">
+    <Content id="SaveAndNewBtn">Add one more</Content>
+    <Content id="SaveAndNew">Click here to save and add another one</Content>
+    <Content id="ProjectAdded">Project {0} "{1}" was saved.</Content>
+  </Section>
+  <Section name="AutoDelete">
+    <Content id="Header">
+    </Content>
+    <Content id="Deleting-NotOk">Data can not be deleted due to the related data items as shown below. 
+Press Cancel to go back.</Content>
+    <Content id="Cancel">Cancel</Content>
+    <Content id="Deleting-Ok">Please confirm that the following data should be deleted:</Content>
+    <Content id="Ok">Ok</Content>
+    <Content id="ObjectDeleted">The following data was succesfully deleted: {0}</Content>
+  </Section>
+  <Section name="DeletionData">
+    <Content id="CascadeDeleteInformed">- {0}</Content>
+    <Content id="CancelDeletionIfExists">- {0}: deletion &lt;b&gt;NOT OK&lt;/b&gt;</Content>
+  </Section>
+  <Section name="ObjectDeleted (Microsoft Certified Developer ASP">
+    <Content id="NET exam. No. 443)">NET exam. No. 443)</Content>
+  </Section>
+  <Section name="CvPrintFlag">
+    <Content id="Anonymous">Anonymous (hide name of resource and customers)</Content>
+    <Content id="IncludeSkills">Include Skills</Content>
+    <Content id="IncludeProjects">Include Projects</Content>
+    <Content id="IncludeEducation">Include Education</Content>
+    <Content id="IncludeCertification">Include Certification</Content>
+    <Content id="IncludeExpertSkills">Include ExpertSkills</Content>
+    <Content id="IncludeBackground">Include background</Content>
+    <Content id="IncludeBackground.Help">Select this if you want the CV to include background such as education, merits, certificates etc.</Content>
+    <Content id="IncludeBehavior">Include behavior</Content>
+    <Content id="IncludeLogo">Include logo</Content>
+    <Content id="IncludeProjectsGraph">Include projects graph</Content>
+    <Content id="IncludeAddress">Include address</Content>
+    <Content id="IncludePhone">Include phone number</Content>
+    <Content id="IncludePhonenumber">Include phonenumber</Content>
+    <Content id="AIMInfo">IM Info</Content>
+    <Content id="IncludeContactInfo">Include contact info</Content>
+  </Section>
+  <Section name="PrintDefinition">
+    <Content id="PrintDefinitionId">PrintDefinitionId</Content>
+    <Content id="LastModifiedTs">LastModifiedTs</Content>
+    <Content id="CvPrintFlags">Print options</Content>
+    <Content id="ProfileTypeId">Profile Type to print</Content>
+    <Content id="ProfileTypeIds">Profile Types</Content>
+    <Content id="CustomerId">Emphasize customer projects</Content>
+    <Content id="CustomerId.Help">If you choose a customer, projects for this customer will be shown first in the CV.</Content>
+    <Content id="ProfileTypeIds.Help">At the competency chart on CV appears only skills that are relevant to the profile-types specified here.</Content>
+    <Content id="PrimaryKeyColumnName">Primary key column name</Content>
+    <Content id="IdStr">Id str</Content>
+    <Content id="IdForLookup">Id for lookup</Content>
+    <Content id="TypeAbbreviation">Type abbreviation</Content>
+    <Content id="StandardObjectTitle">Standard object title</Content>
+    <Content id="ExtendedObjectTitle">Extended object title</Content>
+  </Section>
+  <Section name="AddObjectCtrl">
+    <Content id="SaveAndNewBtn">Save and new</Content>
+    <Content id="SaveAndDoneBtn">Save</Content>
+    <Content id="CancelBtn">Cancel</Content>
+    <Content id="AddNewProject">Add new project</Content>
+    <Content id="SaveAndNew">
+    </Content>
+    <Content id="SaveAndDone">
+    </Content>
+    <Content id="Cancel">
+    </Content>
+    <Content id="NothingAdded">NothingAdded</Content>
+    <Content id="AddNewEducation">AddNewEducation</Content>
+    <Content id="ObjectAdded">Added {0} '{1}'</Content>
+    <Content id="AddNewCertification">AddNewCertification</Content>
+    <Content id="SaveAndStayBtn">SaveAndStayBtn</Content>
+    <Content id="SaveAndStay">
+    </Content>
+    <Content id="ObjectUpdated">{0} '{1}' was updated.</Content>
+  </Section>
+  <Section name="Education">
+    <Content id="EducationId">ID</Content>
+    <Content id="EducationName">Education</Content>
+    <Content id="StartedBy">Start year (yyyy)</Content>
+    <Content id="EndedBy">End year (yyyy)</Content>
+    <Content id="LastModifiedTs">LastModifiedTs</Content>
+    <Content id="ResourceId">ResourceId</Content>
+    <Content id="EducationInstitutionName">Educational site</Content>
+    <Content id="Notes">Notes</Content>
+    <Content id="EducationName.Help">Ex. cand.scient, cand.polit, highschool etc.</Content>
+  </Section>
+  <Section name="Certification">
+    <Content id="CertificationId">ID</Content>
+    <Content id="CertificationName">Name of Certification</Content>
+    <Content id="Year">Year</Content>
+    <Content id="Duration">Duration (ex '1 month')</Content>
+    <Content id="LastModifiedTs">LastModifiedTs</Content>
+    <Content id="ResourceId">ResourceId</Content>
+    <Content id="CertificationIssuer">Certification Issuer</Content>
+  </Section>
+  <Section name="ObjectDeleted (">
+    <Content id="NET MSDC)">NET MSDC)</Content>
+  </Section>
+  <Section name="EditListCtrl">
+    <Content id="AddNew">+ Add new project</Content>
+  </Section>
+  <Section name="EditObjectFromListCtrl">
+    <Content id="TitleUpdate">Update {0} for {1} </Content>
+    <Content id="TitleAddListItem">Add {0} for {1}</Content>
+    <Content id="CustomerRequired">Please choose a customer for this project</Content>
+  </Section>
+  <Section name="ObjectDeleted (Cert">
+    <Content id=" 1)"> 1)</Content>
+  </Section>
+  <Section name="AdminMaster">
+    <Content id="CloseWindowWarning">Any changes made since last save will be lost. Are you sure you want to close?</Content>
+  </Section>
+  <Section name="YesNo">
+    <Content id="Yes">Yes</Content>
+    <Content id="No">No</Content>
+    <Content id="Null">N/A</Content>
+  </Section>
+  <Section name="ResourceSkill">
+    <Content id="ResourceSkillId">ResourceSkillId</Content>
+    <Content id="LastUsed">Year last used</Content>
+    <Content id="UsedInTotal">Period used in years</Content>
+    <Content id="ShowInCv">ShowInCv</Content>
+    <Content id="LastModifiedTs">LastModifiedTs</Content>
+    <Content id="Level">Level</Content>
+    <Content id="SkillName">Skill</Content>
+    <Content id="SkillCategoryName">SkillCategoryName</Content>
+    <Content id="SkillId">SkillId</Content>
+    <Content id="ResourceId">ResourceId</Content>
+    <Content id="SkillTypeName">Skill type</Content>
+  </Section>
+  <Section name="Error">
+    <Content id="Headline">There was an error in the system:</Content>
+    <Content id="Details">Click for technical details</Content>
+    <Content id="ErrorMessage">ErrorMessage</Content>
+    <Content id="Source">Source</Content>
+    <Content id="StackTrace">StackTrace</Content>
+    <Content id="Message">Message</Content>
+    <Content id="Type">Type</Content>
+    <Content id="FriendlyMessage">FriendlyMessage</Content>
+    <Content id="TechMessage">TechMessage</Content>
+    <Content id="GoBack">Go back</Content>
+    <Content id="GotoStart">Goto start</Content>
+    <Content id="ToLoginPage">To login page</Content>
+  </Section>
+  <Section name="Contact">
+    <Content id="ContactInfo">CV-Navigator ApS&lt;br/&gt;
+Errors can be reported here: 
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;a target="_blank" href="http://90.184.104.188:8080"&gt;CvNavigator JIRA Bug-tracker&lt;/a&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+If you are not a registered user of Jira, please write an email to kvl@e4u.dk.</Content>
+  </Section>
+  <Section name="ExceptionReason">
+    <Content id="HttpUnhandledException">
+    </Content>
+    <Content id="InvalidProxyTypeException">InvalidProxyTypeException</Content>
+    <Content id="MappingException">MappingException</Content>
+    <Content id="HttpException">HttpException</Content>
+    <Content id="NullReferenceException">NullReferenceException</Content>
+    <Content id="ObjectNotFoundException">Data does not exist. It is typically caused by the attempt to access any data that has been deleted.</Content>
+    <Content id="TargetInvocationException">
+    </Content>
+    <Content id="ArgumentException">
+    </Content>
+    <Content id="Exception">
+    </Content>
+    <Content id="SqlException">
+    </Content>
+    <Content id="ArgumentOutOfRangeException">Some data exceeded the valid range.</Content>
+    <Content id="InvalidDataException">Invalid data exception</Content>
+    <Content id="IndexOutOfRangeException">
+    </Content>
+    <Content id="FormatException">Some input values were invalid.</Content>
+    <Content id="HttpCompileException">
+    </Content>
+    <Content id="HttpParseException">
+    </Content>
+    <Content id="ADOException">
+    </Content>
+    <Content id="SqlTypeException">
+    </Content>
+    <Content id="NappGenericException">
+    </Content>
+    <Content id="XmlSchemaException">
+    </Content>
+    <Content id="PropertyValueException">
+    </Content>
+    <Content id="QueryException">
+    </Content>
+    <Content id="InvalidCastException">
+    </Content>
+    <Content id="InvalidOperationException">
+    </Content>
+    <Content id="InstantiationException">
+    </Content>
+    <Content id="DuplicateMappingException">
+    </Content>
+    <Content id="NonUniqueObjectException">
+    </Content>
+    <Content id="NotImplementedException">
+    </Content>
+    <Content id="FileLoadException">
+    </Content>
+    <Content id="TypeLoadException">
+    </Content>
+    <Content id="PropertyNotFoundException">
+    </Content>
+    <Content id="IdentifierGenerationException">
+    </Content>
+    <Content id="ProviderException">
+    </Content>
+    <Content id="DirectoryNotFoundException">
+    </Content>
+    <Content id="FileNotFoundException">
+    </Content>
+    <Content id="IOException">
+    </Content>
+    <Content id="ConfigurationErrorsException">
+    </Content>
+    <Content id="UnauthorizedAccessException">You are not authorized to the attempted action.</Content>
+    <Content id="ViewStateException">
+    </Content>
+    <Content id="BadReadException">
+    </Content>
+    <Content id="MissingMethodException">
+    </Content>
+    <Content id="ArgumentNullException">
+    </Content>
+    <Content id="SecurityException">Action not permitted.</Content>
+    <Content id="MissingFieldException">
+    </Content>
+    <Content id="TransactionException">
+    </Content>
+    <Content id="KeyNotFoundException">
+    </Content>
+    <Content id="AutoDeleteRefusedException">
+    </Content>
+    <Content id="SysIdNotDefinedException">
+    </Content>
+    <Content id="InvalidProgramException">
+    </Content>
+    <Content id="WebException">
+    </Content>
+    <Content id="SmtpException">
+    </Content>
+    <Content id="GenericADOException">
+    </Content>
+    <Content id="MembershipCreateUserException">The user could not be created.</Content>
+    <Content id="SmtpFailedRecipientException">Smtp failed recipient exception</Content>
+    <Content id="OutOfMemoryException">Out of memory exception</Content>
+    <Content id="TypeInitializationException">Type initialization exception</Content>
+  </Section>
+  <Section name="UserAdmin">
+    <Content id="ExistingUsers">Created users</Content>
+    <Content id="CreateNewUser">Create new user</Content>
+    <Content id="Save">Save</Content>
+    <Content id="Cancel">Cancel</Content>
+    <Content id="DeleteUser">Delete user</Content>
+    <Content id="UnlockUser">Unlock user</Content>
+    <Content id="ConfirmDelete">Confirm delete ({0})</Content>
+    <Content id="UserData">UserData</Content>
+    <Content id="UserName">UserName</Content>
+    <Content id="Roles">Roles</Content>
+    <Content id="UserCreated">UserCreated</Content>
+    <Content id="DeleteUser">Delete user</Content>
+    <Content id="UserDeleted">The user {0} was deleted.</Content>
+    <Content id="UserUnlocked">The user {0} was unlocked.</Content>
+    <Content id="UnlockUser">Unlock user</Content>
+    <Content id="ConfirmDelete">Confirm deletion</Content>
+    <Content id="UserName">User name</Content>
+    <Content id="SimulateUser">Simulate user</Content>
+    <Content id="NoUserRecordFoundInUserDatabase">The user {0} was not correctly created. You should delete this user and create it again.</Content>
+    <Content id="InviteUserByEmail">Invite user by email</Content>
+    <Content id="UserUpdated">User updated</Content>
+    <Content id="NothingSaved">Nothing saved</Content>
+    <Content id="SetPassword">Set password</Content>
+    <Content id="EnterNewPassword">Enter new password</Content>
+    <Content id="RepeatNewPassword">Repeat new password</Content>
+    <Content id="ChangePassword">Change password</Content>
+    <Content id="ChangePasswordBtn">OK</Content>
+    <Content id="EnterPassword">Please enter a password in both text boxes</Content>
+    <Content id="PasswordsMustMatch">Passwords must match</Content>
+  </Section>
+  <Section name="TextBoxValidationType">
+    <Content id="Email">Please enter a valid email address.</Content>
+    <Content id="Integer">Enter whole number</Content>
+    <Content id="YearMonth">Enter the year and month (yyyy-mm)</Content>
+    <Content id="Year">Enter a year(yyyy)</Content>
+    <Content id="Date">Enter date (dd-mm-yyyy, dd.mm.yyyy, dd/mm/yyyy eller ddmmyyyy)</Content>
+    <Content id="UserName">UserName</Content>
+  </Section>
+  <Section name="CbInstaller">
+    <Content id="MovingFile ">MovingFile </Content>
+    <Content id="MovingFileToInstalled ">MovingFileToInstalled </Content>
+    <Content id="MovingFileToSkipped ">MovingFileToSkipped </Content>
+    <Content id="MovingFileToInstalled">The following table was installed: {0}</Content>
+  </Section>
+  <Section name="SkillLevel">
+    <Content id="SkillLevelId">ID</Content>
+    <Content id="SkillLevelName">Skill level</Content>
+  </Section>
+  <Section name="ChooseCustomerCtrl">
+    <Content id="CreateNewBtn">...</Content>
+    <Content id="CreateNew">...</Content>
+    <Content id="CreateNewBtn.Help">If you can not find the desired value in the list, click here to create a new value.</Content>
+    <Content id="CreateNew.Help">If you can not find the desired value in the list, click here to create a new value.</Content>
+  </Section>
+  <Section name="ProjectSkillsCtrl">
+    <Content id="AllCategories">All Categories</Content>
+    <Content id="ChooseSkill">-- Choose other skill --</Content>
+    <Content id="AddNewSkill">Add new skill</Content>
+    <Content id="MarkAll">Mark All</Content>
+    <Content id="MarkNone">Mark None</Content>
+    <Content id="CreateNewSkill">...</Content>
+    <Content id="CreateNewSkill.Help">If you need a competency, you can create a new one here.</Content>
+  </Section>
+  <Section name="Country">
+    <Content id="CountryId">ID</Content>
+    <Content id="CountryName">Nationalitet</Content>
+    <Content id="LastModifiedTs">Last Modified</Content>
+  </Section>
+  <Section name="GenderEnum">
+    <Content id="Male">Male</Content>
+    <Content id="Female">Female</Content>
+    <Content id="Unknown">None</Content>
+  </Section>
+  <Section name="SiteConfig">
+    <Content id="SiteConfigId">SiteConfigId</Content>
+    <Content id="SiteConfigKey">SiteConfigKey</Content>
+    <Content id="ConfigValue">ConfigValue</Content>
+    <Content id="ConfigDescription">ConfigDescription</Content>
+    <Content id="LastModifiedTs">LastModifiedTs</Content>
+  </Section>
+  <Section name="Bureau">
+    <Content id="BureauId">BureauId</Content>
+    <Content id="BureauName">BureauName</Content>
+    <Content id="LastModifiedTs">LastModifiedTs</Content>
+    <Content id="BureauPhone">Bureau phone</Content>
+    <Content id="BureauFax">Bureau fax</Content>
+    <Content id="BureauMail">Bureau mail</Content>
+    <Content id="BureauContactPerson">Bureau contact person</Content>
+    <Content id="BureauNotes">Bureau notes</Content>
+  </Section>
+  <Section name="EmployeeType">
+    <Content id="EmployeeTypeId">EmployeeTypeId</Content>
+    <Content id="EmployeeTypeName">EmployeeTypeName</Content>
+    <Content id="Description">Description</Content>
+    <Content id="Freelancer">Freelancer</Content>
+    <Content id="Ansat">Employed</Content>
+    <Content id="Ansøger">Appliant</Content>
+    <Content id="Contractor">Contractor</Content>
+    <Content id="Employee">Employee</Content>
+    <Content id="Aplicant">Applicant</Content>
+    <Content id="Applicant">Applicant</Content>
+    <Content id="test">test</Content>
+    <Content id="Ressource Manag">Ressource  manag</Content>
+    <Content id="Leder">Leder</Content>
+    <Content id="Ressource Mang.">Ressource  mang.</Content>
+    <Content id="Agent">Agent</Content>
+  </Section>
+  <Section name="EditLanguageSkillsCtrl">
+    <Content id="MotherTounge">Mother tongue</Content>
+    <Content id="SecondLanguage">Add language - not native</Content>
+    <Content id="Remove">Remove</Content>
+    <Content id="MotherTounge.Help">Define the native language of the resource.</Content>
+    <Content id="MustCreateLanguageLevels">Must create language levels</Content>
+  </Section>
+  <Section name="LanguageSkill">
+    <Content id="LanguageSkillId">LanguageSkillId</Content>
+    <Content id="ResourceId">ResourceId</Content>
+    <Content id="LanguageId">Language</Content>
+    <Content id="LanguageSpeakingLevelId">Level of speaking</Content>
+    <Content id="LanguageWritingLevelId">Level of writing</Content>
+  </Section>
+  <Section name="LanguageSpeakingLevel">
+    <Content id="LanguageSpeakingLevelId">LanguageSpeakingLevelId</Content>
+    <Content id="LanguageSpeakingLevelName">LanguageSpeakingLevelName</Content>
+  </Section>
+  <Section name="ReportCv">
+    <Content id="SearchAllResources">Search All</Content>
+    <Content id="SearchAllCustomers">[Mark all]</Content>
+    <Content id="SearchAllCustomers.Help">To remove the markings on the customers so as to apply to all customers.</Content>
+    <Content id="SearchAllResources.Help">To remove the markings on the hub so that all names.</Content>
+    <Content id="AdvancedSearch">Show search-criteria</Content>
+    <Content id="ExtendedView">Extended view including customers, skills etc.</Content>
+    <Content id="ExtendedView.Help">
+    </Content>
+    <Content id="ToSpreadSheet">To spread sheet</Content>
+    <Content id="SomeCustomer">Some customer</Content>
+    <Content id="EmailList">Email list</Content>
+    <Content id="ResourcesWithoutEmail">Resources without email</Content>
+    <Content id="SearchCustomer">Choose customers</Content>
+    <Content id="SearchEmployeeType">Choose employee types</Content>
+    <Content id="SearchStatus">Choose status values</Content>
+    <Content id="SearchProfile">Choose profiles</Content>
+    <Content id="SearchAvailableBy">Available in number of days</Content>
+    <Content id="SearchCustomer.Help">Only resources who have worked at the chosen customers, will be fetched.</Content>
+    <Content id="AdvancedSearch.Help">open further search fields</Content>
+  </Section>
+  <Section name="Merit">
+    <Content id="MeritId">ID</Content>
+    <Content id="MeritTitle">Title</Content>
+    <Content id="MeritYear">Year</Content>
+    <Content id="MeritDescription">Description</Content>
+    <Content id="ResourceId">ResourceId</Content>
+  </Section>
+  <Section name="ResourceMgr">
+    <Content id="LanguageSpecifiedTwice">The language {0} can not be specified as a second language when it is listed as mother tongue.</Content>
+    <Content id="ShouldSpecifyMotherTounge">When specifying a second language should also be given a native language. Note that the mother tongue is not also be specified as a second language.</Content>
+  </Section>
+  <Section name="DbInstaller">
+    <Content id="Pendingtempmodel_db_2010-03-23_24.12.xml">Pendingtempmodel_db_2010-03-23_24.12.xml</Content>
+    <Content id="MoveAllPending">Move all pending files</Content>
+    <Content id="RunAllSql">Run all changes</Content>
+    <Content id="RunCustomerSql">RunCustomerSql</Content>
+    <Content id="Skip">Skip</Content>
+    <Content id="RunSql">RunSql</Content>
+    <Content id="MigratingFromTo">Migrating from-to:</Content>
+    <Content id="CustomSql">Enquire database</Content>
+    <Content id="RunCustomSql">Run query</Content>
+    <Content id="CustomSql.Help">There can be made random data requests to the database. The result will be displayed in a grid below.</Content>
+    <Content id="RunAllSql.Help">Runs all changes are not already running, and stops at the first error.</Content>
+    <Content id="IgnoreSql">IgnoreSql</Content>
+    <Content id="AutoRun">Auto-run</Content>
+    <Content id="AutoRun.Help">Indicates that this change will be run if you click on the button "Run all changes".</Content>
+  </Section>
+  <Section name="Language">
+    <Content id="LanguageId">ID</Content>
+    <Content id="LanguageName">Name of language</Content>
+    <Content id="LastModifiedTs">Last modified</Content>
+    <Content id="CountryId">Country Name</Content>
+    <Content id="CountryId.Help">This field defines the country within the language is spoken.</Content>
+    <Content id="LinkedInLanguageName">Linked in language name</Content>
+  </Section>
+  <Section name="LanguageWritingLevel">
+    <Content id="LanguageWritingLevelId">LanguageWritingLevelId</Content>
+    <Content id="LanguageWritingLevelName">LanguageWritingLevelName</Content>
+  </Section>
+  <Section name="BusinessObjectUtil">
+    <Content id="UnderToken">&amp;nbsp;assigned to&amp;nbsp;</Content>
+  </Section>
+  <Section name="Start">
+    <Content id="StartHere">Start</Content>
+  </Section>
+  <Section name="NewSite">
+    <Content id="OkBtnBtn">Create site</Content>
+    <Content id="OkBtn">
+    </Content>
+    <Content id="RootInfo">Site-name and code</Content>
+    <Content id="OwnerInfo">Information about the owner of this site</Content>
+    <Content id="AdminUser">Information about the administration user of this site</Content>
+  </Section>
+  <Section name="SysRoot">
+    <Content id="SysName">Site name</Content>
+    <Content id="SysCode">Company nickname  - (maximum 8 characters)</Content>
+    <Content id="LastModifiedTs">Last modified</Content>
+    <Content id="SysName.Help">Will be used as the name of the site. Would typically be a company or brand name and will occur on all pages as a part of the identity of the site.</Content>
+    <Content id="SysCode.Help">The company ALIAS in CVnavigator is an short nickname used in the system in different ways.
+
+Ex. administrator login will be 'admin.nickname'.
+
+Should contain no spaces or special characters.</Content>
+    <Content id="SysRootTypeId">Type of system</Content>
+    <Content id="SysRootTypeId.Help">The choice of system determines the available functionality.</Content>
+  </Section>
+  <Section name="SysOwner">
+    <Content id="SysOwnerCvr">CVR</Content>
+    <Content id="SysOwnerContactEmail">Contact person email</Content>
+    <Content id="SysOwnerContactName">Contact person name</Content>
+    <Content id="SysOwnerContactPhone">Contact person phone</Content>
+    <Content id="LastModifiedTs">Last modified</Content>
+    <Content id="SysOwnerContactEmail.Help">The email address on the owner of this site. This can be the same email 
+  as below but does not have to.</Content>
+    <Content id="SysOwnerLogo">Company LOGO</Content>
+    <Content id="SysOwnerLogo.Help">This logo is visual on every PDF, printed or emaillink generated CV for display.</Content>
+    <Content id="PreferenceIds">Preferences</Content>
+    <Content id="SiteLanguageId">Site language id</Content>
+  </Section>
+  <Section name="UserObj">
+    <Content id="Email">User email</Content>
+    <Content id="Password">Password</Content>
+    <Content id="PasswordConfirmed">Password repeated</Content>
+    <Content id="Email.Help">Email and login on the administrator user of this CV-Navigator site.</Content>
+    <Content id="UserId">User ID used at logon</Content>
+    <Content id="UserId.Help">The name must be specified when logging on. Note that it may be advantageous to use company code above as part of the user name otherwise it can be hard to make unique across the entire CVNavigator's user database.</Content>
+    <Content id="UserName">User name</Content>
+    <Content id="AcceptedConditions">Accepted conditions</Content>
+    <Content id="LastModifiedTs">Last modified ts</Content>
+    <Content id="GlobalAdmin">Global admin</Content>
+    <Content id="HasMembership">Has membership</Content>
+    <Content id="FirstName">First name</Content>
+    <Content id="LastName">Last name</Content>
+    <Content id="Phone">Phone</Content>
+    <Content id="Mobile">Mobile</Content>
+    <Content id="IsGlobalAdmin">Is global admin</Content>
+    <Content id="SiteLanguageId">Site language id</Content>
+  </Section>
+  <Section name="CvmWebFacade">
+    <Content id="SiteCreated">A new site was succesfully created for '{1}', the global system ID is {0} and the administration user is {2}.</Content>
+    <Content id="UserNamePasswordInvalid">Username or password was invalid</Content>
+    <Content id="PasswordMustMatch">Passwords must match</Content>
+    <Content id="UserAlreadyExists2">User already exists</Content>
+    <Content id="UserAlreadyExists1">User already exists</Content>
+  </Section>
+  <Section name="ImportData">
+    <Content id="ImportBtn">Import data</Content>
+    <Content id="Import">
+    </Content>
+    <Content id="Intro">
+      You can import a standard data set. &lt;b&gt; Please note that all data in the database will be deleted &lt;/b&gt; and overwritten with the contents of the spreadsheet. This feature is designed for start-up of new sites.
+    </Content>
+    <Content id="ImportDone">Data was imported from file {0}</Content>
+  </Section>
+  <Section name="SysRootPicker">
+    <Content id="ChooseSysRootBtn">ChooseSysRootBtn</Content>
+    <Content id="ChooseSysRoot">ChooseSysRoot</Content>
+  </Section>
+  <Section name="ImportCvs">
+    <Content id="StartImport">StartImport</Content>
+    <Content id="ChooseArchive">1. Select zip-file</Content>
+    <Content id="EditImportDetails">3. Confirm import</Content>
+    <Content id="HeaderStatus">Status</Content>
+    <Content id="HeaderOrigFile">Org. filnavn</Content>
+    <Content id="HeaderDoImport">Import</Content>
+    <Content id="HeaderNewFile">New filenavn</Content>
+    <Content id="HeaderFirstName">First name</Content>
+    <Content id="HeaderLastName">Last name</Content>
+    <Content id="HeaderEmail">Email</Content>
+    <Content id="ChooseRules">2. Clean names</Content>
+    <Content id="ChooseArchiveIntro">Upload new compressed file or use excisting uploaded ZIP file.
+
+Please select the preferred ZIP file in the dropdown.
+
+The selected ZIP file will be used as the import source.
+
+It is possible to select a new or an earlier ZIP file.
+</Content>
+    <Content id="ChooseRulesIntro">This page defines the rules that govern how the name derived from CVs filenames. In the fields to the right you can specify a list of words that should be ignored. In the box below called 'Name of resourcen' can be seen the result of the rules set up. Can be used &lt;i&gt;wild cards&lt;/i&gt; using *. For example, '* CV' match everything ending with the letters CV.</Content>
+    <Content id="EditImportDetailsIntro">Here are the final data of how CVs will be imported. One can both on and off-select for each CV on it to import and edit the name of the resource as CV belongs.</Content>
+    <Content id="FileNamesTextBox">Filename of CV</Content>
+    <Content id="ResourceNamesTextBox">Name of resource</Content>
+    <Content id="HideCompletedImports">Do you want to hide every resource succesful imported?</Content>
+    <Content id="ChangeAll">Change All</Content>
+    <Content id="UploadArchive">Upload zip archive</Content>
+    <Content id="UploadNewArchive">If you have CVs lying in a local zip file you can upload it here.</Content>
+    <Content id="ChooseArchiveCell">Select ZIP file on your desktop.</Content>
+    <Content id="SaveArchiveNewFileName">There were already uploaded zip file with the same name. The new was therefore assigned the name '{0}'.</Content>
+    <Content id="IgnoreRulesHeader">Texts to be ignored:</Content>
+    <Content id="FinishBtn">Import marked lines</Content>
+    <Content id="NextBtn">Next</Content>
+    <Content id="PreviousBtn">Previous</Content>
+    <Content id="NumberOfLinesMustMatch">Number of lines must match</Content>
+    <Content id="SetupEmails">4. Setup emails</Content>
+    <Content id="ImportSkills">5. Import skills</Content>
+    <Content id="EmailsTextBox">Emails found</Content>
+    <Content id="InviteUsers">Invite users</Content>
+    <Content id="IgnoreEmails">To remove certain email addresses from the list below, please enter them here. Seperate with whitespace or newline.</Content>
+    <Content id="Refresh">Refresh</Content>
+    <Content id="EmailAssigned">Email assigned {1} was assigned to {0}</Content>
+    <Content id="FullNamesTextBox">Resources</Content>
+    <Content id="EmailsTextBox.Help">You can edit the email addresses. If more than one address is found, please delete the wrong ones.
+Blank lines will be considered as "no email".</Content>
+    <Content id="IgnoreSkills">Ignore skills</Content>
+    <Content id="AssignedSkill">Assigned skill {1} to {0}</Content>
+    <Content id="HasImportErrors">Has import errors</Content>
+    <Content id="Summary">The following data was imported</Content>
+    <Content id="Step0">1. Select zip-file</Content>
+    <Content id="Step1">2. Clean names</Content>
+    <Content id="Step2">3. Import resource</Content>
+    <Content id="Step3">4. Setup emails</Content>
+    <Content id="Step4">5. Import skills</Content>
+    <Content id="Step5">6. Invite users</Content>
+    <Content id="Step6">7. Summary</Content>
+    <Content id="Step0Act">Step0 act</Content>
+    <Content id="MustSelect">Certain of the resources were already found in the database. Please specify the desired action below.</Content>
+    <Content id="NothingYetImported">Nothing yet imported. Before going to the next step you must import one or more resources using the dialog below. Click the button "Import Resources" to execute the import.</Content>
+    <Content id="ImportResources">Import selected resources</Content>
+    <Content id="ImportResources">Import resources</Content>
+    <Content id="Step7">Step7</Content>
+    <Content id="ResourceId">Resource id</Content>
+    <Content id="FirstName">First name</Content>
+    <Content id="LastName">Last name</Content>
+    <Content id="Email">Email</Content>
+    <Content id="NoSkills">Number of skills</Content>
+    <Content id="Invited">Invited</Content>
+  </Section>
+  <Section name="EditCvImportItemCtrl">
+    <Content id="SuccessStatus">Succes!</Content>
+    <Content id="NotOk">Error!</Content>
+    <Content id="ExistingResources">There was already one resource with the given name a similar name. Please select from the drop down list which the resource to be imported.</Content>
+    <Content id="CreateNew">--  Create new --</Content>
+  </Section>
+  <Section name="CvImporter">
+    <Content id="MissingFirstName">First name must be entered</Content>
+    <Content id="MissingLastName">Last name must be entered</Content>
+    <Content id="MissingFileName">File name must be entered</Content>
+    <Content id="CreatedResource">Resourcen {0} was created</Content>
+    <Content id="FileAlreadyExists">The file already exists. Please enter a new filename.</Content>
+    <Content id="ImportingInto">Data was imported to the existing resource: {0}</Content>
+    <Content id="ExistingImportOverwritten">Import Data were written for {0}</Content>
+  </Section>
+  <Section name="ResourceImport">
+    <Content id="ImportText">ImportText</Content>
+    <Content id="LastModifiedTs">LastModifiedTs</Content>
+  </Section>
+  <Section name="ImportCvsFacade">
+    <Content id="CvFileFormat">CV - {0}</Content>
+  </Section>
+  <Section name="Login">
+    <Content id="Intro">
+    </Content>
+    <Content id="GotoForgotPassword">Forgot your password? Click here</Content>
+    <Content id="Signup">Register your own CV? Sign up here</Content>
+    <Content id="UserName">User name&amp;nbsp;&amp;nbsp;</Content>
+    <Content id="RememberMe">Remember me</Content>
+    <Content id="Password">Password&amp;nbsp;&amp;nbsp;</Content>
+    <Content id="CompanySignup">Company signup</Content>
+  </Section>
+  <Section name="EditCvFacade">
+    <Content id="ImportDataRemoved">ImportDataRemoved</Content>
+    <Content id="RemoveProjectSkill">The skill '{0}' was removed from the resource.</Content>
+    <Content id="SysCodeNotFound">The given site code was not found. Please make sure you have got the right code from the site you are trying to join.</Content>
+    <Content id="SiteAlreadyGranted">You have already granted this site access to your CV. Please choose another site code.</Content>
+  </Section>
+  <Section name="Global">
+    <Content id="ErrorHappenedDuringDeploy">ErrorHappenedDuringDeploy</Content>
+  </Section>
+  <Section name="ImportSkillsCtrl">
+    <Content id="DoImportBtn">Import selected skills</Content>
+    <Content id="DoImport">
+    </Content>
+    <Content id="SkillName">Skill</Content>
+    <Content id="ContextText">Found in import</Content>
+    <Content id="HasSkillAlready">NB: The user already has this skill assigned. Nothing further will be done.</Content>
+    <Content id="Introduktion">This section allows you to match up skills known by the CV-system with skills mentioned in an imported data. Please select from the list below which skills should be attached to this CV. Checkboxes are disabled if the skill is already added to the CV.</Content>
+    <Content id="UsePartialMatches">Allow partial matches (eg the SQL matching T-SQL)</Content>
+    <Content id="ImportedSkill">The skill {0} is now assigned to your profile. </Content>
+    <Content id="HasNoImportText">No imported document was found for this CV.</Content>
+    <Content id="ImportFromLinkedIn">Import from linked in</Content>
+    <Content id="Category">Category</Content>
+    <Content id="ImportDataBeforeExtract">No skills have been imported. </Content>
+  </Section>
+  <Section name="UserAdmin2">
+    <Content id="CreateNew">Create</Content>
+  </Section>
+  <Section name="EditUserCtrl">
+    <Content id="UserData">UserData</Content>
+    <Content id="UserRole">UserRole</Content>
+    <Content id="Edit">Edit</Content>
+  </Section>
+  <Section name="MembershipUser">
+    <Content id="UserName">UserName</Content>
+    <Content id="ProviderUserKey">ProviderUserKey</Content>
+    <Content id="Email">Email</Content>
+    <Content id="PasswordQuestion">PasswordQuestion</Content>
+    <Content id="Comment">Comment</Content>
+    <Content id="IsApproved">Is approved</Content>
+    <Content id="IsLockedOut">Is locked out</Content>
+    <Content id="LastLockoutDate">LastLockoutDate</Content>
+    <Content id="CreationDate">CreationDate</Content>
+    <Content id="LastLoginDate">LastLoginDate</Content>
+    <Content id="LastActivityDate">LastActivityDate</Content>
+    <Content id="LastPasswordChangedDate">LastPasswordChangedDate</Content>
+    <Content id="IsOnline">Is online</Content>
+    <Content id="ProviderName">ProviderName</Content>
+  </Section>
+  <Section name="RoleEnum">
+    <Content id="SuperAdmin">SuperAdmin</Content>
+    <Content id="Admin">Admin</Content>
+    <Content id="SalesManager">SalesManager</Content>
+    <Content id="Client">Client</Content>
+    <Content id="Resource">Resource</Content>
+  </Section>
+  <Section name="ProfileStatus">
+    <Content id="UnderUpdate">Under Update</Content>
+    <Content id="Done">Active</Content>
+    <Content id="Inactive">Inactive</Content>
+  </Section>
+  <Section name="SysUser">
+    <Content id="FilterProfileStatusIds">FilterProfileStatusIds</Content>
+    <Content id="FilterEmployeeTypeIds">FilterEmployeeTypeIds</Content>
+    <Content id="AnonymousPrint">AnonymousPrint</Content>
+    <Content id="LastModifiedTs">LastModifiedTs</Content>
+    <Content id="FilterEmployeeTypeIds.Help">Only the contractual flagged here will be visible when the user rather seek resources.</Content>
+    <Content id="FilterProfileStatusIds.Help">Only CV's with the status values selected here will be enhanced by this user. </Content>
+    <Content id="AnonymousPrint.Help">Indicates whether this user should be allowed to see only anonymous print.</Content>
+    <Content id="UserName">User name</Content>
+    <Content id="AcceptedConditions">Accepted conditions</Content>
+  </Section>
+  <Section name="MailFacade">
+    <Content id="InvitationMailSubject">Login information for CVNavigator</Content>
+    <Content id="InvitationMailBody">Hello
+
+You have been registered as a user of CVNavigator.
+
+Please follow this link: 
+
+http://cvnav2.dk
+
+and login using these credentials: 
+
+User name: {0} 
+Password: {1}</Content>
+    <Content id="MailNotSent">The following email was not sent:
+{0}
+{1}</Content>
+    <Content id="PrintResourceSubject">Print CV</Content>
+    <Content id="PrintResourceBody">Hello,
+
+You have been invited to see the CV of {0} by following this path:
+{1}</Content>
+    <Content id="MailSent">A mail was sent</Content>
+    <Content id="SignupSendToFriendSubject">You have been invited to register your CV at CVNavigator
+    
+    </Content>
+    <Content id="SignupSendToFriendBody">
+      A friend has invited you to register your CV.
+
+      {0}
+
+      Click here to signup:
+      {1}
+    </Content>
+  </Section>
+  <Section name="ErrorCode">
+    <Content id="ResourceUserHasNoAccessToResource">Resource user has no access to resource</Content>
+    <Content id="UserHasNoAccessToThisPage">User has no access to this page</Content>
+    <Content id="UserHasNoSysId">User has no sys id</Content>
+    <Content id="SysResourceNotFound">The ressource is not assigned to this site.</Content>
+  </Section>
+  <Section name="ForgotPassword">
+    <Content id="Intro">
+    </Content>
+    <Content id="GotoLogin">Back to login</Content>
+  </Section>
+  <Section name="SecurityFacade">
+    <Content id="SimulationSessionNoLongerValid">Simulation session no longer valid</Content>
+  </Section>
+  <Section name="UserAdminFacade">
+    <Content id="AssignedToExistingUser">There was already a user with user name {0}. This resource is now assigned to that user.</Content>
+    <Content id="ResourceUserAlreadyExists">Resource user already exists</Content>
+    <Content id="ResourceHasNoEmail">Resource has no email</Content>
+    <Content id="UserCreated">User {0} was created in the system</Content>
+    <Content id="MissingEmail">Missing email</Content>
+    <Content id="UserNotFullyCreated">The following user '{0}' was only partly registered in the system. This has been completed now and the user is ready to login.</Content>
+    <Content id="DeleteUserDisabled">Delete user disabled</Content>
+    <Content id="CreatedMembership">Created membership</Content>
+    <Content id="AdjustedDifferenceInEmail">Adjusted difference in email {0} -&gt; {1}</Content>
+    <Content id="FoundMembership">Found membership</Content>
+    <Content id="ShouldSpecifyEmail">There is no email specified for this user and hence the user can not login.</Content>
+  </Section>
+  <Section name="Unknown">
+    <Content id="Unknown">Unknown</Content>
+  </Section>
+  <Section name="DeleteObjectCtrl">
+    <Content id="RefactorBtn">Reassign</Content>
+    <Content id="Refactor">In order to delete this data item you can refactor all references so that deletion can proceed. Choose the new value for all the above objects.</Content>
+    <Content id="Reassigned ">Reassigned {0} data item(s) from '{1}' to '{2}'</Content>
+    <Content id="DeleteBtn">Confirm deletion</Content>
+    <Content id="CancelBtn">Cancel</Content>
+    <Content id="NowDeleting">You are about to delete this: {0}</Content>
+    <Content id="FoundRelatedObjects">The data you are about to delete has some related data objects as shown below.</Content>
+    <Content id="MustRefactor">To proceed you must reassign the references shown in red color. Pick the new value in the drop down below and press the button.</Content>
+    <Content id="NoRelatedObjects">No related objects were found. The data object can safely be deleted.</Content>
+    <Content id="ConfirmDeletion">
+    </Content>
+    <Content id="DeletionDone">Data was deleted: {0}</Content>
+    <Content id="Reassigned">Reassigned {0} items</Content>
+  </Section>
+  <Section name="MyUserObj">
+    <Content id="Password">Password</Content>
+    <Content id="PasswordConfirmed">Password confirmed</Content>
+    <Content id="Email">Email</Content>
+    <Content id="PartialUserName">Partial user name</Content>
+    <Content id="FullUserName">Full user name</Content>
+  </Section>
+  <Section name="AdminMasterPage2">
+    <Content id="Actions">
+    </Content>
+  </Section>
+  <Section name="ImageCtrl">
+    <Content id="Clear">Clear</Content>
+  </Section>
+  <Section name="NewSiteFacade">
+    <Content id="SystemNameExist">System name exist</Content>
+    <Content id="SysCodeNotValid">The abbreviated site name '{0}' is invalid. Please only use characters and numbers.</Content>
+    <Content id="RollbackFailed">Rollback failed</Content>
+    <Content id="NoDataWasSaved">No data was saved</Content>
+    <Content id="SystemCodeExist">System code exist</Content>
+  </Section>
+  <Section name="ListFilterCtrl">
+    <Content id="FilterDefault">&lt;filter&gt;</Content>
+    <Content id="List">List</Content>
+    <Content id="CreateNew">+ Create new</Content>
+    <Content id="CreateNew.Help">
+    </Content>
+    <Content id="AssignmentList">Assignment list</Content>
+    <Content id="ProfileTypeList">
+    </Content>
+    <Content id="JobAnnouncementList">Job list</Content>
+  </Section>
+  <Section name="EditAssignments">
+    <Content id="Save">Save</Content>
+    <Content id="Cancel">Cancel</Content>
+    <Content id="AssignmentSaved">Assignment saved</Content>
+    <Content id="Contact">Contact</Content>
+    <Content id="ContactPerson">Contact person</Content>
+  </Section>
+  <Section name="Assignment">
+    <Content id="AssignmentTitle">Title</Content>
+    <Content id="ContractStartBy">Start by</Content>
+    <Content id="LastModifiedTs">Last modified</Content>
+    <Content id="AssignmentStatusId">Status</Content>
+    <Content id="CustomerId">Customer</Content>
+    <Content id="CustomerContactId">Contact person</Content>
+    <Content id="ExtendedObjectTitle">"{0}" - {1}</Content>
+    <Content id="Tab0">Assignment basedata</Content>
+    <Content id="Tab1">Search by skills</Content>
+    <Content id="Tab2">Resources attached</Content>
+    <Content id="Tab3">Tab3</Content>
+    <Content id="AssignmentDescription">Description</Content>
+    <Content id="PrintDefinitionId">Print definition id</Content>
+    <Content id="RemovedContact">Removed contact person {0} as it does not belong to the currently chosen customer.</Content>
+    <Content id="ClientUserId">Client user id</Content>
+  </Section>
+  <Section name="EditAssignmentResources">
+    <Content id="FirstName">First name</Content>
+    <Content id="LastName">Last name</Content>
+    <Content id="AvailableBy">Available by</Content>
+    <Content id="Price">Price</Content>
+    <Content id="ExpertSkillListStr.Comma2LineBreak()">Expert skill list str. comma2 line break()</Content>
+    <Content id="CustomerNameListStr.Comma2LineBreak()">Customer name list str. comma2 line break()</Content>
+    <Content id="Status">Status</Content>
+    <Content id="ExternalLink">External link</Content>
+    <Content id="Search">Search</Content>
+    <Content id="AddResource">Add resource</Content>
+    <Content id="AddResourceIntro">From here you can search for resources (at present only search for names) and then add them to this assignment. Use * to show all resources.</Content>
+    <Content id="EnterKeyword">Enter keyword</Content>
+    <Content id="ExpertSkillListStr">Expert skills</Content>
+    <Content id="CustomerNameListStr">Customers</Content>
+    <Content id="CreateLink">Create</Content>
+    <Content id="SendToClient">Send</Content>
+    <Content id="ResourceAlreadyAdded">Resource already added</Content>
+    <Content id="MustEnterKeyword">Must enter keyword</Content>
+    <Content id="OpenLink">View</Content>
+    <Content id="MissingContactPerson">Missing contact person</Content>
+    <Content id="RemoveResource">Remove</Content>
+    <Content id="Remove">Remove</Content>
+    <Content id="Info">Info</Content>
+    <Content id="WarningNullAvail">No information regarding the availability of the resource has been given.</Content>
+    <Content id="WarningNotAvail">The resource is not available at the start of this assignment.</Content>
+    <Content id="WarningUnderUpdate">CV is under update.</Content>
+  </Section>
+  <Section name="AssignmentStatus">
+    <Content id="AssignmentStatusName">Assignment status name</Content>
+  </Section>
+  <Section name="AssignmentResourceStatus">
+    <Content id="AssignmentResourceStatusName">Assignment resource status name</Content>
+  </Section>
+  <Section name="Assignments">
+    <Content id="ChooseAssignment">Choose assignment</Content>
+    <Content id="ResourceListIntro">The following list shows the resources selected for this assignment.&lt;br/&gt;
+&lt;br/&gt; Clicking the name of each resource in the list will open a page for printing the CV of the resource. &lt;br/&gt;&lt;br/&gt;</Content>
+    <Content id="StartBy">Start by</Content>
+    <Content id="Description">Description</Content>
+    <Content id="Title">Assignment: {0}</Content>
+    <Content id="FoundNone">No assignments were found.</Content>
+    <Content id="NoResourcesAssigned">No resources assigned</Content>
+  </Section>
+  <Section name="ResourceList">
+    <Content id="Name">Name</Content>
+    <Content id="ProfessionalSince">Since</Content>
+    <Content id="AvailableBy">Available by</Content>
+    <Content id="ExpertSkillListStr">Expert skills</Content>
+    <Content id="CustomerNameListStr">Customers</Content>
+  </Section>
+  <Section name="EditAssignmentsAuxCtrl">
+    <Content id="LinkToUser">Link to user</Content>
+    <Content id="CreateUser">+ Create user</Content>
+    <Content id="MissingContact">Missing contact</Content>
+  </Section>
+  <Section name="AssignmentStatusEnum">
+    <Content id="Pending">Pending</Content>
+    <Content id="Accomplished">Accomplished</Content>
+    <Content id="Cancelled">Cancelled</Content>
+  </Section>
+  <Section name="AssignmentResourceStatusEnum">
+    <Content id="Added">Added</Content>
+    <Content id="Approved">Approved</Content>
+    <Content id="Rejected">Rejected</Content>
+  </Section>
+  <Section name="ClientWelcome">
+    <Content id="ListCv">List CV's</Content>
+    <Content id="Assignments">Assignments</Content>
+  </Section>
+  <Section name="SearchCvCtrl">
+    <Content id="ChooseProfiles">Choose profiles</Content>
+    <Content id="MinimummSkillLevel">Minimum skill level</Content>
+    <Content id="Step1">Choose profile</Content>
+    <Content id="Step2">Choose skills</Content>
+    <Content id="Step3">Select from search results</Content>
+    <Content id="Step4">Finish</Content>
+    <Content id="Step1Intro">Choose the overall profile of the person you are looking for.</Content>
+    <Content id="Step2Intro">Click in the left list to choose the skills you want to search for. </Content>
+    <Content id="AvailSkills">Available skills</Content>
+    <Content id="ChosenSkills">Chosen skills</Content>
+    <Content id="Step3Intro">The table below shows the resources matched by the search criteria. Please select from here the CVs of interest by click the check-boxes. Then click next.</Content>
+    <Content id="Step4Intro">Shows the selected resources</Content>
+    <Content id="FilterHelp">Enter a string to filter the list of available skills.</Content>
+    <Content id="MustSelectSkills">You must select one or more skills. Go back one step and choose the skills you want.</Content>
+    <Content id="StartOver">Start over</Content>
+  </Section>
+  <Section name="ResourceResultGrid">
+    <Content id="FirstName">First name</Content>
+    <Content id="LastName">Last name</Content>
+    <Content id="Price">Price</Content>
+    <Content id="AvailableBy">Available by</Content>
+    <Content id="ProfileTypeNamesStr">Profiles</Content>
+    <Content id="EmployeeTypeName">Employee type</Content>
+    <Content id="ProfileStatusIdEnum">Status</Content>
+    <Content id="CustomerNameListStr">Customers</Content>
+    <Content id="ExpertSkillListStr">Expert skills</Content>
+    <Content id="ProfessionelSince">Professionel since</Content>
+    <Content id="ProfessionalSince">Since</Content>
+    <Content id="ProfileStatusIdEnumName">CV Status</Content>
+    <Content id="NoResults">No resources were found for that skill. Please go back and broaden the search.</Content>
+    <Content id="SysPrice">Sys price</Content>
+    <Content id="RelatedResource.AvailableBy">Related resource. available by</Content>
+  </Section>
+  <Section name="SkillMgr">
+    <Content id="FoundExistingSkill">There is one or more duplicate skill(s) having the same name: {0}</Content>
+  </Section>
+  <Section name="AcceptedConditions">
+    <Content id="CheckBoxText">I have read, understood and accepted all conditions listed above.</Content>
+    <Content id="Continue">Continue</Content>
+    <Content id="Conditions.dk">Godkendelse til at håndtere personlige informationer 
+&lt;br/&gt;&lt;br/&gt;
+Jeg giver hermed mit samtykke til, at {0} opbevarer mit CV i {0} CV-database. Endvidere giver jeg mit samtykke til, at {0} må registrere, opbevare og behandle mine personlige data. Jeg bekræfter også, at jeg aldrig har været straffet for økonomisk kriminalitet. 
+&lt;br/&gt;&lt;br/&gt;
+Vi indhenter og behandler dine personoplysninger i det omfang, det er nødvendigt for: 
+&lt;br/&gt;&lt;br/&gt;
+1. at etablere og vedligeholde et ansættelsesforhold til dig og/eller træffe aftale om opgaver til dig 
+&lt;br/&gt;&lt;br/&gt;
+2. at vurdere din egnethed til en stilling eller en opgave 
+&lt;br/&gt;&lt;br/&gt;
+3. at informere dig om relevante muligheder og/eller tilbyde dig undervisningsmuligheder og ydelser i forbindelse med karriereskift 
+&lt;br/&gt;&lt;br/&gt;
+4. at administrere erhvervsmæssig risiko, afgørelse og forsvar i forbindelse med retlige krav og sagsanlæg, overholdelse af retskendelser og andre retlige forpligtelser og lovgivningsmæssige krav. 
+&lt;br/&gt;&lt;br/&gt;
+Vi indhenter og behandler kun følsomme personoplysninger med dit samtykke eller i situationer, hvor vi skal overholde retlige forpligtelser. 
+&lt;br/&gt;&lt;br/&gt;
+De personoplysninger, som du opgiver til os, kan blive videregivet til alle enheder i {0} organisation. Endvidere giver jeg mit samtykke til, at {0} eksponere og videregivelse anonymiserede oplysninger til kunder eller andre. 
+&lt;br/&gt;&lt;br/&gt;
+Du har ret til at opdatere og rette i dine personoplysninger, samt slette dine oplysninger i overensstemmelse med "loven om behandling af personoplysninger,§5, stk 4" [www.datatilsynet.dk] </Content>
+    <Content id="Conditions.uk">Approval to handle personal information.
+&lt;br/&gt;&lt;br/&gt;
+
+I hereby give my consent to {0} to keep my CV in {0} database. Furthermore, I give my consent to {0} to register, store and process my personal data. 
+&lt;br/&gt;&lt;br/&gt;
+
+I hereby also affirm that I have never been convicted of financial crimes.
+&lt;br/&gt;&lt;br/&gt;
+
+We collect and process your personal data to the extent it is required to:
+&lt;br/&gt;&lt;br/&gt;
+
+1. establish and maintain an employment relationship with you and / or agree on the tasks for you
+&lt;br/&gt;&lt;br/&gt;
+
+2. assess your suitability for a position or an assignment
+&lt;br/&gt;&lt;br/&gt;
+
+3. inform you of relevant opportunities and / or offer you teaching opportunities and services for career change
+&lt;br/&gt;&lt;br/&gt;
+
+4. manage commercial risk, decision and defense of legal claims and litigation, compliance with court orders and other legal obligations and regulatory requirements.
+&lt;br/&gt;&lt;br/&gt;
+
+We collect and process sensitive personal data only with your consent or in situations where we must comply with legal obligations.
+&lt;br/&gt;&lt;br/&gt;
+
+The personal information you provide to us may be passed to all units in {0}. 
+&lt;br/&gt;&lt;br/&gt;
+
+Furthermore, I give my consent to {0} to expose and disclosure of anonymised information to clients or others.
+&lt;br/&gt;&lt;br/&gt;
+
+You have the right to update and correct your personal information and delete your information in accordance with the law on processing of personal data, § 5, paragraph 4 "[www.datatilsynet.dk]
+</Content>
+    <Content id="ReceiveNewsLetter">Receive our newsletter (Can be un-subscript from the 'MySite' page)</Content>
+  </Section>
+  <Section name="AcceptConditions">
+    <Content id="AlreadyAccepted">Already accepted</Content>
+    <Content id="MustAccept">You must accept the conditions to continue.</Content>
+    <Content id="PassThrough">Pass through</Content>
+  </Section>
+  <Section name="AssignmentFacade">
+    <Content id="InactiveCv">The CV of {0} is inactive and has been removed from the list.</Content>
+    <Content id="WarningHasDraftHasUnavail">Warning has draft has unavail</Content>
+    <Content id="WarningHasDraft">One or more CV's are not fully updated.</Content>
+    <Content id="WarningHasUnavail">One or more of the resources are not available when the assignment starts.</Content>
+    <Content id="Warning">See the warnings-signs below for further details.</Content>
+    <Content id="WarningHasUnknownAvail">At least one resource has not specified an available date. </Content>
+  </Section>
+  <Section name="Signup">
+    <Content id="Submit">Submit</Content>
+    <Content id="Email">Email and username</Content>
+    <Content id="FirstName">First name</Content>
+    <Content id="Password">Password</Content>
+    <Content id="CvDoc">Upload CV (doc, pdf, html etc.)</Content>
+    <Content id="LastName">Last name</Content>
+    <Content id="UnknownSysId">You must choose which CVnavigator site you want to register your CV under.</Content>
+    <Content id="UserNotCreated">No user was created. Please try again.</Content>
+    <Content id="UserCreatedLoggedIn">You have now been logged into the system with username {0} and email address {1}.</Content>
+    <Content id="SendToFriend">Send email</Content>
+    <Content id="SendToAFriend">Do you want to invite a friend to sign up too?</Content>
+    <Content id="SendToAFriendMessage">Enter a message for your friend</Content>
+    <Content id="SendToAFriendEmail">Enter an email address of your friend</Content>
+    <Content id="SendToFriendEmail">Send to friend email</Content>
+    <Content id="RegisterUnder">
+    </Content>
+    <Content id="SignupManually">Want to sign up manually? Click here.</Content>
+    <Content id="SignupLinkedIn">Sign up using your LinkedIn profile</Content>
+    <Content id="Header">Header</Content>
+    <Content id="LinkedInSignup">Linked in signup</Content>
+    <Content id="ManualSignup">Manual signup</Content>
+    <Content id="Password2">Enter a password for CVNavigator</Content>
+    <Content id="Password2.Help">This does not need to be the same as for LinkedIn</Content>
+    <Content id="ImportLinkedIn">Import data from LinkedIn</Content>
+    <Content id="SignupTo">Welcome to {0}</Content>
+    <Content id="Import">Or import from a document</Content>
+    <Content id="SignupWithoutRelations">Click here to sign up to CVnavigator directly without a relation to any legal entity.</Content>
+    <Content id="ChooseSignupParty">Choose signup party</Content>
+    <Content id="SignupUnderSite">...or choose a legal entity to sign up to</Content>
+    <Content id="LinkedInImportFailed">Linked in import failed</Content>
+    <Content id="FileUpLoadHelp">File up load help</Content>
+    <Content id="LinkedInSignUpHelp">Linked in sign up help</Content>
+    <Content id="Captcha">Enter the string in the picture in the textbox below</Content>
+    <Content id="CaptchaTextBox">Security field box</Content>
+    <Content id="CaptchaValueWrong">Security check failed, please try again</Content>
+  </Section>
+  <Section name="ResourceSysRlt">
+    <Content id="SocialProfile">Social profile</Content>
+    <Content id="ProfileTypeId">Profile type id</Content>
+    <Content id="CommercialMarketId">Commercial market id</Content>
+    <Content id="ExpectExtension">Expect extension</Content>
+    <Content id="CanTravel">Can travel</Content>
+    <Content id="ContractDuration">Contract duration</Content>
+    <Content id="InternalNotes">Internal notes</Content>
+    <Content id="LastModifiedTs">Last modified ts</Content>
+    <Content id="EmployeeTypeId">Employee type id</Content>
+    <Content id="BureauId">Bureau id</Content>
+    <Content id="Price">Price</Content>
+  </Section>
+  <Section name="SysRootTypeEnum">
+    <Content id="Broker">Consulting Services</Content>
+    <Content id="Company">Human Ressource Services</Content>
+    <Content id="Consulting">Consulting</Content>
+    <Content id="HumanResource">Human Resource</Content>
+  </Section>
+  <Section name="SysResource">
+    <Content id="Price">Price</Content>
+    <Content id="SocialProfile">Social profile</Content>
+    <Content id="ProfileTypeId">Profile type</Content>
+    <Content id="CommercialMarketId">Commercial market</Content>
+    <Content id="ExpectExtension">Expect extension</Content>
+    <Content id="CanTravel">Can travel</Content>
+    <Content id="ContractDuration">Contract duration</Content>
+    <Content id="InternalNotes">Internal notes</Content>
+    <Content id="LastModifiedTs">Last modified ts</Content>
+    <Content id="EmployeeTypeId">Employee type</Content>
+    <Content id="BureauId">Bureau</Content>
+    <Content id="EmployeedFrom">Employeed from</Content>
+    <Content id="EmployeedTo">Employeed to</Content>
+    <Content id="ExternalResourceId">External resource id</Content>
+    <Content id="CompanyPhone">Company phone</Content>
+    <Content id="LocalPhone">Local phone</Content>
+    <Content id="CompanyEmail">Company email</Content>
+    <Content id="ReceivedItemId">Received items</Content>
+    <Content id="ReceivedItemNotes">Received items notes</Content>
+    <Content id="EmployeePrivilegeId">Special privileges</Content>
+    <Content id="EmployeePrivilegeNotes">Special privileges notes</Content>
+    <Content id="MaritalStatus">Marital status</Content>
+    <Content id="Relatives">Relatives</Content>
+    <Content id="WorkingStatusId">Working status</Content>
+    <Content id="CanTravel.Help">Please state if you are interested in travel.</Content>
+  </Section>
+  <Section name="SysUserObj">
+    <Content id="FilterProfileStatusIds">Filter profile status values</Content>
+    <Content id="FilterEmployeeTypeIds">Filter employee types</Content>
+    <Content id="AnonymousPrint">Anonymous print</Content>
+    <Content id="LastModifiedTs">Last modified ts</Content>
+    <Content id="RoleId">Role</Content>
+    <Content id="InternalNotes">Internal notes</Content>
+    <Content id="ContactPosition">Position</Content>
+    <Content id="ContactDepartment">Department</Content>
+    <Content id="CustomerId">Customer</Content>
+  </Section>
+  <Section name="SysRoleEnum">
+    <Content id="SysAdmin">Sys Admin</Content>
+    <Content id="SalesManager">Sales Manager</Content>
+    <Content id="Client">Client</Content>
+  </Section>
+  <Section name="UserObjWrap">
+    <Content id="Email">Email</Content>
+    <Content id="Password">Password</Content>
+    <Content id="PasswordConfirmed">Password confirmed</Content>
+  </Section>
+  <Section name="PickCustomerCtrl">
+    <Content id="CreateCustomer">...</Content>
+    <Content id="Cancel">Cancel</Content>
+  </Section>
+  <Section name="ProjectSkillsCtrl2">
+    <Content id="AddNewSkill">please click here</Content>
+    <Content id="AddSelSkills2Btn">Add selected skills</Content>
+    <Content id="AddSelSkills2">
+    </Content>
+    <Content id="EnterSkill">Enter skill name/filter </Content>
+    <Content id="NoMatchingSkills">No matching skills</Content>
+    <Content id="CantFindSkill1">Can't find the skill you are looking for?<br /> To add a new skill named </Content>
+    <Content id="CantFindSkill2">&amp;nbsp;</Content>
+    <Content id="AddNewSkillTitle">Add skills to your profile</Content>
+    <Content id="AddNewSkillBtnTitle">Add skills</Content>
+    <Content id="AddNewSkillBtnTitle.Help">If you don't find the skills you need, please click this link.</Content>
+    <Content id="SpecifySkillName">Specify skill name</Content>
+    <Content id="SkillAlreadyExists">You entered a skill '{0}' that already exists. You probably already have selected this skill. </Content>
+    <Content id="SkillAlreadyAdded">Skill already added</Content>
+  </Section>
+  <Section name="CustomerContacts">
+    <Content id="CreateNew">+ Create new</Content>
+    <Content id="InviteUser">Invite user</Content>
+    <Content id="SimulateUser">Simulate user</Content>
+    <Content id="UserName">User name</Content>
+    <Content id="CreateNewClient">+ Create new Client Contact</Content>
+    <Content id="CreateNewSysAdmin">+ Create new Sys Admin</Content>
+    <Content id="CreateNewSalesManager">Create new sales manager</Content>
+    <Content id="UserNameExists">User name exists</Content>
+    <Content id="ChangePassword">Change password</Content>
+    <Content id="InviteUser.Help">Sends an invitation email to the customer user.</Content>
+    <Content id="SimulateUser.Help">Simulates a session as if the user is logged in.</Content>
+    <Content id="ChangePassword.Help">Change password of the customer contact user.</Content>
+  </Section>
+  <Section name="SkillMap">
+    <Content id="EnterSkillName">Or enter skill name</Content>
+    <Content id="MustEnterSkillName">Must enter skill name</Content>
+    <Content id="OrChoose">Or choose</Content>
+    <Content id="FoundNoSkills">Found no skills</Content>
+  </Section>
+  <Section name="ErrorDetail">
+    <Content id="SearchContent">Search content</Content>
+  </Section>
+  <Section name="Welcome">
+    <Content id="Login">Login</Content>
+    <Content id="ForExistingUsers">For existing users</Content>
+    <Content id="SignUp">Register CV</Content>
+    <Content id="CreateNewSite">Create new site</Content>
+    <Content id="RegisterCV">Register your own CV if not already registered.</Content>
+    <Content id="ForCompanies">Get your own CV Management system in 2 minutes</Content>
+    <Content id="SkillSummary">Summary of top 20 skills in CVnavigator. A large number of profiles are already registered. Join us to increase the value of your professional experience.</Content>
+    <Content id="SkillGraphSummary">A graph with the top 1 skill in the center and the most typical auxilliary skills connected to it.</Content>
+    <Content id="ClickToSeeMore">Click to browse the skill graph.</Content>
+    <Content id="SearchApp">Search Resources</Content>
+    <Content id="SearchAppDescr">4-step wizard to search and find the resource you need</Content>
+  </Section>
+  <Section name="SkillGraph">
+    <Content id="GotoWelcomePage">Click here to return</Content>
+  </Section>
+  <Section name="ImportCvDataCtrl">
+    <Content id="DataImport">1. Choose data to import</Content>
+    <Content id="DataExtract">2. Data extract</Content>
+    <Content id="ImportWordPdfEtc">1.1 Import from Word or PDF</Content>
+    <Content id="ImportLinkedIn">1.2 Import from LinkedIn</Content>
+    <Content id="UploadBtn">Upload document</Content>
+    <Content id="MustSelectFile">Must select file</Content>
+    <Content id="ImportProjectsBtn">Import selected projects</Content>
+    <Content id="ProjectsImported">{0} projects were imported successfully.</Content>
+    <Content id="UpdatedLinkedInProjects">Updated LinkedIn projects</Content>
+    <Content id="NewLinkedInProjects">Found new projects, positions etc. from LinkedIn</Content>
+    <Content id="ImportSkills">3. Import Skills</Content>
+    <Content id="LinkedInProjectsImported">{0} LinkedIn projects was/were imported</Content>
+    <Content id="LinkedInProjectsSynched">{0} LinkedIn projects was/were synched</Content>
+    <Content id="LinkedInNotImported">LinkedIn data has not been imported yet.</Content>
+    <Content id="LinkedInExperienceIsFullySynched">LinkedIn experience is fully synchronized.</Content>
+    <Content id="UpdatedLinkedInProject">These projects has been updated on LinkedIn</Content>
+    <Content id="NewLinkedInProject">New projects from LinkedIn</Content>
+    <Content id="LinkedInImportedProject">Linked in imported project</Content>
+    <Content id="UpdatedLinkedInProjectOrigin">Projects already imported</Content>
+    <Content id="UpdatedLinkedInProjectImport">Projects found in LinkedIn</Content>
+    <Content id="UpdatedLinkedInEducationImport">Updated linked in education import</Content>
+    <Content id="UpdatedLinkedInEducationOrigin">Updated linked in education origin</Content>
+    <Content id="NewLinkedInEducation">New LinkedIn education data</Content>
+    <Content id="LinkedInImportedEducation">LinkedIn education data was successfully imported</Content>
+    <Content id="LinkedInSynchedEducation">LinkedIn education data was successfully imported</Content>
+    <Content id="LinkedInSynchedProject">LinkedIn project data was successfully imported</Content>
+    <Content id="ImportBaseData">2. Import base data</Content>
+    <Content id="ImportPhoto">Import photo</Content>
+    <Content id="ProfileTitle">Profile title</Content>
+    <Content id="Photo">Photo</Content>
+    <Content id="ImportHeadline">Import title</Content>
+    <Content id="NothingToImport">There is nothing to import</Content>
+    <Content id="ImportAllBtn">Import all new data</Content>
+    <Content id="ImportAllLinkedIn">&lt;br/&gt;New data has been collected from LinkedIn. You can either use the sections below to import separate pieces of data. Or you can click this button to import all new data.&lt;br/&gt;</Content>
+    <Content id="UpdatedLinkedInCertificationImport">Updated linked in certification import</Content>
+    <Content id="UpdatedLinkedInCertificationOrigin">Updated linked in certification origin</Content>
+    <Content id="NewLinkedInCertification">New linked in certification</Content>
+    <Content id="LinkedInImportedCertification">Linked in imported certification</Content>
+    <Content id="AllNewImported">All new imported</Content>
+    <Content id="ImportLanguages">7. Import languages</Content>
+    <Content id="ImportLanguage">Import language</Content>
+    <Content id="NoLanguageToImport">No languages to import</Content>
+  </Section>
+  <Section name="ImportLinkedInCtrl">
+    <Content id="IntroNoPrevious">You can import your personal LinkedIn profile by clicking this button.</Content>
+    <Content id="IntroWithPrevious">You already have imported your LinkedIn profile. If you have changed your LinkedIn data since then, you can repeat the import by clicking this button.</Content>
+  </Section>
+  <Section name="Content:EditCvSkillsCtrl">
+    <Content id="SkillCategory">Skill category</Content>
+    <Content id="SkillName">Skill name</Content>
+    <Content id="SkillLevel">Skill level</Content>
+    <Content id="SkillUsedLast">Last used</Content>
+    <Content id="SkillUsedInTotal">Total years</Content>
+    <Content id="Qualify">Qualify</Content>
+    <Content id="QualifyStatus">Status</Content>
+    <Content id="QualifyLastUsed">Last</Content>
+    <Content id="QualifyUsedInTotal">Total</Content>
+    <Content id="Qualification">Qualification</Content>
+  </Section>
+  <Section name="CvQualification">
+    <Content id="FoundInvalidProjects">Found invalid projects</Content>
+  </Section>
+  <Section name="EditCvSkillsCtrls">
+    <Content id="FoundUnqualifiedSkills">One or more unqualified skills were found. You can individually adjust each skill to the suggested values by clicking the links in the table below</Content>
+    <Content id="FoundUnqualifiedSkills.Help">Skills are said to be unqualified if Last Year and Total Years is inconsistent with the experience entered into the system.</Content>
+  </Section>
+  <Section name="Menu">
+    <Content id="Resources">Create, list, search and import resources.</Content>
+    <Content id="Assignments">Administrate assignments.</Content>
+    <Content id="Customers">List, create and delete contact persons at customers.</Content>
+    <Content id="Administration">Setup preferences on your CVnavigator site.</Content>
+    <Content id="&amp;nbsp;">
+    </Content>
+    <Content id="SignupLink">Signup link</Content>
+    <Content id="SearchApp">Search App (for smart phones)</Content>
+  </Section>
+  <Section name="SysOwnerPreferences">
+    <Content id="publicSignup">Show signup-link on public signup-page?</Content>
+    <Content id="publicSignup.Help">
+    </Content>
+    <Content id="useFixedSkillSet">Use a fixed skill set</Content>
+    <Content id="publicSearch">Allow public search of resources</Content>
+  </Section>
+  <Section name="SignUp">
+    <Content id="Header">Sign up to {0}</Content>
+  </Section>
+  <Section name="GratedSitesCtrl">
+    <Content id="Remove">Remove</Content>
+  </Section>
+  <Section name="GrantedSitesCtrl">
+    <Content id="GrantSite">Grant site</Content>
+  </Section>
+  <Section name="ContextObjectHelper">
+    <Content id="GlobalSysName">CVnavigator</Content>
+  </Section>
+  <Section name="SysProfiles">
+    <Content id="AddSkill">Add skill</Content>
+    <Content id="AddProfile">Add profile</Content>
+    <Content id="SkillAlreadyAssigned">The skill '{0}' is already assigned.</Content>
+    <Content id="RemoveSkill">Remove skill</Content>
+    <Content id="SkillMatrixLegend">Skill matrix</Content>
+    <Content id="SkillMatrixLegend">Skill matrix legend</Content>
+    <Content id="Abbreviations">Profiles</Content>
+    <Content id="DeleteProfile">Delete profile</Content>
+    <Content id="NoSkillOrProfile">
+    </Content>
+    <Content id="ProfileAlreadyExists">Profile already exists</Content>
+    <Content id="ErrorDuringMatrixSave">Some errors happened while saving the skill matrix. Please press Save.</Content>
+  </Section>
+  <Section name="SysProfile">
+    <Content id="MatrixIntro">Setup the skill matrix by selecting which skills should be associated with which profiles, marked by a green box. Click a box to select/deselect. To select/deselect multiple press CTRL/SHIFT while moving the mouse across the matrix. </Content>
+    <Content id="MustCreateSkill">In order to build up the skill matrix you need to add some skills.</Content>
+    <Content id="ProfileRemoved">The profile '{0}' was removed.</Content>
+    <Content id="MustCreateProfile">In order to build up the skill matrix you must create a profile.</Content>
+    <Content id="MustCreateBoth">In order to build up the skill matrix you must add some skills and some profiles. </Content>
+  </Section>
+  <Section name="WorkingStatus">
+    <Content id="WorkingStatusName">Working status name</Content>
+  </Section>
+  <Section name="ReceivedItem">
+    <Content id="ReceivedItemName">Received item name</Content>
+  </Section>
+  <Section name="EmployeePrivilege">
+    <Content id="EmployeePrivilegeName">Employee privilege name</Content>
+  </Section>
+  <Section name="EditProfileTypes">
+    <Content id="RelatedSkills">Related skills:</Content>
+    <Content id="AddSkill">Add skill</Content>
+    <Content id="EnterNew">Enter new</Content>
+  </Section>
+  <Section name="SiteLanguage">
+    <Content id="SiteLanguageCode">Site language code</Content>
+  </Section>
+  <Section name="ImportCvDatactrl">
+    <Content id="ImportExperience">3. Import experience</Content>
+  </Section>
+  <Section name="DiscLanguageEnum">
+    <Content id="da">da</Content>
+    <Content id="sv">sv</Content>
+    <Content id="no">no</Content>
+    <Content id="English">English</Content>
+    <Content id="Danish">Danish</Content>
+    <Content id="Sweedish">Swedish</Content>
+    <Content id="Norwish">Norwegian</Content>
+  </Section>
+  <Section name="DiscProfileCtr">
+    <Content id="StartWizardBtn">Start behavior profiler</Content>
+    <Content id="CancelWizardBtn">Cancel profiler</Content>
+    <Content id="RemoveDiscProfileBtn">Remove behavior profile</Content>
+  </Section>
+  <Section name="Profiles">
+    <Content id="EnterEmail">Enter your email</Content>
+    <Content id="SearchProfile">Search profile by name</Content>
+    <Content id="InvitationSentByMail">Invitation sent by mail</Content>
+    <Content id="SetupMeeting">Setup meeting</Content>
+  </Section>
+  <Section name="DiscProfileResultCtrl">
+    <Content id="TitleIntegratorAdministrator">Title integrator administrator</Content>
+    <Content id="DescribeIntegratorAdministrator">Describe integrator administrator</Content>
+    <Content id="TitleIntegrator">Integrator</Content>
+    <Content id="DescribeIntegrator">The dominating characteristic is that of an &lt;i&gt;integrator&lt;/i&gt;. A typical integrator has strong social skills and will strive for better interactions and communication among all members of the team.</Content>
+    <Content id="Title">Title</Content>
+    <Content id="Describe">Describe</Content>
+    <Content id="TitleEntrepreneur">Title entrepreneur</Content>
+    <Content id="DescribeEntrepreneur">The dominating behavior characteristic is that of an entrepreneur, driven by innovation and new ideas. Brings creativity into any project. </Content>
+    <Content id="BehavioralProfile">Behavioral profile</Content>
+    <Content id="DescribeProducer">The dominating characteristic is that of a producer, a person driven by results and performance. With a producer on your team, you can be sure to get things done.</Content>
+    <Content id="DescribeAdministrator">The dominating characteristic is that of an administrator. With an administrator on your team you know things will be well planned and carefully processed.</Content>
+    <Content id="DescribeProfilesEIAP">The complete behavioral profile is described by the diagram on the right with the following abbreviations:&lt;br/&gt;
+
+&lt;b&gt;E:&lt;/b&gt; Entrepreneur ({0}/100)&lt;br/&gt;
+
+&lt;b&gt;I:&lt;/b&gt; Integrator ({1}/100)&lt;br/&gt;
+
+&lt;b&gt;A:&lt;/b&gt; Administrator ({2}/100)&lt;br/&gt;
+
+&lt;b&gt;P:&lt;/b&gt; Producer ({3}/100)&lt;br/&gt;
+</Content>
+  </Section>
+  <Section name="ImportLinkedInObject">
+    <Content id="LinkedInIncludesNoData">Linked in includes no data</Content>
+    <Content id="Headline">Headline</Content>
+    <Content id="HeadlineProject">4. Import project or experience data</Content>
+    <Content id="HeadlineEducation">5. Import education data</Content>
+    <Content id="LinkedInIncludesNoDataProject">LinkedIn import includes no project data</Content>
+    <Content id="LinkedInIncludesNoDataEducation">LinkedIn import includes no education data</Content>
+    <Content id="LinkedInDataIsFullySynchedEducation">LinkedIn education data is fully synchronized</Content>
+    <Content id="LinkedInDataIsFullySynchedProject">LinkedIn project data is fully synchronized</Content>
+    <Content id="HeadlineCertification">6. Import certification data</Content>
+    <Content id="LinkedInIncludesNoDataCertification">LinkedIn import includes no certification data</Content>
+    <Content id="LinkedInDataIsFullySynchedCertification">LinkedIn certification data is fully synchronized</Content>
+    <Content id="ImportSelectedProjectBtn">Import selected projects</Content>
+    <Content id="ImportSelectedEducationBtn">Import selected educations</Content>
+    <Content id="ImportSelectedCertificationBtn">Import selected certifications</Content>
+  </Section>
+  <Section name="Delete">
+    <Content id="Help">This function deletes.</Content>
+  </Section>
+  <Section name="LinkedInImportMgr">
+    <Content id="ProjectsNotImported">Projects not imported</Content>
+    <Content id="BaseDataNotImported">Base data not imported</Content>
+    <Content id="EducationsNotImported">Educations not imported</Content>
+    <Content id="CertificationsNotImported">Certifications not imported</Content>
+    <Content id="SkillsNotImported">Skills not imported</Content>
+    <Content id="LanguagesNotImported">Languages not imported</Content>
+  </Section>
+  <Section name="PrintPrepare">
+    <Content id="EmphasizeCustomer">Emphasize customer</Content>
+    <Content id="EmphasizeCustomer.Help">Choose an option here to give that customer highest sorting.</Content>
+  </Section>
+  <Section name="PrintCvCtrl">
+    <Content id="ProjectsDiagram">Projects diagram</Content>
+  </Section>
+  <Section name="CompanyLogin">
+    <Content id="Intro">Intro</Content>
+    <Content id="UserName">User name</Content>
+    <Content id="Password">Password</Content>
+    <Content id="RememberMe">Remember me</Content>
+    <Content id="GotoForgotPassword">Goto forgot password</Content>
+    <Content id="Signup">Create a new company</Content>
+  </Section>
+  <Section name="Company">
+    <Content id="Password">Password</Content>
+    <Content id="ReEnterPassword">Re enter password</Content>
+    <Content id="UserData">User data</Content>
+    <Content id="CompanyData">Company data</Content>
+    <Content id="BillingCity">Billing city</Content>
+    <Content id="Name">Name</Content>
+    <Content id="Cvr">Cvr</Content>
+    <Content id="Phone">Phone</Content>
+    <Content id="Email">Email</Content>
+    <Content id="Website">Website</Content>
+    <Content id="Description">Description</Content>
+    <Content id="Logo">Logo</Content>
+    <Content id="PhotoFileRefId">Logo</Content>
+    <Content id="BillingStreet">Billing street</Content>
+    <Content id="BillingCode">Billing code</Content>
+    <Content id="BillingCountry">Billing country</Content>
+    <Content id="ShippingStreet">Shipping street</Content>
+    <Content id="ShippingCity">Shipping city</Content>
+    <Content id="ShippingCode">Shipping code</Content>
+    <Content id="ShippingCountry">Shipping country</Content>
+    <Content id="CreateCompanyBtn">Create company</Content>
+    <Content id="LastModifiedTs">Last modified ts</Content>
+    <Content id="CompanyCreated">Company created</Content>
+    <Content id="UpdateBtn">Update</Content>
+    <Content id="CompanyAndUserUpdated">Company and user are updated</Content>
+    <Content id="NewUserBtn">Invite user</Content>
+    <Content id="CompanyNewUserCreated">New user created</Content>
+    <Content id="CompanyAndUserCreated">Company and user created</Content>
+    <Content id="DeleteUser">Delete user</Content>
+    <Content id="ReturnToOverviewBtn">Return to overview</Content>
+    <Content id="OnlyLoggedInUserIsUser">Only logged in user is user, not possible to delete current user</Content>
+    <Content id="UpdateUserAndCompanyBtn">Update user and company data</Content>
+    <Content id="PrimaryKeyColumnName">Primary key column name</Content>
+    <Content id="IdStr">Id str</Content>
+    <Content id="IdForLookup">Id for lookup</Content>
+    <Content id="TypeAbbreviation">Type abbreviation</Content>
+    <Content id="StandardObjectTitle">Standard object title</Content>
+    <Content id="ExtendedObjectTitle">Extended object title</Content>
+  </Section>
+  <Section name="JobAnnouncement">
+    <Content id="Title">Title</Content>
+    <Content id="LastModifiedTs">Last modified ts</Content>
+    <Content id="JobAnnouncementStatusId">Job announcement status id</Content>
+    <Content id="CompanyId">Company id</Content>
+    <Content id="Description">Description</Content>
+  </Section>
+  <Section name="JobAnnouncementStatusEnum">
+    <Content id="Open">Open</Content>
+    <Content id="Cancelled">Cancelled</Content>
+    <Content id="Closed">Closed</Content>
+  </Section>
+  <Section name="CompanyWelcome">
+    <Content id="Save">Save</Content>
+    <Content id="Cancel">Cancel</Content>
+    <Content id="JobList">Job list</Content>
+    <Content id="InviteNewUser">Invite new user</Content>
+    <Content id="DeleteUser">Delete user</Content>
+    <Content id="EditCompany/User">Edit company / user</Content>
+    <Content id="User/Company">User / company</Content>
+    <Content id="RelatedCVs">Related CVs</Content>
+    <Content id="JobDescription">Job description</Content>
+    <Content id="SaveAndPreview">Save and preview</Content>
+  </Section>
+  <Section name="OpenAssignments">
+    <Content id="Region">Region</Content>
+    <Content id="JobTitle">Job title</Content>
+    <Content id="JobDescription">Job description</Content>
+    <Content id="Update">Update</Content>
+    <Content id="FreeTextSearch">Free text search</Content>
+  </Section>
+  <Section name="User test7@test">
+    <Content id="dkcould not be created: InvalidPassword">dkcould not be created:  invalid password</Content>
+  </Section>
+  <Section name="Value cannot be null">
+    <Content id="&#xD;&#xA;Parameter name: username">Parameter name: username</Content>
+  </Section>
+  <Section name="JobSiteCtrl">
+    <Content id="ActiveJobs">Active jobs</Content>
+    <Content id="InactiveJobs">Inactive jobs</Content>
+  </Section>
+</Content>

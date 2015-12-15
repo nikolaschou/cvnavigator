@@ -1,0 +1,13 @@
+CACHE MANIFEST
+
+# Version 3 
+
+cvnsearch.css
+index.htm
+cvnsearch.js
+
+# offline icons
+cvnsearch_startup.png
+cvnsearch_icon.png
+jquery-1.6.2.min.js
+jquery-ui-1.8.16.custom.min.js

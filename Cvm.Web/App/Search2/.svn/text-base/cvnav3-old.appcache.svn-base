@@ -1,0 +1,17 @@
+CACHE MANIFEST
+# Version 27
+
+CACHE:
+index2.html
+cvnsearch_startup.png
+cvnsearch_icon.png
+http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css
+http://code.jquery.com/jquery-1.7.1.min.js
+http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js
+cvnsearch.js
+
+NETWORK:
+*
+
+FALLBACK:
+index2.html#sss

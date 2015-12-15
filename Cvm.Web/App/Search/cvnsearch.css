@@ -1,0 +1,56 @@
+.selected 
+{
+    font-weight:bolder;
+}
+
+div[data-role=footer] h1 
+{
+ 
+ color:grey;
+ font-size:10px;   
+}
+
+h1 
+{
+    margin:0px important!;
+}
+
+a.ui-link 
+{
+    text-decoration:none;
+}
+div.footer 
+{
+    text-align:center;
+    padding:5px;
+    z-index:100;
+}
+
+div.footer-spacer 
+{
+    height:50px;
+}
+
+.waitingGifDiv
+{
+    position:fixed;
+    top:50%;
+    left:50%;
+    z-index:100;
+}
+
+.waitingGifDiv div 
+{
+    position:relative;
+    z-index:100;
+}
+
+.waitingGifDiv div img
+{
+    position:absolute;
+    z-index:100;
+    left:-62px;
+    top:-62px;
+    background-color:White;
+    border:1px solid grey;
+}

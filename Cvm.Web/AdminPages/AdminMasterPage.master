@@ -1,0 +1,92 @@
+<%@ Import Namespace="Cvm.Backend.Business.Users" %>
+<%@ Import Namespace="Cvm.Web.Code" %>
+<%@ Import Namespace="Cvm.Web.Facade" %>
+<%@ Import Namespace="Cvm.Web.Navigation" %>
+<%@ Import Namespace="Napp.Web.AdminContentMgr" %>
+
+<%@ Master Language="C#" MasterPageFile="~/AdminPages/AdminMasterPage0.master" EnableViewState="true"
+    AutoEventWireup="true" Inherits="AdminPages_AdminMasterPage" CodeBehind="AdminMasterPage.master.cs" %>
+
+<%@ Register Assembly="Napp.Web.ExtControls" Namespace="Napp.Web.ExtControls" TagPrefix="cc1" %>
+<%@ Register TagPrefix="Adm" Namespace="Napp.Web.AdmControl" Assembly="Napp.Web.AdmControl" %>
+<%@ Register Assembly="Napp.Web.ActiveCms" Namespace="Napp.Web.ActiveCms" TagPrefix="Cms" %>
+<%@ Register Src="~/AdminPages/CommonCtrl/SearchCtrl.ascx" TagPrefix="uc" TagName="SearchCtrl" %>
+<%@ Register Src="~/AdminPages/CommonCtrl/MessageValidationCtrl.ascx" TagPrefix="uc"
+    TagName="MessageValidationCtrl" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="Holder1" runat="Server">
+    <asp:ToolkitScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true" />
+    
+    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+    <div id="top">
+        <div id="logo" onclick="location.href='../default.htm'" title="Goto menu" style="cursor: pointer;">
+        </div>
+        <div id="menu" class="noprint">
+            <asp:Panel runat="server" ID="MenuPanel">
+                <div style="width: 400px; color: White; text-transform: uppercase; text-align: center;
+                    font-size: 20px">
+                    <%=ContextObjectHelper.CurrentSysRootNameOrNull!=null ? Utl.Content("AdminMasterPage.TopBarTitle",ContextObjectHelper.CurrentSysRootNameOrNull) : ""%>
+                </div>
+            </asp:Panel>
+            <asp:Panel runat="server" ID="ClosePanel">
+                <a href="javascript:closeWindowUtil()">
+                    <%=AdminContentMgr.instance.GetContentWithHelpTextAsHtml("AdminMasterPage.Close") %>
+                </a><a href="javascript:closeWindowFocusParentUtil()">
+                    <%=AdminContentMgr.instance.GetContentWithHelpTextAsHtml("AdminMasterPage.CloseAndReturn") %>
+                </a>
+            </asp:Panel>
+            <ad:AdmPanel runat="server" ID="SearchPanel">
+                <uc:SearchCtrl ID="SearchCtrl1" runat="server" />
+                <div id="historyItems" style="display:none">
+                    <asp:Repeater ID="HistoryRep" runat="server">
+                        <ItemTemplate>
+                        <ad:AdmHyperLink runat="server" PageLink="<%#((SiteHistoryItem)Container.DataItem).Link %>" Text="<%#((SiteHistoryItem)Container.DataItem).Name %>" /><br />
+                        </ItemTemplate>
+                    </asp:Repeater>
+                </div>
+            </ad:AdmPanel>
+        </div>
+        <div id="menu-right">
+        </div>
+    </div>
+    <div id="left">
+        <Adm:ContainerCtrl runat="server" ID="Cnt">
+            <div class="bread">
+                <%=Utl.ContentHlpOrBlank(MasterPageHelper.Instance.GetContentIdByPage("AdminMasterPage","Intro")) %>
+            </div>
+            <div id="mainContainer">
+                <uc:MessageValidationCtrl runat="server" ID="MessageValidationCtrl" />
+                <asp:Panel runat="server" ID="MainPanel">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </asp:Panel>
+                <asp:Panel ID="DialogPanel" runat="server">
+                    <asp:Panel ID="Panel1" runat="server" />
+                    <asp:Panel ID="Panel2" runat="server" />
+                    <asp:Panel ID="Panel3" runat="server" />
+                    <asp:Panel ID="Panel4" runat="server" />
+                    <asp:Panel ID="Panel5" runat="server" />
+                    <asp:Panel ID="Panel6" runat="server" />
+                    <asp:Panel ID="Panel7" runat="server" />
+                    <asp:Panel ID="Panel8" runat="server" />
+                    <asp:Panel ID="Panel9" runat="server" />
+                    <asp:Panel ID="Panel10" runat="server" />
+                    <asp:Panel ID="Panel11" runat="server" />
+                    <asp:Panel ID="Panel12" runat="server" />
+                    <asp:Panel ID="Panel13" runat="server" />
+                    <asp:Panel ID="Panel14" runat="server" />
+                    <asp:Panel ID="Panel15" runat="server" />
+                    <asp:Panel ID="Panel16" runat="server" />
+                </asp:Panel>
+            </div>
+        </Adm:ContainerCtrl>
+    </div>
+    <div id="right">
+    </div>
+    <script language="javascript" type="text/javascript">
+        automaticallyDetectResultSet();
+        setFocusToFirstInput();
+    </script>
+</asp:Content>

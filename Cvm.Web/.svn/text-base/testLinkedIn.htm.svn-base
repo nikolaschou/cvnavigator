@@ -1,0 +1,45 @@
+<html>
+<head>
+  <title>Testing the LinkedIn JavaScript API</title>
+
+  <script type="text/javascript" src="http://platform.linkedin.com/in.js">
+    api_key: qP3Oy7qYVDWWqiu2EoRsIAoF5-FMAz8UDA6gGXASuvIilmIkBZtCNU5AKyFhoEy-
+    authorize: false
+  </script>
+                              
+  <script src="jquery-1.4.4.js"></script>
+  <script type="text/javascript">
+var gu;
+    // Once we have an authorization, fetch the user's profile via API
+    function onLinkedInAuth() {
+      IN.API.Profile("me").fields("id", "firstName", "lastName", "headline", "pictureUrl", "educations", "positions", "location", "connections")
+        .result( function(r) {setProfile(r);} )
+        .error( function(e) {alert("something broke " + e);} );
+    }
+
+    // Display basic profile information inside the page
+    function setProfile(result) {
+      var user = result.values[0];
+      gu=user;
+      var div=$('#userprofile');
+      div.append("<p>Welcome " + user.firstName + " " + user.lastName + "</p>");
+     
+      for(var i=0;i<user.positions.values.length;i++) {
+        var pos=user.positions.values[i];
+        var msg="<p>Position "+i+"<br/>Company: "+pos.company.name+"<br/>Summary: "+pos.summary+"</p>"; 
+        
+        div.append(msg);
+      }
+      $('#myimg').attr('src',user.pictureUrl);
+    }
+
+  </script>
+</head>
+<body>
+
+  <script type="in/login" data-onAuth="onLinkedInAuth"></script>
+
+  <div id="userprofile"></div>
+  <img id="myimg"/>
+</body>
+</html>

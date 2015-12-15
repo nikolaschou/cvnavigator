@@ -1,0 +1,19 @@
+.adminmenu, .noprint
+{
+	display:none;
+}
+
+input, button
+{
+	display:none;
+}
+
+div.bottom
+{
+    display:none;
+}
+
+body 
+{
+    background:none;
+}

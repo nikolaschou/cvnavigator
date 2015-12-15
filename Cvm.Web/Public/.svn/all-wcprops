@@ -1,0 +1,365 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Public
+END
+Search.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Search.aspx
+END
+KeepAlive.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/KeepAlive.aspx.designer.cs
+END
+Signup.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Public/Signup.aspx.designer.cs
+END
+KeepAlive.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/KeepAlive.aspx.cs
+END
+Signup.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Public/Signup.aspx.cs
+END
+Login.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Public/Login.aspx.designer.cs
+END
+Done.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Done.html
+END
+SkillMap.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/SkillMap.aspx.designer.cs
+END
+NewSite.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/NewSite.aspx.designer.cs
+END
+AppWebServices.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/AppWebServices.aspx
+END
+OpenJobs.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Public/OpenJobs.aspx.designer.cs
+END
+OpenJobs.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Public/OpenJobs.aspx.cs
+END
+default.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/default.aspx
+END
+ForgotPassword.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/ForgotPassword.aspx.designer.cs
+END
+AppWebServices.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/AppWebServices.aspx.cs
+END
+Profiles.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Profiles.aspx.designer.cs
+END
+ForgotPassword.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cvnavigator/!svn/ver/39/trunk/Cvm.Web/Public/ForgotPassword.aspx.cs
+END
+Profiles.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Profiles.aspx.cs
+END
+default.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Public/default.aspx.cs
+END
+AcceptConditions.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/cvnavigator/!svn/ver/73/trunk/Cvm.Web/Public/AcceptConditions.aspx
+END
+Captcha.ashx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cvnavigator/!svn/ver/20/trunk/Cvm.Web/Public/Captcha.ashx
+END
+Error.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Error.aspx.designer.cs
+END
+Error.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cvnavigator/!svn/ver/7/trunk/Cvm.Web/Public/Error.aspx.cs
+END
+Start.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Start.aspx
+END
+Public.Master
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Public.Master
+END
+Welcome.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Welcome.aspx.designer.cs
+END
+CompanySignup.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Public/CompanySignup.aspx.designer.cs
+END
+Welcome.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Welcome.aspx.cs
+END
+SkillGraph.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/SkillGraph.aspx
+END
+ExternalPrint.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/ExternalPrint.aspx.designer.cs
+END
+Public.Master.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Public.Master.cs
+END
+ExternalPrint.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/ExternalPrint.aspx.cs
+END
+SkillGraph.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/SkillGraph.aspx.cs
+END
+KeepAlive.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/KeepAlive.aspx
+END
+Signup.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Public/Signup.aspx
+END
+Login.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Public/Login.aspx
+END
+Search.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Search.aspx.designer.cs
+END
+Search.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Search.aspx.cs
+END
+Login.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Public/Login.aspx.cs
+END
+SkillMap.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/SkillMap.aspx
+END
+NewSite.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cvnavigator/!svn/ver/52/trunk/Cvm.Web/Public/NewSite.aspx
+END
+OpenJobs.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Public/OpenJobs.aspx
+END
+SkillMap.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/SkillMap.aspx.cs
+END
+NewSite.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/cvnavigator/!svn/ver/67/trunk/Cvm.Web/Public/NewSite.aspx.cs
+END
+ForgotPassword.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cvnavigator/!svn/ver/39/trunk/Cvm.Web/Public/ForgotPassword.aspx
+END
+Profiles.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Profiles.aspx
+END
+AppWebServices.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/AppWebServices.aspx.designer.cs
+END
+default.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/default.aspx.designer.cs
+END
+Error.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Error.aspx
+END
+Welcome.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Welcome.aspx
+END
+AcceptConditions.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/cvnavigator/!svn/ver/73/trunk/Cvm.Web/Public/AcceptConditions.aspx.designer.cs
+END
+CompanySignup.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Public/CompanySignup.aspx
+END
+AcceptConditions.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/cvnavigator/!svn/ver/42/trunk/Cvm.Web/Public/AcceptConditions.aspx.cs
+END
+Captcha.ashx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/cvnavigator/!svn/ver/20/trunk/Cvm.Web/Public/Captcha.ashx.cs
+END
+ExternalPrint.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/ExternalPrint.aspx
+END
+CompanySignup.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Public/CompanySignup.aspx.cs
+END
+Start.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Start.aspx.designer.cs
+END
+Public.Master.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Public.Master.designer.cs
+END
+Start.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/Start.aspx.cs
+END
+SkillGraph.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Public/SkillGraph.aspx.designer.cs
+END

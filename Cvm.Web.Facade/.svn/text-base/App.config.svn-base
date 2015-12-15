@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<configuration>
+	<configSections>
+		<section name="nhibernate" type="System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0,Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+		
+	</configSections>
+
+	<appSettings>
+		<add key="hibernate.config" value="hibernate_dev.config"/>
+
+	</appSettings>
+
+  <connectionStrings>
+    <add name="aspnetConnectionString" connectionString="Server=KRAFTWERK\MSSQLSERVER2008;initial catalog=cvm2_aspnet;Integrated Security=SSPI" providerName="System.Data.SqlClient"/>
+
+  </connectionStrings>
+  <system.web>
+    <roleManager enabled="true" defaultProvider="StandardSqlRoleProvider">
+      <providers>
+        <add connectionStringName="aspnetConnectionString" applicationName="CVM" name="StandardSqlRoleProvider" type="System.Web.Security.SqlRoleProvider"/>
+      </providers>
+    </roleManager>
+    <membership defaultProvider="StandardSqlMembershipProvider">
+      <providers>
+        <add connectionStringName="aspnetConnectionString" enablePasswordRetrieval="true" enablePasswordReset="true" requiresQuestionAndAnswer="false" applicationName="CVM" requiresUniqueEmail="false" passwordFormat="Clear" maxInvalidPasswordAttempts="8" minRequiredPasswordLength="4" minRequiredNonalphanumericCharacters="0" passwordAttemptWindow="10" passwordStrengthRegularExpression="" name="StandardSqlMembershipProvider" type="System.Web.Security.SqlMembershipProvider"/>
+      </providers>
+    </membership>
+    
+  </system.web>
+
+
+
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/></startup></configuration>

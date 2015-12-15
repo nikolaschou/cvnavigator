@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" AutoEventWireup="True" MasterPageFile="~/AdminPages/AdminMasterPage2.master"
+    CodeBehind="EditAssignments.master.cs" Inherits="Cvm.Web.AdminPages.EditAssignments1" %>
+
+<%@ Register TagPrefix="my" TagName="ListFilterCtrl" Src="~/AdminPages/CommonCtrl/ListFilterCtrl.ascx" %>
+<%@ Register TagPrefix="my" TagName="TabularCtrl" Src="~/AdminPages/CommonCtrl/TabularCtrl.ascx" %>
+<%@ Register TagPrefix="my" TagName="EditAssignmentsAuxCtrl" Src="~/AdminPages/CommonCtrl/EditAssignmentsAuxCtrl.ascx" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="LeftPane" runat="server">
+    <my:ListFilterCtrl runat="server" ObjectType="Assignment" ID="ListFilterCtrl1" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MiddlePane" runat="server">
+    <div class="tabDiv" style='display: <%=(this.hasIdParm || this.isModeNew ? "block" : "hidden")%>'>
+        <my:TabularCtrl runat="server" ID="TabularCtrl1" />
+        <div class="tabDivInner">
+            <asp:ContentPlaceHolder ID="MiddlePane2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="RightPane" runat="server">
+    <my:EditAssignmentsAuxCtrl runat="server" ID="AuxCtrl2" />
+</asp:Content>

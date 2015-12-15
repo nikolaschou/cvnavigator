@@ -1,0 +1,3 @@
+<appSettings>
+	<add key="hibernate.config" value="~/hibernate_test.config"/>
+</appSettings>

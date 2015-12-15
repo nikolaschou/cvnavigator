@@ -1,0 +1,1349 @@
+﻿/* Overall layout of screen
+*************************************/
+body {
+    background: url("../images/bg.jpg") repeat-x scroll 0 0 transparent;
+    font-family:Verdana, Trebuchet MS,Arial Narrow, Tahoma;	
+    font-size: 11px;
+    line-height: 140%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body, input, option, select
+{
+    font-size:11px;
+}
+body 
+{
+    line-height:150%;
+    background: url("../images/master/bg.jpg") repeat-x scroll 0 0 transparent;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Headlines*/
+
+h3 
+{
+    font-weight:bolder;
+}
+
+h1 
+{
+    font-size:150%;
+    margin-bottom:10px;   
+}
+
+div#bottom {
+    background: none repeat scroll 0 0 #000000;
+    float: left;
+    height: 100px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    color:White;
+    font-weight:bolder;
+}
+
+div#bottom-inner 
+{
+    margin: 0 auto; 
+    width: 981px; 
+    text-align: right; 
+    margin-top: 15px; 
+    height: 60px;
+    vertical-align:top;
+}
+div#bottom-inner a, div#bottom-inner a:visited, div#bottom-inner a:hover
+{
+    color: #2F5BB9;
+    font-weight: bold;
+}
+div#bottom-inner a:hover 
+{
+    text-decoration:underline;
+    color:#aaf;
+}
+span.delim 
+{
+    width:10px;
+    margin-right:10px;
+    display:inline-block;
+}
+span.delim + span.delim 
+{
+    width:0px;
+    border-right:0;
+    margin-right:0px;
+}
+/* Menu
+*************************************/
+div#menu table a , div#menu table a:hover
+{
+    color:gray;
+    font-weight:bolder;
+    padding-left:10px;
+    padding-right:10px;
+    display:block;
+}
+div#menu table
+
+div#menu table table table
+{
+    background-color:white;
+}
+div#menu table table table a, div#menu table table table a:hover
+{
+    color:Black;
+}
+
+b
+{
+    font-weight:bolder;
+}
+
+nobr 
+{
+    white-space:nowrap;
+}
+
+/* Content edit
+*************************************/
+div#editcontentdiv td
+{
+    border-left:1px solid gray;
+    border-bottom:1px solid gray;
+    text-align:left;
+}
+a#editTextOnline 
+{
+    width:30px;
+    height:30px;
+    background-image:url("../images/edit.png");
+    display:inline-block;
+    background-repeat:no-repeat;
+    position:relative;
+    top:-3px;
+}
+/* Global search and history
+*************************************/
+input#searchText 
+{
+    position:relative;
+    top:-5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border:1px solid gray;
+    margin-right:5px;
+    margin-left:20px;
+    padding-left:5px;
+    font-size:13px;
+    background-color:#ddd;
+}
+input#searchText:hover, input#searchText:focus 
+{
+    background-color:White;
+}
+
+#historyItems 
+{
+    position:absolute;
+    z-index:100;
+    border:1px solid black;
+    background-color:White;
+}
+/* Miscellaneous
+*************************************/
+
+hr 
+{
+/*page-break-after:always;*/
+}
+
+h2 
+{
+    font-size:12px;
+    font-weight:bolder;
+    /*text-transform:uppercase;*/
+}
+
+img 
+{ 
+    border:0px;
+}
+
+.inactive 
+{
+    color:#aaaaaa;
+}
+
+.chosenPd
+{
+    text-decoration:underline;
+}
+.checkBoxList label 
+{
+    white-space:nowrap;
+}
+
+
+/********* List of links ************/
+div.listOfLinks a, div.listOfLinks a:hover
+{
+    /*background-color:#eeeeee;*/
+    padding-right:10px;
+    padding-left:10px;
+    text-decoration:none;
+}
+
+div.listOfLinks div 
+{
+    background-color:inherit;
+    border:0;
+    white-space:nowrap;
+}
+
+div.listOfLinks div.selected, div.listOfLinks div:hover
+{
+    background-color:White;
+    outline:1px solid gray;
+}
+
+.more 
+{
+    cursor:pointer;
+    white-space:nowrap;
+}
+
+div.nowrap td 
+{
+    white-space:nowrap;
+}
+th 
+{
+    white-space:nowrap;
+}
+a:hover
+{
+    color:#009;
+    text-decoration:underline;
+}
+/* Tab styling comes here */
+.tabDiv
+{
+}
+
+.tabDivInner
+{
+    padding:10px;
+    border-right:1px solid black;
+    border-left:1px solid black;
+    border-bottom:1px solid black;
+}
+
+.tab, .tabChosen 
+{	
+    text-align:center;
+    border-right:1px solid black;
+    border-left:1px solid black;
+    border-top:1px solid black;
+    border-bottom:1px solid #F6F4F5;
+    width:100px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor:pointer;
+    color:Navy;
+    font-weight:bolder;
+    border-radius: 4px 12px 0px 0px;
+    -moz-border-radius: 4px 12px 0px 0px;
+    -webkit-border-radius: 4px 12px 0px 0px;
+}
+
+.tab:hover, .tabChosen:hover {
+    text-decoration:underline;
+}
+
+
+
+.tabFiller 
+{
+    
+    border-bottom:1px solid black;
+}
+.tab:first-child, .tabChosen:first-child
+{
+    
+    border-left:1px solid black;
+}
+.tab 
+{
+    background-color:#cccccc;
+    border-bottom:1px solid black;
+}
+
+.tab:hover
+{
+    background-color:#eeeeee;
+}
+.tabChosen
+{
+    background-color:#F6F4F5;
+}
+
+.actionLink 
+{
+    font-weight:bolder;
+    color:Red;
+    font-size:10px;
+}
+
+.dropbox
+{
+    margin:8px;
+}
+.dropboxContent
+{
+    border-width:1px;
+    border-style:solid;
+    background-color:#F6F4F5;
+    padding: 20px 20px 10px 20px;
+    border-color:#999 #aaa #aaa #aaa ;
+    border-radius: 0px 0px 6px 6px;
+    -moz-border-radius: 0px 0px 6px 6px;
+    -webkit-border-radius: 0px 0px 6px 6px;
+}
+
+div#left > div > div.dropboxContent 
+{
+    min-height:200px;
+}
+
+
+.dropboxHeader
+{
+    background: url("../images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50% ;
+    color: #222222;
+    font-weight: bold;
+    border-top: 1px solid;
+    color: #666666;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #aaa #aaa #ccc #888;
+    font-size: 13px;
+    height: 20px;
+    padding-left: 5px;
+    line-height: 20px;
+    border-radius: 6px 6px 0px 0px;
+    -moz-border-radius: 6px 6px 0px 0px;
+    -webkit-border-radius: 6px 6px 0px 0px;
+}
+
+
+
+/*.admButton 
+{
+    font-size:10px;
+    border-left:1px solid #dddddd;
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid #555555;
+    border-right:2px solid #555555;
+    background-color:white;
+}*/
+
+fieldset 
+{
+    min-width:80px; 
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+
+/* A fix for IE 8.0 issues rendering menus*/
+.adjustedZIndex {
+    z-index: 1;
+}
+
+.darkcell
+{
+    background-color: #eeeeee;
+}
+
+.nicetitle
+{
+    font-size:48px;
+    color:#888888;
+    font-weight:normal;
+}
+
+.message
+{
+    font-size:10px;
+    color:red;
+    font-weight:bolder;
+}
+
+div#popupMessage 
+{
+    border: 1px solid gray;
+    border-color:#999 #999 #f88;
+    background-color:#fcc;
+    margin:10px;
+    padding:5px;
+    border-radius:5px;   
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+    min-width:200px;
+    max-width:500px;
+    height:150px;
+    position:absolute;
+    cursor:move;
+}
+
+.tdhead
+{
+    border-bottom: 2px solid #000000;
+    background-color:#F6F4F5;
+    padding:2px;
+}
+.tdbody
+{
+    border-bottom: 2px solid #000000;
+    background-color: #ffffff;
+    padding:2px;
+}
+.subDialogButton 
+{
+    background-color:#aaaaaa;border:1px solid #888888;
+}
+
+.modalBackground
+{
+    background-color: black;
+    /*filter: alpha(opacity=40);*/
+    opacity: 0.7;
+}
+
+.popupPanel {
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    padding-bottom: 10px;
+}
+
+td
+{
+    vertical-align:top;
+}
+
+.successTxt 
+{
+    font-weight:bolder;
+    color:Green;
+}
+.failureTxt 
+{
+    font-weight:bold;
+}
+.auxLink
+{
+    white-space:nowrap;
+}
+
+#editCvPanel img
+{
+    max-height:150px;
+    max-width:150px;
+    overflow:hidden;
+}
+
+/*
+Styling AdminMasterPage2.
+*/
+
+#tdLeftPane 
+{
+    /*max-width:150px;*/
+}
+
+
+#masterPane>div
+{
+    border:1px solid black;
+}
+#divLeftPane
+{
+        max-width:300px;
+        height:500px;
+    overflow:auto;
+}
+
+#divLeftPaneXXX:hover
+{
+    overflow:visible;
+}
+
+
+#tdMiddlePane 
+{
+    width:auto;
+    padding:20px;
+}
+#tdRightPane 
+{
+    max-width:200px;
+    padding:10px;
+}
+
+#mainContainer 
+{
+    /*min-height:500px;*/
+}
+
+
+/* Login special formatting
+*******************************************************/
+div#loginctrl td
+{
+    padding-left:20px;
+}
+
+
+/* Nice-links
+*******************************************************/
+.niceLink
+{
+    /*background-image:url(../images/master/cv-icon-medium.PNG);
+    background-repeat:no-repeat;*/
+    border:1px solid #bbbbbb;
+    font-size:20px;
+    color:#2F5BB9;
+    font-weight:bolder;
+    /*height:110px;*/ 
+    cursor:pointer;
+    text-align:left;
+    background-color:White;
+    white-space:nowrap;
+}
+.niceLink img
+
+{
+    opacity:0.2;
+    filter:alpha(opacity=20);
+    
+}
+.niceLink:hover img
+{
+    opacity:100;
+    filter:alpha(opacity=100);
+}
+.niceLink a
+{
+    /*position:relative;
+    top:35px;
+    left:10px;
+    vertical-align:top;*/
+    
+}
+.niceLink:hover a
+{
+    /*background-color:Rgb(239,243,234);*/
+    text-decoration:underline;
+}
+
+.niceLink:hover
+{
+    border:1px solid #555555;
+    /*background-color:Rgb(239,243,234);*/
+}
+
+
+/* Tables
+*******************************************************/
+table.stdTable 
+{
+    border:1px solid #aaaaaa;
+    width:500px;
+}
+table.stdTable tr td:first-child
+{
+    font-weight:bolder;
+    background-color:#F6F4F5;
+}
+
+table.stdTable tr td
+{
+    background-color:White;
+}
+
+.tdclass1 
+{
+    border-left:1px solid black;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    border-radius: 0px 0px 6px 6px;
+    -moz-border-radius: 0px 0px 6px 6px;
+    -webkit-border-radius: 0px 0px 6px 6px;
+    padding: 10px;
+}
+
+
+/* Wizard
+*******************************************************/
+.wizardSideBarCss 
+{
+    padding-right:20px;
+}
+
+.wizardSideBarCss td
+{
+    margin:3px;
+    white-space:nowrap;
+}
+
+
+/* Text area
+*******************************************************/
+
+.textAreaSpecial 
+{
+    text-align:left;
+}
+
+textarea 
+{
+    font-size:10px;
+}
+
+
+/* Bread text
+*******************************************************/
+.bread 
+{
+    max-width:400px;
+    display:block;
+}
+
+/* Progress bar
+*****************************************************/
+.progressBar 
+{
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-left:10px;
+}
+.progressBar div
+{
+    background-color:#eeeeee;
+    font-weight:bolder;
+    font-size:10px;
+    color:#999999;
+    text-transform:uppercase;
+    border-bottom:1px solid #333333;
+    border-top:1px solid #333333;
+    display:inline;
+    padding-left:5px;
+    padding-right:5px;
+}
+/**/
+.progressBar div.selected
+{
+    color:Black;
+}
+.progressBar div:before
+{
+    content:">";
+}
+.progressBar div:first-child:before
+{
+    content:"";
+}
+
+tbody.inbox
+{
+    height:300px;
+    overflow:auto;
+}
+
+/* Nice tables
+*****************************************************/
+table.niceTable 
+{
+    border:1px solid #444444;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+table.niceTable thead td 
+{	background-color: #cccccc;
+    color: Black;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 5px;
+    height: 22px;
+    border-bottom: 1px solid #000000;
+    text-align: left;
+    white-space:nowrap;
+}
+table.niceTable tbody td 
+{	
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 11px;
+    height: 20px;
+    padding:2px;
+    padding-left: 5px;
+    
+}
+
+.clickableTableRows tr:hover
+{
+    cursor:pointer;
+    background-color: #cccccc; 
+}
+
+table.niceTable2 thead tr 
+{
+    font-weight:bolder;
+    background-color:#aaaaaa;
+    border-bottom:1px solid gray;
+}
+
+table.niceTable2 tbody tr 
+{
+    
+    border-bottom:1px solid gray;
+}
+
+/* Column divs
+******************************************/
+div.columnDivs div
+{
+    display:inline-block;
+    width:200px;
+    vertical-align:top;
+}
+
+/* Nice lists
+****************************************/
+ul.niceList li, select.niceList option
+{
+    display:block;
+    list-style-type:none;
+    max-height:300px;
+    overflow:auto;
+    border:1px solid #eeeeee;
+}
+
+ul.niceList li:hover, select.niceList option:hover
+{
+    background-color:#eeeeee;
+    border:1px solid #cccccc;
+}
+
+ul.clickableList li, select.niceList option
+{
+    cursor:pointer;
+}
+
+ul.niceList, select.niceList
+{
+    border:1px solid gray;
+    padding:0;
+    margin:0;
+    min-width:200px;
+}
+
+.moved, .moved:hover
+{
+    color:#aaaaaa;
+    background-color:rgb(180,216,186);
+}
+
+
+/* Messages, validation errors and warnings
+*************************************/
+.messages
+{
+    max-height:150px;
+    min-width:400px;
+    overflow:auto;
+    font-weight:bolder;
+    color:Red;
+    padding-left:10px;
+}
+
+.messages li:first-child
+{
+    padding-top:10px;
+}
+.messages li:last-child
+{
+    padding-bottom:10px;
+}
+/* Validation and error handling
+*************************************/
+
+.valErrorReq, .valErrorRegex, .valErrorRange
+{
+    border-top:2px solid red;
+    border-left:2px solid red;
+    border-bottom:1px solid #ff5555;
+    border-right:1px solid #ff5555;
+}
+
+span[hideMe]
+{
+    display:none;
+}
+
+/* Warnings
+*************************************/
+
+.warning-symbol
+{
+}
+
+/* Form input styling
+*************************************/
+
+input[type=text],input[type=password], textarea, input[type=file],
+select
+{
+    background-color:#eee;
+    border-radius:2px;
+    -moz-border-radius:2px;
+    -webkit-border-radius: 2px;
+}
+
+textarea:focus, textarea:hover,
+input[type=text]:focus, input[type=text]:hover, 
+input[type=password]:focus, input[type=password]:hover, 
+select:focus, select:hover
+{
+    background-color:#fff;
+}
+
+input[type=text][disabled], input[type=text][disabled]:focus, input[type=text][disabled]:hover
+{
+    /*background-color:#eee;
+    color:#888;*/
+}
+
+/* Datagrids
+*************************************/
+
+table.datagrid1 
+{
+    border-collapse:collapse;
+    border:1px solid #666;
+}
+
+table.datagrid1 tr
+{
+    /*border-bottom: 1px solid #9BBB59;*/
+   
+    border-bottom: 1px solid black; 
+    background-color: white;
+}
+table.datagrid1 tr td, table.datagrid1 th td
+{
+    padding-left:8px;
+ 
+}
+
+table.datagrid1 tr.odd
+{
+    background-color: #EFF3EA;
+    border-bottom: 1px solid black; 
+}
+
+table.datagrid1 thead tr, table.datagrid1 th
+{
+    border-bottom: 2px solid #666;
+    background-color: #bbb;
+    font-weight:bolder;
+}
+
+table.boxed tbody
+{
+    /*height:400px;
+    overflow:auto;*/
+   
+}
+
+/* Styling links: change colors slightly when mouse
+*  is hovering nearby and add underline when over the link
+*************************************/
+
+a
+{
+    cursor:pointer;
+}
+
+a, a:visited, a:link, a:hover
+{
+    color: #480024;
+    font-weight: bold;
+}
+
+a, a:visited, a:link
+{
+    text-decoration:none;
+}
+a.stdLink,  a.auxLink,  a.admLinkButton 
+{
+    padding-right:7px;
+    padding-left:7px;
+    white-space:nowrap;
+}
+a.admLinkButton.selected 
+{
+    text-decoration:underline;
+} 
+a.auxLink 
+{
+    display:inline;
+}
+a.auxlink.selected
+{
+    text-decoration:line-through;
+}
+.activeLinks:hover a.stdLink, .activeLinks:hover a.auxLink, .activeLinks:hover a.admLinkButton,
+div.allActiveLinks:hover a
+{
+    /*color:#2F5BB9;*/
+}
+
+
+
+div.nonActiveLinks:hover a.stdLink, 
+div.nonActiveLinks:hover a.auxLink, 
+div.nonActiveLinks:hover a.admLinkButton,
+.activeLinks:hover a[nonActiveLink]
+{
+    text-decoration:none;
+}
+a:hover
+{
+    text-decoration:underline;
+    color:#2F5BB9;
+
+}
+
+/******** Styling autoforms **********/
+div.autoformDiv,div.autoformOuterDiv
+{
+    border:1px solid gray;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    background-color:#eee;
+    padding:15px;
+}
+
+/* If an autoformOuterDiv is wrapped around an autoformDiv, the inner div will all styling reset */
+div.autoformOuterDiv  div.autoformDiv
+{
+    border:0;
+    border-radius:0;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    background-color:inherit;
+    padding:0;
+}
+div.autoformDiv td 
+{
+    height:30px; 
+}
+
+div.autoformDiv > table > tbody > tr > td:first-child, div.autoformDiv > table > tr > td:first-child 
+{
+    font-weight:bolder;
+    padding-right:10px;
+}
+div.autoformDiv input,div.autoformDiv select, div.autoformDiv textarea  
+{
+    border:1px solid white;
+    background-color:#f5f5f5;
+    border:1px solid #aaa;
+    margin-bottom:10px;
+}
+div.autoformDiv:hover input, div.autoformDiv:hover select, div.autoformDiv:hover textarea  
+{
+/*    background-color:White;*/
+}
+
+div.autoformDiv input.required, div.autoformDiv select.required  
+{
+    padding: 1px;
+    outline:1px solid yellow;
+}
+
+
+/************ Styling menu ********/
+
+div.menu-menu-container {
+    line-height: 100%;
+}
+a img {
+    border: 0 none;
+}
+a {
+    color: #000055;
+    font-weight: bolder;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+div#container {
+    margin: 0 auto;
+    text-align: left;
+    width: 981px;
+}
+div#top {
+    float: left;
+    height: 103px;
+    margin-top: 15px;
+    width: 1100px;    
+}
+div#logo {
+    background: url("../images/logo.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 103px;
+    margin-left: -38px;
+    width: 288px;
+}
+div#menu {
+    background: url("../images/menu_bg.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 57px;
+    margin-top: 19px;
+    width: 813px;
+}
+div#menu > div 
+{
+    float:left;
+    margin-top:20px;
+    padding-left:20px;
+}
+
+div#menu-right {
+    background: url("../images/menu_right.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 57px;
+    margin-top: 19px;
+    width: 14px;
+}
+div#left {
+    float: left;
+    margin-right: 40px;
+    width: auto;
+}
+
+div#right {
+    float: left;
+    width: 310px;
+}
+
+/* Welcome page */
+table.centeredTable td
+{
+    border-left:1px solid grey;
+    text-align:center;
+    padding:10px;
+    width:160px;
+}
+
+table.centeredTable td:first-child
+{
+    border-left:0;
+}
+
+/* Big text box */
+.bigTextBox 
+{
+    width:200px;
+    height:30px;
+    font-size:20px;
+}
+
+/* Rounded divs */
+.roundedDiv 
+{
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border:2px solid black;
+    background-color:rgb(232,247,245)
+}
+
+/* Fieldsets */
+
+fieldset 
+{
+    border:1px solid #ccc;
+    padding:5px;
+    padding-left:10px;
+}
+
+legend 
+{
+    margin:0px;
+    font-weight:bolder;
+    color:#666;
+}
+
+/* Edit CV page */
+#editCvPanel
+{
+    padding:15px;
+}
+
+table#footerTable td 
+{
+    padding-left:15px;
+}
+
+.dialog 
+{
+    text-align:left;
+}
+
+/* Checkboxlist */
+table.checkBoxList td 
+{
+    padding-right:20px;
+    white-space:nowrap;
+}
+
+/* Padded tables */
+.paddedTable td 
+{
+    padding:2px;
+}
+
+/* Warning divs */
+div.warningDiv
+{
+    border: 1px solid gray;
+    border-color:#999 #999 #f88;
+    background-color:#fcc;
+    margin:10px;
+    padding:5px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;  
+    display:none;
+}
+
+/* New menu */
+
+div.newMenu 
+{
+    background-color:#ddd;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+}
+
+tr.newMenuTable > td 
+{
+    padding:5px;
+    margin:5px;
+    border-width:5px;
+}
+
+tr.newMenuTable div.menuOuterDiv
+{
+    border:1px solid white;
+    opacity:0.7;
+    filter:alpha(opacity=70);
+    min-height:400px;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+    padding:5px;
+    background-color:White;
+}
+
+tr.newMenuTable div.menuOuterDiv:hover
+{
+    border-width:1px;
+    border-color:#aaa #aaa #777 #777;
+    opacity:100;
+    filter:alpha(opacity=100);
+}
+
+tr.newMenuTable td 
+{
+    padding:5px;   
+    white-space:nowrap;
+}
+
+div.newMenu li 
+{
+    list-style-type:none;
+    padding-left:20px;   
+}
+
+div.newMenu div.menuTitle
+{
+    font-size:14px;
+    font-weight:bolder;
+    margin-bottom:10px;
+    text-transform:uppercase;
+}
+
+div.newMenu a 
+{
+    
+    color:#2F5BB9;
+}
+
+
+/********** Styling selector matrix ****************/
+table.matrix 
+{
+    border:1px solid grey;
+}
+
+table.matrix td
+{
+    padding:1px;
+    border:1px solid #333;
+    background-color:White;
+        width:30px;
+    height:20px;
+    vertical-align:middle;
+}
+
+table.matrix thead td
+{
+    font-size:8px;
+}
+
+table.matrix thead td:first-letter 
+{
+    font-size:14px;
+}
+
+table.matrix td.selector 
+{
+    background-color:#ccc;
+    cursor:pointer;
+}
+
+table.matrix td.selector:hover
+{
+    outline:2px solid black;
+}
+
+table.matrix td.marked 
+{
+    background-color:#0c0;
+    cursor:pointer;
+}
+
+div#profileMatrixDiv
+{
+    width:100%;
+}
+table.matrix td:first-child 
+{
+    width:180px;
+}  
+
+table.matrix img 
+{
+    cursor:pointer;
+}
+
+/********* Autocomplete  ************/
+.ui-autocomplete a,.ui-autocomplete a:hover 
+{
+    font-weight:normal;
+}
+
+/******* FIXING ERROR IN Jquery UI date picker ***********/
+div#ui-datepicker-div 
+{
+    display:none;
+}
+
+
+
+/********* Save and Cancel buttons **************/
+
+input[type=button],  input[type=submit]
+{
+    cursor:pointer;
+    background: rgb(70,105,57); /* for non-css3 browsers */
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    color:White;
+    font-weight:bolder;
+    margin:3px;
+    padding:5px 10px 5px 10px;
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#666', endColorstr='rgb(70,105,57)'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(146,200,33)), to(rgb(70,105,57))); /* for webkit browsers */
+    background: -moz-linear-gradient(top, #999, #333); /* for firefox 3.6+ */ 
+    border:1px solid #666;
+}
+
+input[type=button]:hover,  input[type=submit]:hover 
+{
+           border:1px solid #333;
+}
+
+div.buttons 
+{
+    text-align:right;
+    padding-right: 10px;
+}
+ 
+input.saveBtn 
+{
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(146,200,33)', endColorstr='rgb(70,105,57)'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(146,200,33)), to(rgb(70,105,57))); /* for webkit browsers */
+    background: -moz-linear-gradient(top, rgb(146,200,33),  rgb(70,105,57)); /* for firefox 3.6+ */ 
+    border:1px solid rgb(183,209,127);
+    
+}
+
+input.cancelBtn 
+{
+    background: rgb(141,31,31); /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(235,58,58)', endColorstr='rgb(141,31,31)'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(235,58,58)), to(rgb(141,31,31))); /* for webkit browsers */
+    background: -moz-linear-gradient(top, rgb(235,58,58),  rgb(141,31,31)); /* for firefox 3.6+ */ 
+    border:1px solid rgb(226,141,141);
+    
+}
+
+blockQuote
+{
+    font-style:italic;
+    font-weight:bold;
+    margin-left:20px;
+    margin-right:20px;
+    padding:10px 0px 10px 0px;
+}
+
+/******************* Login ctrl ********************/
+.loginctrl td {
+    padding: 5px 0;
+}

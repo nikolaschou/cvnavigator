@@ -1,0 +1,719 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/AdminPages
+END
+CreateUser.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/CreateUser.aspx.designer.cs
+END
+AdminMasterPage0.Master.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cvnavigator/!svn/ver/45/trunk/Cvm.Web/AdminPages/AdminMasterPage0.Master.cs
+END
+Menu.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/Menu.aspx.designer.cs
+END
+ImportData.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/ImportData.aspx.cs
+END
+ReportCv.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cvnavigator/!svn/ver/7/trunk/Cvm.Web/AdminPages/ReportCv.aspx.cs
+END
+UserAdmin2.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/UserAdmin2.aspx
+END
+TestingPage.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/TestingPage.aspx
+END
+ChangePassword.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/ChangePassword.aspx.designer.cs
+END
+SearchCvStep1.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/SearchCvStep1.aspx
+END
+ErrorDetail.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/ErrorDetail.aspx
+END
+EditAssignmentPrintDef.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditAssignmentPrintDef.aspx.designer.cs
+END
+EditCv.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/AdminPages/EditCv.aspx
+END
+ErrorDetail.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/ErrorDetail.aspx.cs
+END
+PrintCv-bak.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/PrintCv-bak.aspx.designer.cs
+END
+CompanyWelcome.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/AdminPages/CompanyWelcome.aspx.designer.cs
+END
+SysProfiles.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/cvnavigator/!svn/ver/40/trunk/Cvm.Web/AdminPages/SysProfiles.aspx.designer.cs
+END
+UserAdmin.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/50/trunk/Cvm.Web/AdminPages/UserAdmin.aspx
+END
+EditAssignmentsSearch.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditAssignmentsSearch.aspx.designer.cs
+END
+ImportCvs.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/cvnavigator/!svn/ver/7/trunk/Cvm.Web/AdminPages/ImportCvs.aspx.cs
+END
+Contact.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/Contact.aspx
+END
+DeleteObject.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/DeleteObject.aspx.designer.cs
+END
+DeleteObject.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/DeleteObject.aspx.cs
+END
+AdminWebServices.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/AdminWebServices.aspx.designer.cs
+END
+ClientWelcome.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/cvnavigator/!svn/ver/68/trunk/Cvm.Web/AdminPages/ClientWelcome.aspx.cs
+END
+CommonMaster.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/CommonMaster.cs
+END
+Assignments.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/Assignments.aspx.cs
+END
+AdminMasterPage0.Master
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/cvnavigator/!svn/ver/50/trunk/Cvm.Web/AdminPages/AdminMasterPage0.Master
+END
+CreateUser.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/CreateUser.aspx
+END
+EditObjectPopup.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditObjectPopup.aspx.designer.cs
+END
+Menu.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/cvnavigator/!svn/ver/56/trunk/Cvm.Web/AdminPages/Menu.aspx
+END
+DbInstaller.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/DbInstaller.aspx.designer.cs
+END
+AdminMasterPage3.Master.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/cvnavigator/!svn/ver/24/trunk/Cvm.Web/AdminPages/AdminMasterPage3.Master.designer.cs
+END
+AdminMasterPage2.master.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cvnavigator/!svn/ver/69/trunk/Cvm.Web/AdminPages/AdminMasterPage2.master.cs
+END
+ChangePassword.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/ChangePassword.aspx
+END
+Menu.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/Menu.aspx.cs
+END
+EditAssignmentPrintDef.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditAssignmentPrintDef.aspx
+END
+ChangePassword.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/ChangePassword.aspx.cs
+END
+PrintPrepare.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/PrintPrepare.aspx.designer.cs
+END
+EditObject.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditObject.aspx.designer.cs
+END
+SearchCvStep1.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/SearchCvStep1.aspx.cs
+END
+CompanyWelcome.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/AdminPages/CompanyWelcome.aspx
+END
+SysProfiles.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/cvnavigator/!svn/ver/40/trunk/Cvm.Web/AdminPages/SysProfiles.aspx
+END
+AdminMasterPage.master.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/cvnavigator/!svn/ver/41/trunk/Cvm.Web/AdminPages/AdminMasterPage.master.designer.cs
+END
+PrintCv-bak.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/PrintCv-bak.aspx.cs
+END
+AdminMasterPage.master.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/cvnavigator/!svn/ver/77/trunk/Cvm.Web/AdminPages/AdminMasterPage.master.cs
+END
+Popup.Master.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/Popup.Master.designer.cs
+END
+EditAssignmentsSearch.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditAssignmentsSearch.aspx
+END
+DeleteObject.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/DeleteObject.aspx
+END
+ImportCvs.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/ImportCvs.aspx.designer.cs
+END
+AdminWebServices.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/AdminWebServices.aspx
+END
+UserAdmin.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/cvnavigator/!svn/ver/64/trunk/Cvm.Web/AdminPages/UserAdmin.aspx.cs
+END
+ClientWelcome.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/ClientWelcome.aspx.designer.cs
+END
+EditProfileTypes.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditProfileTypes.aspx.designer.cs
+END
+Contact.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/Contact.aspx.cs
+END
+EditObjectPopup.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditObjectPopup.aspx
+END
+EditSysOwner.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/cvnavigator/!svn/ver/40/trunk/Cvm.Web/AdminPages/EditSysOwner.aspx.designer.cs
+END
+SearchCv.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/SearchCv.aspx.cs
+END
+DbInstaller.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/DbInstaller.aspx
+END
+AdminMasterPage3.Master
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/cvnavigator/!svn/ver/73/trunk/Cvm.Web/AdminPages/AdminMasterPage3.Master
+END
+EditObjectPopup.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditObjectPopup.aspx.cs
+END
+web.config
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/web.config
+END
+JQueryTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/JQueryTest.html
+END
+AdminMasterPage3.Master.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/AdminMasterPage3.Master.cs
+END
+PrintPrepare.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/PrintPrepare.aspx
+END
+EditObject.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cvnavigator/!svn/ver/39/trunk/Cvm.Web/AdminPages/EditObject.aspx
+END
+EditAssignmentResources.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditAssignmentResources.aspx.designer.cs
+END
+EditAssignmentResources.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/AdminPages/EditAssignmentResources.aspx.cs
+END
+TestingPage.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/TestingPage.aspx.cs
+END
+EditObject.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/AdminPages/EditObject.aspx.cs
+END
+AdminMasterPage.master
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/cvnavigator/!svn/ver/41/trunk/Cvm.Web/AdminPages/AdminMasterPage.master
+END
+EditCv.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/AdminPages/EditCv.aspx.cs
+END
+Popup.Master
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/Popup.Master
+END
+EditAssignments.Master.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditAssignments.Master.designer.cs
+END
+EditAssignments.Master.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditAssignments.Master.cs
+END
+ImportCvs.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/ImportCvs.aspx
+END
+PrintCv.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/PrintCv.aspx.designer.cs
+END
+PrintCv.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/AdminPages/PrintCv.aspx.cs
+END
+ClientWelcome.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/ClientWelcome.aspx
+END
+EditAssignmentsSearch.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditAssignmentsSearch.aspx.cs
+END
+EditProfileTypes.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditProfileTypes.aspx
+END
+SearchCvWiz.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/SearchCvWiz.aspx.designer.cs
+END
+Assignments.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/Assignments.aspx.designer.cs
+END
+EditSysOwner.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/cvnavigator/!svn/ver/40/trunk/Cvm.Web/AdminPages/EditSysOwner.aspx
+END
+SearchCv.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/SearchCv.aspx.designer.cs
+END
+EditAssignments.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditAssignments.aspx.designer.cs
+END
+EditAssignments.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/cvnavigator/!svn/ver/67/trunk/Cvm.Web/AdminPages/EditAssignments.aspx.cs
+END
+CreateUser.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cvnavigator/!svn/ver/67/trunk/Cvm.Web/AdminPages/CreateUser.aspx.cs
+END
+AdminMasterPage2.master.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/AdminMasterPage2.master.designer.cs
+END
+DbInstaller.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/DbInstaller.aspx.cs
+END
+ImportData.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/ImportData.aspx.designer.cs
+END
+ReportCv.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/ReportCv.aspx.designer.cs
+END
+EditAssignmentResources.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditAssignmentResources.aspx
+END
+UserAdmin2.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/UserAdmin2.aspx.designer.cs
+END
+TestingPage.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/TestingPage.aspx.designer.cs
+END
+UserAdmin2.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/UserAdmin2.aspx.cs
+END
+EditAssignmentPrintDef.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditAssignmentPrintDef.aspx.cs
+END
+SearchCvStep1.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/SearchCvStep1.aspx.designer.cs
+END
+ErrorDetail.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/ErrorDetail.aspx.designer.cs
+END
+PrintPrepare.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/cvnavigator/!svn/ver/27/trunk/Cvm.Web/AdminPages/PrintPrepare.aspx.cs
+END
+EditCv.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/AdminPages/EditCv.aspx.designer.cs
+END
+EditAssignments.Master
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditAssignments.Master
+END
+PrintCv.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cvnavigator/!svn/ver/59/trunk/Cvm.Web/AdminPages/PrintCv.aspx
+END
+CompanyWelcome.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/AdminPages/CompanyWelcome.aspx.cs
+END
+SysProfiles.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/SysProfiles.aspx.cs
+END
+Popup.Master.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/Popup.Master.cs
+END
+SearchCvWiz.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/SearchCvWiz.aspx
+END
+UserAdmin.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/UserAdmin.aspx.designer.cs
+END
+Assignments.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/cvnavigator/!svn/ver/72/trunk/Cvm.Web/AdminPages/Assignments.aspx
+END
+SearchCvWiz.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/SearchCvWiz.aspx.cs
+END
+AdminWebServices.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/AdminWebServices.aspx.cs
+END
+Contact.aspx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/Contact.aspx.designer.cs
+END
+SearchCv.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/SearchCv.aspx
+END
+EditProfileTypes.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/EditProfileTypes.aspx.cs
+END
+EditAssignments.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/cvnavigator/!svn/ver/68/trunk/Cvm.Web/AdminPages/EditAssignments.aspx
+END
+AdminMasterPage2.master
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/AdminMasterPage2.master
+END
+EditSysOwner.aspx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/cvnavigator/!svn/ver/44/trunk/Cvm.Web/AdminPages/EditSysOwner.aspx.cs
+END
+AdminMasterPage0.Master.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/AdminMasterPage0.Master.designer.cs
+END
+ImportData.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/ImportData.aspx
+END
+ReportCv.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/AdminPages/ReportCv.aspx
+END

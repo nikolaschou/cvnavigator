@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Content>
+  <Section name="AdminMasterPage">
+    <Content id="Menu.aspx_Intro">
+    </Content>
+    <Content id="EditProfileTypes.aspx_Intro">
+    </Content>
+    <Content id="ReportCv.aspx_Intro">
+    </Content>
+    <Content id="EditCv.aspx_Intro">
+    </Content>
+    <Content id="EditSysOwner.aspx_Intro"> </Content>
+  </Section>
+  <Section name="EditObject">
+    <Content id="FilterList">Enter a string and hit Return to filter the list</Content>
+  </Section>
+  <Section name="EditCv">
+    <Content id="IntroBaseData">
+    </Content>
+    <Content id="IntroSysData">
+    </Content>
+    <Content id="IntroProjects">
+    </Content>
+    <Content id="IntroSkills">
+    </Content>
+  </Section>
+</Content>

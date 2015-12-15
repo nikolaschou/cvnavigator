@@ -1,0 +1,68 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_ctl00_Head1"><title>
+	
+        Rediger CV - Bengt - CV Navigator
+    
+</title><link href="../ssadmin.css" type="text/css" rel="stylesheet" /><link href="../ssadmin_print.css" media="print" type="text/css" rel="stylesheet" /><link href="../ResultSetStyles.css" type="text/css" rel="stylesheet" />
+
+    <script type="text/javascript" src="../Js/ResultSet2.js"></script>
+
+    <script type="text/javascript" src="../Js/table.js"></script>
+
+    <script type="text/javascript" src="../Js/ResultSet2_customize.js"></script>
+
+    <script type="text/javascript" src="../Js/httputil.js"></script>
+
+    <script type="text/javascript" src="../Js/utility.js"></script>
+
+    <script type="text/javascript" src="../Js/popupWindow.js"></script>
+
+    <script type="text/javascript" src="../Js/editContent.js"></script>
+
+    <script type="text/javascript" src="../Js/domUtil.js"></script>
+
+    
+    
+    <link type="text/css" href="../css/smoothness/jquery-ui-1.8.custom.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="../jquery2/jquery-1.4.2.min.js"></script>
+
+    <script type="text/javascript" src="../jquery2/jquery-ui-1.8.custom.min.js"></script>
+
+    <script type="text/javascript" src="../jquery2/jquery-cvm-common.js"></script>
+
+    <link href="../Jquery/jqModal.css" type="text/css" rel="stylesheet" />
+
+    <script type="text/javascript" src="../Jquery/jqModal.js"></script>
+
+<script language="javascript">
+function getInputFields() {
+    $(
+}
+function onTextSelect() {
+ var txt=getSelected();
+ 
+}
+</script>
+</head>
+
+<body>
+<div class=".bubbleInfo">bubles</div>
+<input type="text" id="text1"/>
+<input type="checkbox" id="text2"/>
+<br />
+<textarea onselect="javascript:onTextSelect()">
+xxxxxxx  jkijdsflsd 
+ faslfkjsf ls
+  dsfosi fldskf s
+   doijdsa fijdsf fds
+    fsafjois jfodsjfsa
+    fpoj
+    a lkfda fåldsa kjfsa 
+    fsad fflsdkjf sd
+    
+</textarea>
+</body>
+</html>

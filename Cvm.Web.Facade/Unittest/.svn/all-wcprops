@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/Unittest
+END
+ContextObjectHelperTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/Unittest/ContextObjectHelperTest.cs
+END
+UserAdminFacadeTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/Unittest/UserAdminFacadeTest.cs
+END
+CV'er til NS.zip
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/Unittest/CV'er%20til%20NS.zip
+END
+StatisticsFacadeTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/Unittest/StatisticsFacadeTest.cs
+END
+ImportWizardFacadeTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/Unittest/ImportWizardFacadeTest.cs
+END
+EditCvFacadeTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/Unittest/EditCvFacadeTest.cs
+END
+NewSiteFacadeTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/Unittest/NewSiteFacadeTest.cs
+END
+SearchCvFacadeTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/Unittest/SearchCvFacadeTest.cs
+END
+cvnavigator-start-data-1.0.xls
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/Unittest/cvnavigator-start-data-1.0.xls
+END
+SignupFacadeTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/Unittest/SignupFacadeTest.cs
+END
+ImportCvsFacadeTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/Unittest/ImportCvsFacadeTest.cs
+END

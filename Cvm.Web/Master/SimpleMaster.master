@@ -1,0 +1,17 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/AdminPages/AdminMasterPage0.Master" AutoEventWireup="true" CodeBehind="SimpleMaster.master.cs" Inherits="Cvm.Web.Master.SimpleMaster" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="Holder1" runat="server">
+ <div id="top">
+        <div id="logo" onclick="location.href='/'" style="cursor: pointer;">
+        </div>
+        <div id="menu" class="noprint"> 
+        </div>
+        <div id="menu-right">
+        </div>
+    </div>
+    <div id="left">
+    <asp:ContentPlaceHolder runat="server" ID="Cnt1"></asp:ContentPlaceHolder>
+     </div>
+    <div id="right">
+    
+    </div>
+</asp:Content>

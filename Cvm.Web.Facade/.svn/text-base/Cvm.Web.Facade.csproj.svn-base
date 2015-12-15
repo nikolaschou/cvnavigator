@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6612EF6C-6325-4F7A-AD26-755A9666B533}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cvm.Web.Facade</RootNamespace>
+    <AssemblyName>Cvm.Web.Facade</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug build all|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug build all\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Cvm.Web.Facade.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug build all|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug build all\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\x64\Debug\Cvm.Web.Facade.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug build all|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug build all\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Cvm.Web.Facade.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ThirdPartyAssemblies\NHibernate-3.3.0.GA-bin\Required_Bins\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Nshop.Backend.Business\Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.3.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ThirdPartyAssemblies\NHibernate-3.3.0.GA-bin\Required_Bins\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.4.1.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Nshop.Backend.Business\Lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessMode.cs" />
+    <Compile Include="AppWebServicesFacade.cs" />
+    <Compile Include="AssignmentFacade.cs" />
+    <Compile Include="ContextObjectHelper.cs" />
+    <Compile Include="ContextObjectHelperUtil.cs" />
+    <Compile Include="CvmFacade.cs" />
+    <Compile Include="CvmWebFacadeConfig.cs" />
+    <Compile Include="EditCvFacade.cs" />
+    <Compile Include="FacadeObj\AppResourceReferenceVO.cs" />
+    <Compile Include="FacadeObj\AppResourceVO.cs" />
+    <Compile Include="FileFacade.cs" />
+    <Compile Include="ImportCvsFacade.cs" />
+    <Compile Include="ImportDataFacade.cs" />
+    <Compile Include="ImportSkillsFacade.cs" />
+    <Compile Include="MailFacade.cs" />
+    <Compile Include="NewCompanyFacade.cs" />
+    <Compile Include="NewSiteFacade.cs" />
+    <Compile Include="SiteHistory.cs" />
+    <Compile Include="SiteHistoryItem.cs" />
+    <Compile Include="SkillsFacade.cs" />
+    <Compile Include="SearchCvFacade.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecurityFacade.cs" />
+    <Compile Include="SignupFacade.cs" />
+    <Compile Include="StatisticsFacade.cs" />
+    <Compile Include="SysProfileFacade.cs" />
+    <Compile Include="Unittest\ContextObjectHelperTest.cs" />
+    <Compile Include="Unittest\EditCvFacadeTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Unittest\ImportCvsFacadeTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Unittest\ImportWizardFacadeTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Unittest\NewSiteFacadeTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Unittest\SearchCvFacadeTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Unittest\SignupFacadeTest.cs" />
+    <Compile Include="Unittest\StatisticsFacadeTest.cs" />
+    <Compile Include="Unittest\UserAdminFacadeTest.cs" />
+    <Compile Include="UserAdminFacade.cs" />
+    <Compile Include="UserNotCreatedException.cs" />
+    <Compile Include="Util\AppUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cvm.Backend.Business\Cvm.Backend.Business.csproj">
+      <Project>{40BB46CA-1A25-42BD-954E-2A3CD3EE886F}</Project>
+      <Name>Cvm.Backend.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cvm.Backend.CvImport\Cvm.Backend.CvImport.csproj">
+      <Project>{12F9279E-2FBE-48DF-BF41-1BB31E834930}</Project>
+      <Name>Cvm.Backend.CvImport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cvm.Backend.FileStore\Cvm.Backend.FileStore.csproj">
+      <Project>{CED00698-AC4D-48ED-849D-99FBC8C64CD9}</Project>
+      <Name>Cvm.Backend.FileStore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cvm.ErrorHandling\Cvm.ErrorHandling.csproj">
+      <Project>{4AC5220E-88B5-491E-921F-C276C5A171D3}</Project>
+      <Name>Cvm.ErrorHandling</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cvm.Web.Navigation\Cvm.Web.Navigation.csproj">
+      <Project>{8F00816F-BB72-41F7-920C-6DEAE8578736}</Project>
+      <Name>Cvm.Web.Navigation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.Backend.Business.Meta\Napp.Backend.Business.Meta.csproj">
+      <Project>{E99C4211-1968-4360-AB86-81EF302B1829}</Project>
+      <Name>Napp.Backend.Business.Meta</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.Backend.Business.Multisite\Napp.Backend.Business.Multisite.csproj">
+      <Project>{73852EF6-A029-46F0-96B6-7BA12EAC49DC}</Project>
+      <Name>Napp.Backend.Business.Multisite</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.Backend.BusinessObject\Napp.Backend.BusinessObject.csproj">
+      <Project>{63F5EC0E-AF93-4EDB-9B88-58D9ACFBC5A9}</Project>
+      <Name>Napp.Backend.BusinessObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.Backend.Business\Napp.Backend.Business.csproj">
+      <Project>{CB0475BF-F2B0-45D3-BEEB-9F0500AA563B}</Project>
+      <Name>Napp.Backend.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.Backend.Common\Napp.Backend.Common.csproj">
+      <Project>{20B1FCE0-767E-4E00-852B-9D9BF116FA24}</Project>
+      <Name>Napp.Backend.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.Backend.DataAccess\Napp.Backend.DataAccess.csproj">
+      <Project>{003B7AC3-7A6E-489C-9093-946A7ED232FF}</Project>
+      <Name>Napp.Backend.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.Backend.DataFetcher\Napp.Backend.DataFetcher.csproj">
+      <Project>{EDB728DB-C0D6-46DE-9337-4206B7ABA7F3}</Project>
+      <Name>Napp.Backend.DataFetcher</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.Backend.DataImport\Napp.Backend.DataImport.csproj">
+      <Project>{1C86FD61-96FA-464C-8585-41E4C9FC94CE}</Project>
+      <Name>Napp.Backend.DataImport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.Backend.Hibernate.DataFetcher\Napp.Backend.Hibernate.DataFetcher.csproj">
+      <Project>{9F90E563-3918-4F86-88A1-0CA1B1C4C9CA}</Project>
+      <Name>Napp.Backend.Hibernate.DataFetcher</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.Backend.Hibernate\Napp.Backend.Hibernate.csproj">
+      <Project>{A4E3CC09-608D-434D-B341-4BDA30831BB4}</Project>
+      <Name>Napp.Backend.Hibernate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.Common.ContentManager\Napp.Common.ContentManager.csproj">
+      <Project>{DBD61F44-C9BD-406E-8353-28EFA8BBED8A}</Project>
+      <Name>Napp.Common.ContentManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.VeryBasic\Napp.VeryBasic.csproj">
+      <Project>{239A14D3-824D-45E8-AC92-3965362C3D9E}</Project>
+      <Name>Napp.VeryBasic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.Web.AdminContentMgr\Napp.Web.AdminContentMgr.csproj">
+      <Project>{B98F9745-0BB9-471D-A458-2FAE0B1A8934}</Project>
+      <Name>Napp.Web.AdminContentMgr</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.Web.ExtControls\Napp.Web.ExtControls.csproj">
+      <Project>{EA62E76B-B7A2-4184-B8E3-0C4A1CC6BC05}</Project>
+      <Name>Napp.Web.ExtControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.Web.MessageManager\Napp.Common.MessageManager.csproj">
+      <Project>{C450CF3B-17F7-4D4F-8378-3E7063006A8B}</Project>
+      <Name>Napp.Common.MessageManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.Web.Navigation\Napp.Web.Navigation.csproj">
+      <Project>{2729CE28-B17E-4370-8676-CC9043E2EDB6}</Project>
+      <Name>Napp.Web.Navigation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Napp.Web.Session\Napp.Web.Session.csproj">
+      <Project>{4D47A497-AF20-496E-91CA-0E4978ACFC3E}</Project>
+      <Name>Napp.Web.Session</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="hibernate_dev.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Unittest\CV%27er til NS.zip" />
+    <None Include="Unittest\cvnavigator-start-data-1.0.xls" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,33 @@
+<%@ Master Language="C#" AutoEventWireup="true" MasterPageFile="~/AdminPages/AdminMasterPage.master" Inherits="AdminPages_AdminMasterPage2" Codebehind="AdminMasterPage2.master.cs" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<table border="0" cellspacing="10" width="100%">
+    <tr>
+        <td valign="top" id="tdLeftPane">
+            <div id="divLeftPane">
+            <div class="activeLinks">
+                <asp:ContentPlaceHolder ID="LeftPane" runat="server">
+                    </asp:ContentPlaceHolder>
+                    </div>
+           </div>
+           </td>
+        <td style="background-color:white;" width="5" height="500">&nbsp;</td>
+        <td valign="top"  id="tdMiddlePane">
+        
+        <h2><asp:Label runat="server" ID="TitleLabel" /></h2>
+            <ad:AdmValidationArea runat="server" />
+            <div class="activeLinks">
+            <asp:ContentPlaceHolder ID="MiddlePane" runat="server">
+                    </asp:ContentPlaceHolder>
+                    </div>
+                    
+        </td>
+        <td style="background-color:white;" width="5" height="500">&nbsp;</td>
+        <td valign="top"  id="tdRightPane">
+        
+            <div class="activeLinks">
+            <asp:ContentPlaceHolder ID="RightPane" runat="server" />
+            </div>
+        </td>
+        </tr>
+</table>
+</asp:Content>

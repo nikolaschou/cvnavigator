@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web.Facade
+END
+ContextObjectHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cvnavigator/!svn/ver/69/trunk/Cvm.Web.Facade/ContextObjectHelper.cs
+END
+UserAdminFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/45/trunk/Cvm.Web.Facade/UserAdminFacade.cs
+END
+StatisticsFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/StatisticsFacade.cs
+END
+App.config
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/App.config
+END
+ImportSkillsFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/ImportSkillsFacade.cs
+END
+SearchCvFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/SearchCvFacade.cs
+END
+SysProfileFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/SysProfileFacade.cs
+END
+SkillsFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/SkillsFacade.cs
+END
+SiteHistory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/cvnavigator/!svn/ver/7/trunk/Cvm.Web.Facade/SiteHistory.cs
+END
+ImportDataFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/ImportDataFacade.cs
+END
+SignupFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/cvnavigator/!svn/ver/17/trunk/Cvm.Web.Facade/SignupFacade.cs
+END
+SecurityFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web.Facade/SecurityFacade.cs
+END
+AssignmentFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web.Facade/AssignmentFacade.cs
+END
+CvmWebFacadeConfig.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/CvmWebFacadeConfig.cs
+END
+Cvm.Web.Facade.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/cvnavigator/!svn/ver/67/trunk/Cvm.Web.Facade/Cvm.Web.Facade.csproj
+END
+hibernate_dev.config
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/hibernate_dev.config
+END
+NewSiteFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cvnavigator/!svn/ver/68/trunk/Cvm.Web.Facade/NewSiteFacade.cs
+END
+EditCvFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/cvnavigator/!svn/ver/43/trunk/Cvm.Web.Facade/EditCvFacade.cs
+END
+FileFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/FileFacade.cs
+END
+NewCompanyFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cvnavigator/!svn/ver/69/trunk/Cvm.Web.Facade/NewCompanyFacade.cs
+END
+SiteHistoryItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/SiteHistoryItem.cs
+END
+MailFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/cvnavigator/!svn/ver/42/trunk/Cvm.Web.Facade/MailFacade.cs
+END
+AccessMode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/AccessMode.cs
+END
+AppWebServicesFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/AppWebServicesFacade.cs
+END
+UserNotCreatedException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/UserNotCreatedException.cs
+END
+ContextObjectHelperUtil.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/ContextObjectHelperUtil.cs
+END
+CvmFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cvnavigator/!svn/ver/67/trunk/Cvm.Web.Facade/CvmFacade.cs
+END
+ImportCvsFacade.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web.Facade/ImportCvsFacade.cs
+END

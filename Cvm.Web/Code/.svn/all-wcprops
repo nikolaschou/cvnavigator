@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Code
+END
+SecurityHttpModule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Code/SecurityHttpModule.cs
+END
+TabularCtrlHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Code/TabularCtrlHelper.cs
+END
+PrintDefContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Code/PrintDefContext.cs
+END
+ControlType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Code/ControlType.cs
+END
+HttpModuleFileStoreAuth.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Code/HttpModuleFileStoreAuth.cs
+END
+UtlExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Code/UtlExtensions.cs
+END
+HttpModuleSessionHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Code/HttpModuleSessionHandler.cs
+END
+MasterPageHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cvnavigator/!svn/ver/67/trunk/Cvm.Web/Code/MasterPageHelper.cs
+END
+ProgressBarHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Code/ProgressBarHelper.cs
+END
+ErrorLogger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Code/ErrorLogger.cs
+END
+FileStoreHttpHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/cvnavigator/!svn/ver/30/trunk/Cvm.Web/Code/FileStoreHttpHandler.cs
+END
+IControlWithCancel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Code/IControlWithCancel.cs
+END
+PrintHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Code/PrintHelper.cs
+END
+LinkHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Code/LinkHelper.cs
+END
+SysProfileHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Code/SysProfileHelper.cs
+END
+CommonCtrls.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cvnavigator/!svn/ver/80/trunk/Cvm.Web/Code/CommonCtrls.cs
+END
+SearchStringContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Code/SearchStringContext.cs
+END
+SiteMapHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/cvnavigator/!svn/ver/68/trunk/Cvm.Web/Code/SiteMapHelper.cs
+END
+IControlWithSave.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Code/IControlWithSave.cs
+END
+Utl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/cvnavigator/!svn/ver/45/trunk/Cvm.Web/Code/Utl.cs
+END
+PageFunctions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Code/PageFunctions.cs
+END
+ImageUtility.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Code/ImageUtility.cs
+END
+FormatExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cvnavigator/!svn/ver/6/trunk/Cvm.Web/Code/FormatExtensions.cs
+END

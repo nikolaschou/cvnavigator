@@ -1,0 +1,32 @@
+
+<%@ Register Assembly="Napp.Web.AdmControl" Namespace="Napp.Web.AdmControl" TagPrefix="cc1" %>
+
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+
+
+<asp:GridView runat="server" BackColor="White" >
+   <AlternatingRowStyle BackColor="#dddddd" />
+</asp:GridView>
+<asp:TextBox runat="server" BackColor="White"/>
+<asp:RadioButton runat="server" BackColor="White"/>
+
+<cc1:AdmClientButton runat="server" CssClass="admButton"/>
+<cc1:AdmHyperLink runat="server" CssClass="admLinkButton"/>
+<cc1:AdmHyperLink SkinId="menuSkin" runat="server" CssClass="menuLink"/>
+<ad:AuxLinkButton  runat="server" CssClass="auxLink"/>
+<cc1:AdmLinkButton runat="server" CssClass="stdLink"/>

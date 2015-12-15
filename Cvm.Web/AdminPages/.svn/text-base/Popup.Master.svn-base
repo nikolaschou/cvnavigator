@@ -1,0 +1,78 @@
+<%@ Import namespace="Napp.Web.Navigation"%>
+<%@ Import namespace="Napp.Web.AdminContentMgr"%>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Popup.master.cs" Inherits="Nshop.Web.AdminPages.Popup" %>
+<%@ Register Assembly="Napp.Web.ActiveCms" Namespace="Napp.Web.ActiveCms" TagPrefix="Cms" %>
+<%@ Register TagPrefix="Ex" Namespace="Napp.Web.AdmControl" Assembly="Napp.Web.AdmControl" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+
+    <title><%=HeaderServices.GetTitleForAdminPage()%></title>
+    <link href="~/ss.css" type="text/css" rel="stylesheet" />
+    <link href="~/ssadmin.css" type="text/css" rel="stylesheet" />
+    <link href="~/ssadmin_print.css" media="print" type="text/css" rel="stylesheet" />
+
+    <link href="~/ResultSetStyles.css" type="text/css" rel="stylesheet" />
+
+    <script type="text/javascript" src="../../Js/ResultSet2.js"></script>
+
+    <script type="text/javascript" src="../../Js/table.js"></script>
+
+    <script type="text/javascript" src="../../Js/ResultSet2_customize.js"></script>
+
+    <script type="text/javascript" src="../../Js/adminUtil.js"></script>
+
+    <script type="text/javascript" src="../../Js/httputil.js"></script>
+    <script type="text/javascript" src="../../Js/utility.js"></script>
+
+    <script type="text/javascript" src="../../Js/popupWindow.js"></script>
+    <script type="text/javascript" src="../../Js/editContent.js"></script>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+    <div>
+        <script language="javascript" type="text/javascript">
+            
+    function closeWindowAndUpdateParent() {
+        if (window.opener) {
+            if (window.opener.showMessage) window.opener.showMessage();
+            window.opener.focus();        
+        }
+        closeWindowUtil();
+    }    
+
+        </script><br />
+        <div style="border:1px solid black; height:520px;padding:5px;">
+        <div style="text-align:right" class="actionLink">
+        <a href="#" onclick="javascript:closeWindowUtil()"><%=AdminContentMgr.instance.GetContent("PopupMaster.Close") %></a>&nbsp;
+        </div>
+        <h1></h1>
+          <Ex:ContainerCtrl ID="ContainterCtrl" runat="server" Title="<%#HeaderServices.GetTitleForAdminPage()%>">
+        <table border="0">
+        <tr> 
+        <td align="right">
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    
+        </td>
+        </tr>
+        </table>
+        </Ex:ContainerCtrl>
+        </div>
+        </div>
+    </form>
+    <script language="javascript" type="text/javascript">
+    window.focus();
+    </script>
+            <div class="noprint">
+            <Cms:ActiveCmsControl ID="ActiveCmsControl1" runat="server" />
+        </div>
+</body>
+</html>

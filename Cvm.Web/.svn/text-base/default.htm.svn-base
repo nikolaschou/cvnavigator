@@ -1,0 +1,10 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Redirecting to administration</title>
+<script language="javascript" type="text/javascript">
+window.location.href="Public/Default.aspx";
+</script>
+</head>
+<body>
+</body>
+</html>

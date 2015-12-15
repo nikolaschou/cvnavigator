@@ -1,0 +1,144 @@
+<%@ Import Namespace="Napp.Web.Navigation" %>
+<%@ Import Namespace="Napp.Web.AdminContentMgr" %>
+<%@ Master Language="C#" AutoEventWireup="true" Codebehind="Public.master.cs" Inherits="Cvm.Web.Public.Public" %>
+<%@ Register Assembly="Napp.Web.ExtControls" Namespace="Napp.Web.ExtControls" TagPrefix="cc1" %>
+<%@ Register Assembly="Napp.Web.ActiveCms" Namespace="Napp.Web.ActiveCms" TagPrefix="Cms" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <%=AdminContentMgr.instance.GetContent("AdminMasterPage.Title")%>
+    </title>
+    <link href="~/ssadmin.css" type="text/css" rel="stylesheet" />
+    <link href="~/ssadmin_print.css" media="print" type="text/css" rel="stylesheet" />
+    <link href="~/ResultSetStyles.css" type="text/css" rel="stylesheet" />
+
+    <script type="text/javascript" src="../Js/ResultSet2.js"></script>
+
+    <script type="text/javascript" src="../Js/table.js"></script>
+
+    <script type="text/javascript" src="../Js/ResultSet2_customize.js"></script>
+
+    <script type="text/javascript" src="../Js/httputil.js"></script>
+
+    <script type="text/javascript" src="../Js/utility.js"></script>
+
+    <script type="text/javascript" src="../Js/popupWindow.js"></script>
+
+    <script type="text/javascript" src="../Js/editContent.js"></script>
+
+</head>
+<body style="margin: 0px">
+    <form id="form1" runat="server">
+        <table border="0" width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+                <td valign="top" align="left" style="margin: 0px; text-align: left;">
+                    <img src="../images/master/kompas-med-logo.png" alt="" width="75%" height="75%" />
+                </td>
+                <td valign="top" align="left">
+                    <table border="0">
+                        <tr>
+                            <td>
+                                <table border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                    <td width="200">&nbsp;</td>
+                                        <td>
+                                            <asp:HyperLink ID="HyperLink1" ImageUrl="~/images/master/create-cv.png" NavigateUrl="~/Pages/EditCv.aspx"
+                                                runat="server" />
+                                        </td>
+                                        <td>
+                                            <asp:HyperLink ID="HyperLink2" ImageUrl="~/images/master/search-ikon.png" NavigateUrl="~/Pages/SearchCv.aspx"
+                                                runat="server" />
+                                        </td>
+                                        <td>
+                                            <asp:HyperLink ID="HyperLink3" ImageUrl="~/images/master/result-ikon.png" NavigateUrl="~/Pages/Result.aspx"
+                                                runat="server" />
+                                        </td>
+                                        <td>
+                                            <asp:HyperLink ID="HyperLink4" ImageUrl="~/images/master/details-ikon.png" NavigateUrl="~/Pages/Details.aspx"
+                                                runat="server" />
+                                        </td>
+                                        <td>
+                                            <asp:HyperLink ID="HyperLink5" ImageUrl="~/images/master/print-ikon.png" NavigateUrl="~/Pages/Print.aspx"
+                                                runat="server" />
+                                        </td>
+                                        <td width="50">
+                                            &nbsp;&nbsp;</td>
+                                        <td>
+                                            <asp:HyperLink ID="HyperLink6" ImageUrl="~/images/master/logon-ikon.png" NavigateUrl="~/Pages/Print.aspx"
+                                                runat="server" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="left">
+                                <table border="0">
+                                    <tr>
+                                        <td valign="middle">
+                                            <span class="nicetitle">
+                                                <%=HeaderServices.GetTitleForPage() %>
+                                            </span>
+                                        </td>
+                                        <td width="100">&nbsp;</td>
+                                        <td valign="middle">
+                                            <table border="0" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td>
+                                                        <img src="../images/master/corner-left-upper.PNG" alt="" /></td>
+                                                    <td style="border-top: 1px solid #bbbbbb; font-size: 5px;">
+                                                        &nbsp;
+                                                    </td>
+                                                    <td>
+                                                        <img src="../images/master/corner-right-upper.PNG" alt="" /></td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="border-left: 1px solid #bbbbbb; font-size: 5px;">
+                                                        &nbsp;</td>
+                                                    <td valign="top">
+                                                        &nbsp;&nbsp;<asp:TextBox ID="TextBox1" Font-Size="20px" Width="400" runat="server"
+                                                            BorderStyle="None" BorderColor="White" />
+                                                        <asp:ImageButton ID="ImageButton1" OnClick="OnClick_SearchBtn" ImageAlign="Middle" runat="server" ImageUrl="../images/master/search-glass.PNG" />
+                                                    </td>
+                                                    <td style="border-right: 1px solid #bbbbbb; font-size: 5px;">
+                                                        &nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <img src="../images/master/corner-left-bottom.PNG" alt="" /></td>
+                                                    <td style="border-bottom: 2px solid #aaaaaa; font-size: 5px;">
+                                                        &nbsp;
+                                                    </td>
+                                                    <td>
+                                                        <img src="../images/master/corner-right-bottom.PNG" alt="" /></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+            </tr>
+        </table>
+                    <div class="noprint">
+                        <Cms:ActiveCmsControl ID="ActiveCmsControl1" runat="server" />
+                    </div>
+    </form>
+</body>
+
+    <script language="javascript" type="text/javascript">
+
+   automaticallyDetectResultSet();
+    </script>
+</html>

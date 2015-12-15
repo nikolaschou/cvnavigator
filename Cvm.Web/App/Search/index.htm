@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html manifest="cvnsearch.appcache">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="cvnsearch_icon.png">
+    <link rel="apple-touch-startup-image" href="cvnsearch_startup.png">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+    <script type="text/javascript" src="jquery.json-2.2.min.js"></script>
+    <script type="text/javascript" src="cvnroot.js"></script>
+    <script type="text/javascript" src="cvnapputil.js"></script>
+    <script type="text/javascript" src="cvnsearch.js"></script>
+    <link href="cvnsearch.css" rel="stylesheet" type="text/css" />
+    <title>CVNavigator Search</title>
+</head>
+<body>
+    <!-- COMMON FOOTER -->
+    <div id="common-footer">
+
+    </div>
+    <!-- SEARCH PAGE -->
+    <div data-role="page" id="searchPage" data-theme="b">
+        <div data-role="header" data-theme="b" data-id="header">
+            <a href="index2.htm" data-role="button" data-icon="home" data-iconpos="notext">About</a>
+            <h1>
+                CV Search
+            </h1>
+        </div>
+        <div data-role="content">
+            <form>
+            <div>
+                <label for="searchSkillText">
+                    Main skill</label>
+                <input type="text" id="searchSkillText" value="java" />
+            </div>
+            <div>
+                <label for="availableDate">
+                    Start date</label>
+                <input type="text" id="availableDate" />
+            </div>
+            <a href="#findPage" data-role="button" onclick="javascript:GetResources()" data-icon="search"
+                data-iconpos="right">Search</a>
+            </form>
+        </div>
+    </div>
+    <!-- FIND PAGE -->
+    <div data-role="page" id="findPage" data-theme="b">
+        <div data-role="header" data-theme="b" data-id="header">
+            <a href="#searchPage" data-role="button" data-direction="reverse" data-icon="arrow-l"
+                data-iconpos="notext">Back</a>
+            <h1>
+                CV Search
+            </h1>
+        </div>
+        <div data-role="content">
+            <ul id="resourceList" data-role="listview" data-filter="true">
+            </ul>
+        </div>
+    </div>
+    <!--READ PAGE -->
+    <div data-role="page" id="readPage" data-theme="b">
+        <div data-role="header" data-theme="b" data-id="header">
+            <a href="#findPage" data-role="button" data-direction="reverse" data-icon="arrow-l"
+                data-iconpos="notext">Back</a>
+            <h1>
+                CV Search
+            </h1>
+        </div>
+        <div data-role="content">
+            <a href="#meetPage" data-role="button" data-icon="arrow-r" onclick="javascript:requestMeeting()"
+                data-iconpos="right">Request meeting</a>
+            <div id="cvDiv">
+                <h1 id="cvHeadline">
+                </h1>
+                <div id="cvResume">
+                </div>
+                <br />
+                <table class="fieldTable">
+                    <tr>
+                        <td>
+                            Available by
+                        </td>
+                        <td id="cvAvailableBy">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Professional since
+                        </td>
+                        <td id="cvSince">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Language
+                        </td>
+                        <td id="cvLanguage">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Country
+                        </td>
+                        <td id="cvCountry">
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <h2>
+                    Expert skills</h2>
+                <ul id="cvExpertSkills">
+                </ul>
+                <br />
+                <h2>
+                    Other selected skills</h2>
+                <ul id="cvOtherSkills">
+                </ul>
+                <br />
+                <h2>
+                    Customers</h2>
+                <ul id="cvCustomers">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--MEET PAGE -->
+    <div data-role="page" id="meetPage" data-theme="b">
+        <div data-role="header" data-theme="b" data-id="header">
+            <a href="#readPage" data-role="button" data-direction="reverse" data-icon="arrow-l"
+                data-iconpos="notext">Back</a>
+            <h1>
+                CV Search
+            </h1>
+        </div>
+        <div data-role="content">
+            <form>
+            <div>
+                <label>
+                    Your email address:</label>
+                <input type="text" id="requestEmail" />
+            </div>
+            <div>
+                <label>
+                    Resource to meet:</label>
+                <input type="text" disabled="disabled" id="requestResource" />
+            </div>
+            <a data-role="button" onclick="doBookMeeting()" class="right" data-icon="check" data-iconpos="right" />
+            Send mail </a>
+            </form>
+            <div id="requestMessage">
+            </div>
+        </div>
+    </div>
+    <!-- SCRIPT INCLUDES -->
+</body>
+</html>
